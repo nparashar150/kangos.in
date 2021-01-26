@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.bg {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-size: cover;
+}
+#section1 , #section2 , #section3 , #section4 , #section5 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50%;
+}
+.heading-center {
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  animation: rgb 7s infinite;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 10rem;
+}
+.heading-center-2 {
+  text-align: center;
+  margin: auto;
+  margin-right: 18%;
+  animation: rgb 7s infinite;
+  font-family: 'Bebas Neue', cursive;
+}
+@keyframes rgb {
+  0% { color: rgb(243, 55, 55);}
+  10% { color: rgb(243, 121, 55);}
+  15% { color: rgb(243, 168, 55);}
+  20% { color: rgb(224, 243, 55);}
+  30% { color: rgb(133, 243, 55);}
+  35% { color: rgb(77, 243, 55);}
+  40% { color: rgb(55, 243, 133);}
+  50% { color: rgb(55, 193, 243);}
+  55% { color: rgb(55, 99, 243);}
+  60% { color: rgb(55, 99, 243);}
+  70% { color: rgb(165, 55, 243);}
+  80% { color: rgb(243, 55, 243);}
+  90% { color: rgb(243, 55, 111);}
+  100% { color: rgb(243, 55, 55);}
+}
+@media (max-width: 400px) {
+  .heading-center {
+    font-size: 7rem;
+  }
+  .heading-center-2 {
+    margin-right: 32%;
+  }
+  #section1 , #section2 , #section3 , #section4 , #section5 {
+    padding-top: 130%;
+}}
+@media (max-width: 700px) {
+  .heading-center {
+    font-size: 8rem;
+  }
+  .heading-center-2 {
+    margin-right: 25%;
+  }
+  #section1 , #section2 , #section3 , #section4 , #section5 {
+    padding-top: 90%;
+}}
+@media (max-width: 1000px) {
+  .heading-center {
+    font-size: 9rem;
+  }
+  .heading-center-2 {
+    margin-right: 20%;
+  }
+  #section1 , #section2 , #section3 , #section4 , #section5 {
+    padding-top: 65%;
+}}

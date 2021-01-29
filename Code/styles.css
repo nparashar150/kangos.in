@@ -3,29 +3,89 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: black;
-  background-size: cover;
+  background-attachment: scroll;
+  background-position: 85% 140px;
+  background-size: 40% auto;
+  background-image: url(../Code/banner.png);
+  animation: bgrgb 10s infinite;
+}
+html {
+  scroll-behavior: smooth;
+}
+@keyframes bgrgb {
+  0% { background-image: url(../Code/banner.png);}
+  10% { background-image: url(../Code/banner.png);}
+  20% { background-image: url(../Code/banner2.png);}
+  30% { background-image: url(../Code/banner3.png);}
+  40% { background-image: url(../Code/banner4.png);}
+  50% { background-image: url(../Code/banner5.png);}
+  60% { background-image: url(../Code/banner6.png);}
+  70% { background-image: url(../Code/banner7.png);}
+  80% { background-image: url(../Code/banner8.png);}
+  90% { background-image: url(../Code/banner9.png);}
+  100% { background-image: url(../Code/banner9.png);}
+}
+@keyframes rgbg {
+  0% { background-color: rgb(85, 19, 19);}
+  10% { background-color: rgb(78, 36, 13);}
+  15% { background-color: rgb(92, 61, 16);}
+  20% { background-color: rgb(74, 80, 17);}
+  30% { background-color: rgb(41, 75, 18);}
+  35% { background-color: rgb(25, 83, 17);}
+  40% { background-color: rgb(16, 90, 47);}
+  50% { background-color: rgb(14, 61, 78);}
+  55% { background-color: rgb(13, 28, 80);}
+  60% { background-color: rgb(16, 28, 70);}
+  70% { background-color: rgb(49, 14, 73);}
+  80% { background-color: rgb(63, 15, 63);}
+  90% { background-color: rgb(70, 19, 34);}
+  100% { background-color: rgb(75, 16, 16);}
 }
 #section1 , #section2 , #section3 , #section4 , #section5 {
     font-weight: 400;
     font-size: 2rem;
     text-align: center;
     box-sizing: border-box;
-    padding-top: 50%;
+    padding-bottom: 40%;
 }
 .heading-center {
-  text-align: center;
-  margin: auto;
+  padding-top: 50px;
+  text-align: left;
   margin-top: 10%;
   animation: rgb 7s infinite;
   font-family: 'Bebas Neue', cursive;
   font-size: 10rem;
+  margin-left: 8%;
+  line-height: 70px;
 }
 .heading-center-2 {
-  text-align: center;
-  margin: auto;
-  margin-right: 18%;
+  text-align: left;
   animation: rgb 7s infinite;
   font-family: 'Bebas Neue', cursive;
+  margin-left: 9%;
+  line-height:70px;
+}
+.heading-center-3 {
+  text-align: left;
+  animation: rgb 7s infinite;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 9%;
+  padding-bottom: 100px;
+  line-height:0px;
+}
+.heading-center-3 > a {
+  text-align: left;
+  animation: rgb 7s infinite;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+}
+.heading {
+  text-align: center;
+  margin: auto;
+  margin-top: 9%;
+  animation: rgb 7s infinite;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6rem;
 }
 @keyframes rgb {
   0% { color: rgb(243, 55, 55);}
@@ -73,3 +133,43 @@
   #section1 , #section2 , #section3 , #section4 , #section5 {
     padding-top: 65%;
 }}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  margin-left: 50%;
+  top: 0;
+  width: auto;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: darkgray;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background: rgb(49, 49, 49);
+  color: black;
+  text-decoration: none;
+  animation: rgbbg 10s infinite;
+}
+@keyframes rgbbg {
+  0% { background: rgb(243, 55, 55); color: white;}
+  10% { background: rgb(243, 121, 55);}
+  15% { background: rgb(243, 168, 55);}
+  20% { background: rgb(224, 243, 55);}
+  30% { background: rgb(133, 243, 55);}
+  35% { background: rgb(77, 243, 55);}
+  40% { background: rgb(55, 243, 133);}
+  50% { background: rgb(55, 193, 243); color: black;}
+  55% { background: rgb(55, 99, 243);}
+  60% { background: rgb(55, 99, 243);}
+  70% { background: rgb(165, 55, 243);}
+  80% { background: rgb(243, 55, 243);}
+  90% { background: rgb(243, 55, 111);}
+  100% { background: rgb(243, 55, 55);}
+}

@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="Code/styles.css">
+        <link rel="stylesheet" href="Code/media.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <style>
             ::-webkit-scrollbar {
@@ -27,13 +28,14 @@
         </style>
     </head>
     <body class="bg">
-        <div class="navbar">
-            <a href="#section1">Home</a>
+        <div class="navbar" id="navbarid">
+            <a href="#section1" class="active">Home</a>
             <a href="#section2">Features</a>
             <a href="#section3">Donate US</a>
             <a href="#section4">Join US</a>
             <a href="#section5">Contact US</a>
-          </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navit()">&#9776;</a>        
+        </div>
          <h1 class="heading-center">Kang OS<h4 class="heading-center-2">Powered By Android</h4> <h4 class="heading-center-3"><a href="#">Download</a></h4></h1>
         <section id="section1">
             <div>

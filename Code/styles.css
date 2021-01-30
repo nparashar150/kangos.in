@@ -43,7 +43,7 @@ html {
 }
 #section1 , #section2 , #section3 , #section4 , #section5 {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 3vw;
     text-align: center;
     box-sizing: border-box;
     padding-bottom: 40%;
@@ -54,7 +54,7 @@ html {
   margin-top: 10%;
   animation: rgb 7s infinite;
   font-family: 'Bebas Neue', cursive;
-  font-size: 10rem;
+  font-size: 13vw;
   margin-left: 8%;
   line-height: 70px;
 }
@@ -85,7 +85,7 @@ html {
   margin-top: 9%;
   animation: rgb 7s infinite;
   font-family: 'Bebas Neue', cursive;
-  font-size: 6rem;
+  font-size: 7vw;
 }
 @keyframes rgb {
   0% { color: rgb(243, 55, 55);}
@@ -103,36 +103,6 @@ html {
   90% { color: rgb(243, 55, 111);}
   100% { color: rgb(243, 55, 55);}
 }
-@media (max-width: 400px) {
-  .heading-center {
-    font-size: 7rem;
-  }
-  .heading-center-2 {
-    margin-right: 32%;
-  }
-  #section1 , #section2 , #section3 , #section4 , #section5 {
-    padding-top: 130%;
-}}
-@media (max-width: 700px) {
-  .heading-center {
-    font-size: 8rem;
-  }
-  .heading-center-2 {
-    margin-right: 25%;
-  }
-  #section1 , #section2 , #section3 , #section4 , #section5 {
-    padding-top: 90%;
-}}
-@media (max-width: 1000px) {
-  .heading-center {
-    font-size: 9rem;
-  }
-  .heading-center-2 {
-    margin-right: 20%;
-  }
-  #section1 , #section2 , #section3 , #section4 , #section5 {
-    padding-top: 65%;
-}}
 .navbar {
   overflow: hidden;
   background-color: rgb(0, 0, 0);
@@ -140,6 +110,13 @@ html {
   margin-left: 50%;
   top: 0;
   width: auto;
+}
+.active {
+  background-color: rgb(0, 0, 0);
+  animation: rgbbg 7s infinite;
+}
+.navbar .icon {
+  display: none;
 }
 .navbar a {
   float: right;

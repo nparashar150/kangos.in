@@ -6,8 +6,11 @@
       float: right;
       display: block;
  }
-#section1 , #section2 , #section3 , #section4 , #section5 {
+#section1 , #section2 , #section3 , #section5 {
         padding-bottom: 100%;
+}
+#section4 {
+    padding-bottom: 10%;
 }
 .heading-center {
     line-height: 40px;
@@ -23,6 +26,13 @@
 }
 .navbar {
     margin-left: 0%;
+}
+.flex-container {
+    flex-direction: column;
+}
+.column {
+    width: 100%;
+}
 }
   
 @media screen and (max-width: 600px) {
@@ -43,5 +53,21 @@
       display: block;
       width: 100%;
       text-align: left;
-    }
+}
+.user-dev {
+    width: 50%;
+    border-radius: 50%;
+}
+.column {
+    width: 50%;
+    height: 5%;
+}
+.column > h2 > a{
+    font-size: 5vw;
+    padding-bottom: 0;
+}
+.column > p > a{
+    font-size: 6vw;
+    padding-bottom: 0vw;
+}
 }

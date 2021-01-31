@@ -7,23 +7,24 @@
   background-position: 85% 140px;
   background-size: 40% auto;
   background-image: url(../Code/banner.png);
-  animation: bgrgb 10s infinite;
+  animation: bgrgb 12s infinite;
 }
-html {
+html , body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 @keyframes bgrgb {
   0% { background-image: url(../Code/banner.png);}
-  10% { background-image: url(../Code/banner.png);}
-  20% { background-image: url(../Code/banner2.png);}
-  30% { background-image: url(../Code/banner3.png);}
-  40% { background-image: url(../Code/banner4.png);}
-  50% { background-image: url(../Code/banner5.png);}
-  60% { background-image: url(../Code/banner6.png);}
-  70% { background-image: url(../Code/banner7.png);}
-  80% { background-image: url(../Code/banner8.png);}
-  90% { background-image: url(../Code/banner9.png);}
-  100% { background-image: url(../Code/banner9.png);}
+  10% { background-image: url(../Code/banner2.png);}
+  20% { background-image: url(../Code/banner3.png);}
+  30% { background-image: url(../Code/banner4.png);}
+  40% { background-image: url(../Code/banner5.png);}
+  50% { background-image: url(../Code/banner6.png);}
+  60% { background-image: url(../Code/banner7.png);}
+  70% { background-image: url(../Code/banner8.png);}
+  80% { background-image: url(../Code/banner9.png);}
+  90% { background-image: url(../Code/banner.png);}
+  100% { background-image: url(../Code/banner2.png);}
 }
 @keyframes rgbg {
   0% { background-color: rgb(85, 19, 19);}
@@ -41,12 +42,19 @@ html {
   90% { background-color: rgb(70, 19, 34);}
   100% { background-color: rgb(75, 16, 16);}
 }
-#section1 , #section2 , #section3 , #section4 , #section5 {
+#section1 , #section2 , #section3 , #section5 {
     font-weight: 400;
     font-size: 3vw;
     text-align: center;
     box-sizing: border-box;
     padding-bottom: 40%;
+}
+#section4 {
+  font-weight: 400;
+  font-size: 3vw;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 0%;
 }
 .heading-center {
   padding-top: 50px;
@@ -149,4 +157,71 @@ html {
   80% { background: rgb(243, 55, 243);}
   90% { background: rgb(243, 55, 111);}
   100% { background: rgb(243, 55, 55);}
+}
+.column > h2 > a{
+  font-size: 1vw;
+  padding-top: 20%;
+  animation: textrgb 10s infinite;
+  font-family: 'Bebas Neue', cursive;
+}
+@keyframes textrgb {
+  0% { color: rgb(143, 55, 55);}
+  10% { color: rgb(143, 121, 55);}
+  15% { color: rgb(143, 168, 55);}
+  20% { color: rgb(184, 143, 55);}
+  30% { color: rgb(73, 143, 55);}
+  35% { color: rgb(77, 143, 55);}
+  40% { color: rgb(55, 143, 133);}
+  50% { color: rgb(55, 153, 143);}
+  55% { color: rgb(55, 99, 143);}
+  60% { color: rgb(55, 99, 143);}
+  70% { color: rgb(165, 55, 143);}
+  80% { color: rgb(143, 55, 143);}
+  90% { color: rgb(143, 55, 91);}
+  100% { color: rgb(143, 55, 55);}
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none!important;
+}
+.column > p > a{
+  font-size: 2vw;
+  animation: textrgb 10s infinite;
+  font-family: 'Bebas Neue', cursive;
+}
+.column {
+  float: none;
+  width: 25%;
+  padding: 7vw;
+  text-align: center;
+  justify-content: center;
+  height: 15vw; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+  justify-content: center;
+}
+.user-dev {
+  width: 40%;
+  border-radius: 50%;
+  animation: borderrgb 10s infinite;
+}
+@keyframes borderrgb {
+  0% { border: 2px solid rgb(143, 55, 55);}
+  10% { border: 2px solid rgb(143, 121, 55);}
+  15% { border: 2px solid rgb(143, 168, 55);}
+  20% { border: 2px solid rgb(184, 143, 55);}
+  30% { border: 2px solid rgb(73, 143, 55);}
+  35% { border: 2px solid rgb(77, 143, 55);}
+  40% { border: 2px solid rgb(55, 143, 133);}
+  50% { border: 2px solid rgb(55, 153, 143);}
+  55% { border: 2px solid rgb(55, 99, 143);}
+  60% { border: 2px solid rgb(55, 99, 143);}
+  70% { border: 2px solid rgb(165, 55, 143);}
+  80% { border: 2px solid rgb(143, 55, 143);}
+  90% { border: 2px solid rgb(143, 55, 91);}
+  100% { border: 2px solid rgb(143, 55, 55);}
 }

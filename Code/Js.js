@@ -5,4 +5,4 @@ function navit() {
     } else {
       x.className = "navbar";
     }
-  }
+}

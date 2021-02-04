@@ -42,12 +42,19 @@ html , body {
   90% { background-color: rgb(70, 19, 34);}
   100% { background-color: rgb(75, 16, 16);}
 }
-#section1 , #section2 , #section3 , #section5 {
+#section1 , #section3 , #section5 {
     font-weight: 400;
     font-size: 3vw;
     text-align: center;
     box-sizing: border-box;
     padding-bottom: 40%;
+}
+#section2 {
+  font-weight: 400;
+  font-size: 3vw;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 0%;
 }
 #section4 {
   font-weight: 400;
@@ -224,4 +231,158 @@ a:hover, a:visited, a:link, a:active
   80% { border: 2px solid rgb(143, 55, 143);}
   90% { border: 2px solid rgb(143, 55, 91);}
   100% { border: 2px solid rgb(143, 55, 55);}
+}
+.cursor {
+  cursor: pointer;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column-img {
+  float: none;
+  width: 33%;
+  padding: 14vw;
+  text-align: center;
+  justify-content: center;
+  height: 15vw; 
+}
+.img1 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-attachment: scroll;
+  background-position: 50% 10px;
+  background-size: 50% auto;
+  padding-bottom: 15vw;
+  animation: img1 12s infinite;
+}
+@keyframes img1 {
+  0% { background-image: url(../Code/album/1_1.png);}
+  10% { background-image: url(../Code/album/1_2.png);}
+  20% { background-image: url(../Code/album/1_3.png);}
+  30% { background-image: url(../Code/album/1_4.png);}
+  40% { background-image: url(../Code/album/1_5.png);}
+  50% { background-image: url(../Code/album/1_7.png);}
+  60% { background-image: url(../Code/album/1_8.png);}
+  70% { background-image: url(../Code/album/1_9.png);}
+  80% { background-image: url(../Code/album/1_9.png);}
+  90% { background-image: url(../Code/album/1_3.png);}
+  100% { background-image: url(../Code/album/1_1.png);}
+}
+.img2 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-attachment: scroll;
+  background-position: 50% 10px;
+  background-size: 50% auto;
+  padding-bottom: 15vw;
+  animation: img2 12s infinite;
+}
+@keyframes img2 {
+  0% { background-image: url(../Code/album/2_1.png);}
+  10% { background-image: url(../Code/album/2_2.png);}
+  20% { background-image: url(../Code/album/2_3.png);}
+  30% { background-image: url(../Code/album/2_4.png);}
+  40% { background-image: url(../Code/album/2_5.png);}
+  50% { background-image: url(../Code/album/2_7.png);}
+  60% { background-image: url(../Code/album/2_8.png);}
+  70% { background-image: url(../Code/album/2_9.png);}
+  80% { background-image: url(../Code/album/2_9.png);}
+  90% { background-image: url(../Code/album/2_3.png);}
+  100% { background-image: url(../Code/album/2_1.png);}
+}
+.img3 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-attachment: scroll;
+  background-position: 50% 10px;
+  background-size: 50% auto;
+  padding-bottom: 15vw;
+  animation: img3 12s infinite;
+}
+@keyframes img3 {
+  0% { background-image: url(../Code/album/3_1.png);}
+  10% { background-image: url(../Code/album/3_2.png);}
+  20% { background-image: url(../Code/album/3_3.png);}
+  30% { background-image: url(../Code/album/3_4.png);}
+  40% { background-image: url(../Code/album/3_5.png);}
+  50% { background-image: url(../Code/album/3_7.png);}
+  60% { background-image: url(../Code/album/3_8.png);}
+  70% { background-image: url(../Code/album/3_9.png);}
+  80% { background-image: url(../Code/album/3_9.png);}
+  90% { background-image: url(../Code/album/3_3.png);}
+  100% { background-image: url(../Code/album/3_1.png);}
+}
+.img4 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-attachment: scroll;
+  background-position: 50% 10px;
+  background-size: 50% auto;
+  padding-bottom: 15vw;
+  animation: img4 12s infinite;
+}
+@keyframes img4 {
+  0% { background-image: url(../Code/album/4_1.png);}
+  10% { background-image: url(../Code/album/4_2.png);}
+  20% { background-image: url(../Code/album/4_3.png);}
+  30% { background-image: url(../Code/album/4_4.png);}
+  40% { background-image: url(../Code/album/4_5.png);}
+  50% { background-image: url(../Code/album/4_7.png);}
+  60% { background-image: url(../Code/album/4_8.png);}
+  70% { background-image: url(../Code/album/4_9.png);}
+  80% { background-image: url(../Code/album/4_9.png);}
+  90% { background-image: url(../Code/album/4_3.png);}
+  100% { background-image: url(../Code/album/4_1.png);}
+}
+.img5 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-attachment: scroll;
+  background-position: 50% 10px;
+  background-size: 50% auto;
+  padding-bottom: 15vw;
+  animation: img5 12s infinite;
+}
+@keyframes img5 {
+  0% { background-image: url(../Code/album/5_1.png);}
+  10% { background-image: url(../Code/album/5_2.png);}
+  20% { background-image: url(../Code/album/5_3.png);}
+  30% { background-image: url(../Code/album/5_4.png);}
+  40% { background-image: url(../Code/album/5_5.png);}
+  50% { background-image: url(../Code/album/5_7.png);}
+  60% { background-image: url(../Code/album/5_8.png);}
+  70% { background-image: url(../Code/album/5_9.png);}
+  80% { background-image: url(../Code/album/5_9.png);}
+  90% { background-image: url(../Code/album/5_3.png);}
+  100% { background-image: url(../Code/album/5_1.png);}
+}
+.img6 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-attachment: scroll;
+  background-position: 50% 10px;
+  background-size: 50% auto;
+  padding-bottom: 15vw;
+  animation: img6 12s infinite;
+}
+@keyframes img6 {
+  0% { background-image: url(../Code/album/6_1.png);}
+  10% { background-image: url(../Code/album/6_2.png);}
+  20% { background-image: url(../Code/album/6_3.png);}
+  30% { background-image: url(../Code/album/6_4.png);}
+  40% { background-image: url(../Code/album/6_5.png);}
+  50% { background-image: url(../Code/album/6_7.png);}
+  60% { background-image: url(../Code/album/6_8.png);}
+  70% { background-image: url(../Code/album/6_9.png);}
+  80% { background-image: url(../Code/album/6_9.png);}
+  90% { background-image: url(../Code/album/6_3.png);}
+  100% { background-image: url(../Code/album/6_1.png);}
 }

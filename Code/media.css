@@ -6,7 +6,7 @@
       float: right;
       display: block;
  }
-#section1 , #section3 , #section5 {
+#section1 , #section3 {
         padding-bottom: 100%;
 }
 #section4, #section2 {
@@ -19,6 +19,13 @@
     line-height:20px;
     font-size: 5vw;
 }
+.heading {
+    font-size: 12vw;
+    margin-bottom: 1%;
+}
+.parag {
+    font-size: 6vw;
+  }
 .heading-center-3 {
     padding-bottom: 100px;
     line-height:10px;

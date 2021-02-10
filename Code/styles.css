@@ -13,50 +13,14 @@ html , body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-@keyframes bgrgb {
-  0% { background-image: url(../Code/banner.png);}
-  10% { background-image: url(../Code/banner2.png);}
-  20% { background-image: url(../Code/banner3.png);}
-  30% { background-image: url(../Code/banner4.png);}
-  40% { background-image: url(../Code/banner5.png);}
-  50% { background-image: url(../Code/banner6.png);}
-  60% { background-image: url(../Code/banner7.png);}
-  70% { background-image: url(../Code/banner8.png);}
-  80% { background-image: url(../Code/banner9.png);}
-  90% { background-image: url(../Code/banner.png);}
-  100% { background-image: url(../Code/banner2.png);}
-}
-@keyframes rgbg {
-  0% { background-color: rgb(85, 19, 19);}
-  10% { background-color: rgb(78, 36, 13);}
-  15% { background-color: rgb(92, 61, 16);}
-  20% { background-color: rgb(74, 80, 17);}
-  30% { background-color: rgb(41, 75, 18);}
-  35% { background-color: rgb(25, 83, 17);}
-  40% { background-color: rgb(16, 90, 47);}
-  50% { background-color: rgb(14, 61, 78);}
-  55% { background-color: rgb(13, 28, 80);}
-  60% { background-color: rgb(16, 28, 70);}
-  70% { background-color: rgb(49, 14, 73);}
-  80% { background-color: rgb(63, 15, 63);}
-  90% { background-color: rgb(70, 19, 34);}
-  100% { background-color: rgb(75, 16, 16);}
-}
-#section1 , #section3 , #section5 {
+#section1 , #section3 {
     font-weight: 400;
     font-size: 3vw;
     text-align: center;
     box-sizing: border-box;
     padding-bottom: 40%;
 }
-#section2 {
-  font-weight: 400;
-  font-size: 3vw;
-  text-align: center;
-  box-sizing: border-box;
-  padding-bottom: 0%;
-}
-#section4 {
+#section2 , #section4 , #section5 {
   font-weight: 400;
   font-size: 3vw;
   text-align: center;
@@ -66,8 +30,9 @@ html , body {
 .heading-center {
   padding-top: 50px;
   text-align: left;
+  color: #5b5b5b;
   margin-top: 10%;
-  animation: rgb 7s infinite;
+  /*animation: rgb 7s infinite;*/
   font-family: 'Bebas Neue', cursive;
   font-size: 13vw;
   margin-left: 8%;
@@ -75,22 +40,25 @@ html , body {
 }
 .heading-center-2 {
   text-align: left;
-  animation: rgb 7s infinite;
+  /*animation: rgb 7s infinite;*/
   font-family: 'Bebas Neue', cursive;
   margin-left: 9%;
+  color: #5b5b5b;
   line-height:70px;
 }
 .heading-center-3 {
   text-align: left;
-  animation: rgb 7s infinite;
+  /*animation: rgb 7s infinite;*/
   font-family: 'Bebas Neue', cursive;
   margin-left: 9%;
+  color: #5b5b5b;
   padding-bottom: 100px;
   line-height:0px;
 }
 .heading-center-3 > a {
   text-align: left;
-  animation: rgb 7s infinite;
+  color: #5b5b5b;
+  /*animation: rgb 7s infinite;*/
   font-family: 'Bebas Neue', cursive;
   text-decoration: none;
 }
@@ -101,22 +69,6 @@ html , body {
   animation: rgb 7s infinite;
   font-family: 'Bebas Neue', cursive;
   font-size: 7vw;
-}
-@keyframes rgb {
-  0% { color: rgb(243, 55, 55);}
-  10% { color: rgb(243, 121, 55);}
-  15% { color: rgb(243, 168, 55);}
-  20% { color: rgb(224, 243, 55);}
-  30% { color: rgb(133, 243, 55);}
-  35% { color: rgb(77, 243, 55);}
-  40% { color: rgb(55, 243, 133);}
-  50% { color: rgb(55, 193, 243);}
-  55% { color: rgb(55, 99, 243);}
-  60% { color: rgb(55, 99, 243);}
-  70% { color: rgb(165, 55, 243);}
-  80% { color: rgb(243, 55, 243);}
-  90% { color: rgb(243, 55, 111);}
-  100% { color: rgb(243, 55, 55);}
 }
 .navbar {
   overflow: hidden;
@@ -136,7 +88,7 @@ html , body {
 .navbar a {
   float: right;
   display: block;
-  color: darkgray;
+  color: #5b5b5b;
   text-align: center;
   font-family: 'Bebas Neue', cursive;
   padding: 14px 16px;
@@ -150,43 +102,12 @@ html , body {
   transition: 2s;
   animation: rgbbg 10s infinite;
 }
-@keyframes rgbbg {
-  0% { background: rgb(243, 55, 55); color: white;}
-  10% { background: rgb(243, 121, 55);}
-  15% { background: rgb(243, 168, 55);}
-  20% { background: rgb(224, 243, 55);}
-  30% { background: rgb(133, 243, 55);}
-  35% { background: rgb(77, 243, 55);}
-  40% { background: rgb(55, 243, 133);}
-  50% { background: rgb(55, 193, 243); color: black;}
-  55% { background: rgb(55, 99, 243);}
-  60% { background: rgb(55, 99, 243);}
-  70% { background: rgb(165, 55, 243);}
-  80% { background: rgb(243, 55, 243);}
-  90% { background: rgb(243, 55, 111);}
-  100% { background: rgb(243, 55, 55);}
-}
 .column > h2 > a{
   font-size: 1vw;
   padding-top: 20%;
-  animation: textrgb 10s infinite;
+  color: #98ded9;
+  /*animation: textrgb 10s infinite;*/
   font-family: 'Bebas Neue', cursive;
-}
-@keyframes textrgb {
-  0% { color: rgb(143, 55, 55);}
-  10% { color: rgb(143, 121, 55);}
-  15% { color: rgb(143, 168, 55);}
-  20% { color: rgb(184, 143, 55);}
-  30% { color: rgb(73, 143, 55);}
-  35% { color: rgb(77, 143, 55);}
-  40% { color: rgb(55, 143, 133);}
-  50% { color: rgb(55, 153, 143);}
-  55% { color: rgb(55, 99, 143);}
-  60% { color: rgb(55, 99, 143);}
-  70% { color: rgb(165, 55, 143);}
-  80% { color: rgb(143, 55, 143);}
-  90% { color: rgb(143, 55, 91);}
-  100% { color: rgb(143, 55, 55);}
 }
 a:hover, a:visited, a:link, a:active
 {
@@ -194,7 +115,8 @@ a:hover, a:visited, a:link, a:active
 }
 .column > p > a{
   font-size: 2vw;
-  animation: textrgb 10s infinite;
+  color: #75cfb8;
+  /*animation: textrgb 10s infinite;*/
   font-family: 'Bebas Neue', cursive;
 }
 .column {
@@ -216,22 +138,6 @@ a:hover, a:visited, a:link, a:active
   width: 40%;
   border-radius: 50%;
   animation: borderrgb 10s infinite;
-}
-@keyframes borderrgb {
-  0% { border: 2px solid rgb(143, 55, 55);}
-  10% { border: 2px solid rgb(143, 121, 55);}
-  15% { border: 2px solid rgb(143, 168, 55);}
-  20% { border: 2px solid rgb(184, 143, 55);}
-  30% { border: 2px solid rgb(73, 143, 55);}
-  35% { border: 2px solid rgb(77, 143, 55);}
-  40% { border: 2px solid rgb(55, 143, 133);}
-  50% { border: 2px solid rgb(55, 153, 143);}
-  55% { border: 2px solid rgb(55, 99, 143);}
-  60% { border: 2px solid rgb(55, 99, 143);}
-  70% { border: 2px solid rgb(165, 55, 143);}
-  80% { border: 2px solid rgb(143, 55, 143);}
-  90% { border: 2px solid rgb(143, 55, 91);}
-  100% { border: 2px solid rgb(143, 55, 55);}
 }
 .cursor {
   cursor: pointer;
@@ -259,19 +165,6 @@ a:hover, a:visited, a:link, a:active
   padding-bottom: 15vw;
   animation: img1 12s infinite;
 }
-@keyframes img1 {
-  0% { background-image: url(../Code/album/1_1.png);}
-  10% { background-image: url(../Code/album/1_2.png);}
-  20% { background-image: url(../Code/album/1_3.png);}
-  30% { background-image: url(../Code/album/1_4.png);}
-  40% { background-image: url(../Code/album/1_5.png);}
-  50% { background-image: url(../Code/album/1_7.png);}
-  60% { background-image: url(../Code/album/1_8.png);}
-  70% { background-image: url(../Code/album/1_9.png);}
-  80% { background-image: url(../Code/album/1_9.png);}
-  90% { background-image: url(../Code/album/1_3.png);}
-  100% { background-image: url(../Code/album/1_1.png);}
-}
 .img2 {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -281,19 +174,6 @@ a:hover, a:visited, a:link, a:active
   background-size: 50% auto;
   padding-bottom: 15vw;
   animation: img2 12s infinite;
-}
-@keyframes img2 {
-  0% { background-image: url(../Code/album/2_1.png);}
-  10% { background-image: url(../Code/album/2_2.png);}
-  20% { background-image: url(../Code/album/2_3.png);}
-  30% { background-image: url(../Code/album/2_4.png);}
-  40% { background-image: url(../Code/album/2_5.png);}
-  50% { background-image: url(../Code/album/2_7.png);}
-  60% { background-image: url(../Code/album/2_8.png);}
-  70% { background-image: url(../Code/album/2_9.png);}
-  80% { background-image: url(../Code/album/2_9.png);}
-  90% { background-image: url(../Code/album/2_3.png);}
-  100% { background-image: url(../Code/album/2_1.png);}
 }
 .img3 {
   background-repeat: no-repeat;
@@ -305,19 +185,6 @@ a:hover, a:visited, a:link, a:active
   padding-bottom: 15vw;
   animation: img3 12s infinite;
 }
-@keyframes img3 {
-  0% { background-image: url(../Code/album/3_1.png);}
-  10% { background-image: url(../Code/album/3_2.png);}
-  20% { background-image: url(../Code/album/3_3.png);}
-  30% { background-image: url(../Code/album/3_4.png);}
-  40% { background-image: url(../Code/album/3_5.png);}
-  50% { background-image: url(../Code/album/3_7.png);}
-  60% { background-image: url(../Code/album/3_8.png);}
-  70% { background-image: url(../Code/album/3_9.png);}
-  80% { background-image: url(../Code/album/3_9.png);}
-  90% { background-image: url(../Code/album/3_3.png);}
-  100% { background-image: url(../Code/album/3_1.png);}
-}
 .img4 {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -327,19 +194,6 @@ a:hover, a:visited, a:link, a:active
   background-size: 50% auto;
   padding-bottom: 15vw;
   animation: img4 12s infinite;
-}
-@keyframes img4 {
-  0% { background-image: url(../Code/album/4_1.png);}
-  10% { background-image: url(../Code/album/4_2.png);}
-  20% { background-image: url(../Code/album/4_3.png);}
-  30% { background-image: url(../Code/album/4_4.png);}
-  40% { background-image: url(../Code/album/4_5.png);}
-  50% { background-image: url(../Code/album/4_7.png);}
-  60% { background-image: url(../Code/album/4_8.png);}
-  70% { background-image: url(../Code/album/4_9.png);}
-  80% { background-image: url(../Code/album/4_9.png);}
-  90% { background-image: url(../Code/album/4_3.png);}
-  100% { background-image: url(../Code/album/4_1.png);}
 }
 .img5 {
   background-repeat: no-repeat;
@@ -351,19 +205,6 @@ a:hover, a:visited, a:link, a:active
   padding-bottom: 15vw;
   animation: img5 12s infinite;
 }
-@keyframes img5 {
-  0% { background-image: url(../Code/album/5_1.png);}
-  10% { background-image: url(../Code/album/5_2.png);}
-  20% { background-image: url(../Code/album/5_3.png);}
-  30% { background-image: url(../Code/album/5_4.png);}
-  40% { background-image: url(../Code/album/5_5.png);}
-  50% { background-image: url(../Code/album/5_7.png);}
-  60% { background-image: url(../Code/album/5_8.png);}
-  70% { background-image: url(../Code/album/5_9.png);}
-  80% { background-image: url(../Code/album/5_9.png);}
-  90% { background-image: url(../Code/album/5_3.png);}
-  100% { background-image: url(../Code/album/5_1.png);}
-}
 .img6 {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -374,16 +215,40 @@ a:hover, a:visited, a:link, a:active
   padding-bottom: 15vw;
   animation: img6 12s infinite;
 }
-@keyframes img6 {
-  0% { background-image: url(../Code/album/6_1.png);}
-  10% { background-image: url(../Code/album/6_2.png);}
-  20% { background-image: url(../Code/album/6_3.png);}
-  30% { background-image: url(../Code/album/6_4.png);}
-  40% { background-image: url(../Code/album/6_5.png);}
-  50% { background-image: url(../Code/album/6_7.png);}
-  60% { background-image: url(../Code/album/6_8.png);}
-  70% { background-image: url(../Code/album/6_9.png);}
-  80% { background-image: url(../Code/album/6_9.png);}
-  90% { background-image: url(../Code/album/6_3.png);}
-  100% { background-image: url(../Code/album/6_1.png);}
+.home-img {
+  width: 18%;
+  height: auto;
+  margin-right: 38%;
+}
+.parag {
+  color: #5b5b5b;
+  font-size: 2.5vw;
+}
+.boxx {
+  width: 40%;
+  background-color: #181818;
+  margin-left: 7%;
+  border: 2px solid #5b5b5b;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: 1s;
+}
+.boxxx {
+  background-color: #181818;
+  margin: 40px;
+  width: 40%;
+  margin-left: 53%;
+  margin-top: -40%;
+  border: 2px solid #5b5b5b;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: 1s;
+}
+.boxx:hover , .boxxx:hover {
+  background-color: #101010;
+  color: #5c5c5c;
 }

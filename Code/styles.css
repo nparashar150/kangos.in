@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 .bg {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -9,6 +10,19 @@
   background-image: url(../Code/banner.png);
   animation: bgrgb 12s infinite;
 }
+@keyframes bgrgb {
+  0% { background-image: url(../Code/banner.png);}
+  10% { background-image: url(../Code/banner2.png);}
+  20% { background-image: url(../Code/banner3.png);}
+  30% { background-image: url(../Code/banner4.png);}
+  40% { background-image: url(../Code/banner5.png);}
+  50% { background-image: url(../Code/banner6.png);}
+  60% { background-image: url(../Code/banner7.png);}
+  70% { background-image: url(../Code/banner8.png);}
+  80% { background-image: url(../Code/banner9.png);}
+  90% { background-image: url(../Code/banner.png);}
+  100% { background-image: url(../Code/banner2.png);}
+}
 html , body {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -18,19 +32,19 @@ html , body {
     font-size: 3vw;
     text-align: center;
     box-sizing: border-box;
-    padding-bottom: 40%;
 }
 #section2 , #section4 , #section5 {
   font-weight: 400;
   font-size: 3vw;
   text-align: center;
   box-sizing: border-box;
-  padding-bottom: 0%;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
 }
 .heading-center {
   padding-top: 50px;
   text-align: left;
-  color: #5b5b5b;
+  color: #222222;
   margin-top: 10%;
   /*animation: rgb 7s infinite;*/
   font-family: 'Bebas Neue', cursive;
@@ -65,9 +79,10 @@ html , body {
 .heading {
   text-align: center;
   margin: auto;
+  color: #c53a3a;
+  text-shadow: 0 0 20px #343434;
   margin-top: 9%;
-  animation: rgb 7s infinite;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 7vw;
 }
 .navbar {
@@ -217,38 +232,82 @@ a:hover, a:visited, a:link, a:active
 }
 .home-img {
   width: 18%;
+  border: 2px solid #4dd5ff;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   height: auto;
-  margin-right: 38%;
+  margin-right: 48%;
+}
+.home-text {
+  background-color: #1a1a1a; 
+  padding-bottom: 5vw; 
+  padding-top: 5vw; 
+  text-align: right; 
+  font-size: 2vw;
+  margin-left: 50%;
+  color: #5b5b5b;
+  margin-right: 10%;
+  margin-top: -35%;
+}
+.home-text > p {
+  padding: 15px;
+  border: 2px solid #4dd5ff;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.home-end {
+  margin-left: 10px;
+  border-style: solid;
+  width: 200px;
+  border: 0px;
+  border-color: #1a1a1a;
+  height: 100px;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  margin-right: 100%;
+  background-color: #1a1a1a;
+  background-image: linear-gradient(#1a1a1a, #000);
 }
 .parag {
   color: #5b5b5b;
   font-size: 2.5vw;
 }
+.padding {
+  padding-top: 2vw;
+}
 .boxx {
-  width: 40%;
-  background-color: #181818;
-  margin-left: 7%;
-  border: 2px solid #5b5b5b;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  transition: 1s;
-}
-.boxxx {
-  background-color: #181818;
-  margin: 40px;
-  width: 40%;
-  margin-left: 53%;
-  margin-top: -40%;
-  border: 2px solid #5b5b5b;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  transition: 1s;
-}
-.boxx:hover , .boxxx:hover {
   background-color: #101010;
-  color: #5c5c5c;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  transition: 1s;
+}
+.icon {
+  color: #da8989;
+  transition: 2s;
+}
+.icon:hover {
+  color: #6ba6dd;
+}
+.p {
+  font-size: 20px;
+  color: rgb(230, 230, 230);
+}
+.glow {
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 4px rgb(0, 0, 0), 0 0 6px #e44646, 0 0 8px #dc3939, 0 0 10px #c53a3a, 0 0 22px #d14343, 0 0 28px #dc2f2f;
+  }
+  
+  to {
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 4px #000000, 0 0 6px #4dd5ff, 0 0 8px #4db2ff, 0 0 10px #4dc1ff, 0 0 22px #4ddeff, 0 0 26px #4dc7ff;
+  }
 }

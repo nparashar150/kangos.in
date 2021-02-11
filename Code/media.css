@@ -7,8 +7,21 @@
       display: block;
  }
 #section1 , #section3 {
-        padding-bottom: 100%;
+        padding-bottom: 0%;
 }
+.home-end {
+    margin-left: 10px;
+    border-style: solid;
+    width: 50px;
+    border-color: #1a1a1a;
+    height: 30px;
+    border-top-left-radius: -20px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    margin-right: 100%;
+    background-color: #1a1a1a;
+    background-image: linear-gradient(#1a1a1a, #000);
+  }
 #section4, #section2 {
     padding-bottom: 10%;
 }
@@ -84,5 +97,9 @@
     text-align: center;
     justify-content: center;
     height: 15vw; 
+}
+.boxx > i {
+    font-size: 7vw;
+    padding-left: 10px;
 }
 }

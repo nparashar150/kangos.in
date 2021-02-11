@@ -1,1 +1,1 @@
-# kangos.io
+## KANG OS Website Project can be found here.

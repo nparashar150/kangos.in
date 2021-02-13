@@ -79,7 +79,7 @@ html , body {
 .heading {
   text-align: center;
   margin: auto;
-  color: #c53a3a;
+  color: #5b5b5b;
   text-shadow: 0 0 20px #343434;
   font-family: 'Fjalla One', sans-serif;
   font-size: 7vw;
@@ -164,70 +164,103 @@ a:hover, a:visited, a:link, a:active
 .column-img {
   float: none;
   width: 33%;
-  padding: 14vw;
+  padding: 7vw;
   text-align: center;
   justify-content: center;
   height: 15vw; 
 }
-.img1 {
+.img-class {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: black;
   background-attachment: scroll;
   background-position: 50% 10px;
-  background-size: 50% auto;
-  padding-bottom: 15vw;
-  animation: img1 12s infinite;
+  background-size: 30% auto;
+  padding-bottom: 13vw;
+}
+.img1 {
+  background-image: url(../Code/album/1.png);
+  /*animation: img1 12s infinite;*/
 }
 .img2 {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: black;
-  background-attachment: scroll;
-  background-position: 50% 10px;
-  background-size: 50% auto;
-  padding-bottom: 15vw;
-  animation: img2 12s infinite;
+  background-image: url(../Code/album/2.png);
+  /*animation: img2 12s infinite;*/
 }
 .img3 {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: black;
-  background-attachment: scroll;
-  background-position: 50% 10px;
-  background-size: 50% auto;
-  padding-bottom: 15vw;
-  animation: img3 12s infinite;
+  background-image: url(../Code/album/3.png);
+  /*animation: img3 12s infinite;*/
 }
 .img4 {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: black;
-  background-attachment: scroll;
-  background-position: 50% 10px;
-  background-size: 50% auto;
-  padding-bottom: 15vw;
-  animation: img4 12s infinite;
+  background-image: url(../Code/album/4.png);
+  /*animation: img4 12s infinite;*/
 }
 .img5 {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: black;
-  background-attachment: scroll;
-  background-position: 50% 10px;
-  background-size: 50% auto;
-  padding-bottom: 15vw;
-  animation: img5 12s infinite;
+  background-image: url(../Code/album/5.png);
+  /*animation: img5 12s infinite;*/
 }
 .img6 {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: black;
-  background-attachment: scroll;
-  background-position: 50% 10px;
-  background-size: 50% auto;
-  padding-bottom: 15vw;
-  animation: img6 12s infinite;
+  background-image: url(../Code/album/6.png);
+  /*animation: img6 12s infinite;*/
+}
+.img7 {
+  background-image: url(../Code/album/7.png);
+  /*animation: img6 12s infinite;*/
+}
+.img8 {
+  background-image: url(../Code/album/8.png);
+  /*animation: img6 12s infinite;*/
+}
+.img9 {
+  background-image: url(../Code/album/9.png);
+  /*animation: img6 12s infinite;*/
+}
+.img10 {
+  background-image: url(../Code/album/10.png);
+  /*animation: img6 12s infinite;*/
+}
+.img11 {
+  background-image: url(../Code/album/11.png);
+  /*animation: img6 12s infinite;*/
+}
+.img12 {
+  background-image: url(../Code/album/12.png);
+  /*animation: img6 12s infinite;*/
+}
+.img13 {
+  background-image: url(../Code/album/13.png);
+  /*animation: img6 12s infinite;*/
+}
+.img14 {
+  background-image: url(../Code/album/14.png);
+  /*animation: img6 12s infinite;*/
+}
+.img15 {
+  background-image: url(../Code/album/15.png);
+  /*animation: img6 12s infinite;*/
+}
+.img16 {
+  background-image: url(../Code/album/16.png);
+  /*animation: img6 12s infinite;*/
+}
+.img17 {
+  background-image: url(../Code/album/17.png);
+  /*animation: img6 12s infinite;*/
+}
+.img18 {
+  background-image: url(../Code/album/18.png);
+  /*animation: img6 12s infinite;*/
+}
+.img19 {
+  background-image: url(../Code/album/19.png);
+  /*animation: img6 12s infinite;*/
+}
+.img20 {
+  background-image: url(../Code/album/20.png);
+  /*animation: img6 12s infinite;*/
+}
+.img21 {
+  background-image: url(../Code/album/21.png);
+  /*animation: img6 12s infinite;*/
 }
 .home-img {
   width: 18%;
@@ -300,10 +333,78 @@ a:hover, a:visited, a:link, a:active
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0), 0 0 2px #e44646, 0 0 2px #dc7239, 0 0 2px #c3c53a, 0 0 2px #9bd143, 0 0 2px #2fdc5a;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px #e44646, 0 0 3px #dc7239, 0 0 3px #c3c53a, 0 0 3px #9bd143, 0 0 3px #2fdc5a;
   }
   
   to {
-    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px #000000, 0 0 2px #4df9ff, 0 0 2px #4dfff6, 0 0 2px #4d85ff, 0 0 2px #c44dff, 0 0 2px #ff4dcd;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px #000000, 0 0 3px #4df9ff, 0 0 3px #4dfff6, 0 0 3px #4d85ff, 0 0 3px #c44dff, 0 0 3px #ff4dcd;
   }
+}
+.data-slide {
+  position: relative;
+  padding-top: 7vw;
+}
+.mySlides {
+  display: none;
+}
+.mySlides > img {
+  width: 20%;
+}
+.cursor {
+  cursor: pointer;
+}
+.prev , .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  margin-right: 33%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: solid 2px;
+  border-color: #4d85ff;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #000;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: 0.5s;
+}
+.next {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.prev {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.next-prev {
+  margin-right: 35%;
+}
+.next {
+  right: 0;
+}
+.prev:hover,
+.next:hover {
+  background-color: #4d85ff;
+}
+.row-slide:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column-slide {
+  float: left;
+  width: 16.66%;
+  padding-top: 5vw;
+}
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
 }

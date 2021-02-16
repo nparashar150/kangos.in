@@ -140,7 +140,7 @@
     display: none;
   }
   .mySlides > img {
-      width: 50%;
+      width: 65%;
   }
   .cursor {
     cursor: pointer;
@@ -148,9 +148,9 @@
   .prev , .next {
     cursor: pointer;
     position: absolute;
-    top: 60%;
+    top: 50%;
     width: 40px;
-    margin-right: 11%;
+    margin-right: 6%;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -168,7 +168,7 @@
     transition: 0.5s;
   }
   .next-prev {
-    margin-right: 78%;
+    margin-right: 88%;
   }
   .next {
     right: 0;

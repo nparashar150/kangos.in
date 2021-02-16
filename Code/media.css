@@ -160,7 +160,7 @@
     font-weight: bold;
     font-size: 20px;
     border: solid 2px;
-    border-color: #4d85ff;
+    border-color: #ff4d56;
     border-radius: 10px 10px 10px 10px;
     background-color: #000;
     user-select: none;
@@ -175,7 +175,7 @@
   }
   .prev:hover,
   .next:hover {
-    background-color: #4d85ff;
+    background-color: #ff4d56;
   }
   .row-slide:after {
     content: "";

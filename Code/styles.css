@@ -44,7 +44,7 @@ html , body {
 .heading-center {
   padding-top: 50px;
   text-align: left;
-  color: #222222;
+  color: #000000;
   margin-top: 10%;
   /*animation: rgb 7s infinite;*/
   font-family: 'Bebas Neue', cursive;
@@ -57,7 +57,7 @@ html , body {
   /*animation: rgb 7s infinite;*/
   font-family: 'Bebas Neue', cursive;
   margin-left: 9%;
-  color: #222222;
+  color: #000000;
   line-height:70px;
 }
 .heading-center-3 {
@@ -71,7 +71,7 @@ html , body {
 }
 .heading-center-3 > a {
   text-align: left;
-  color: #222222;
+  color: #000000;
   /*animation: rgb 7s infinite;*/
   font-family: 'Bebas Neue', cursive;
   text-decoration: none;
@@ -79,7 +79,7 @@ html , body {
 .heading {
   text-align: center;
   margin: auto;
-  color: #5b5b5b;
+  color: #000000;
   text-shadow: 0 0 20px #343434;
   font-family: 'Fjalla One', sans-serif;
   font-size: 7vw;
@@ -178,90 +178,85 @@ a:hover, a:visited, a:link, a:active
   background-size: 30% auto;
   padding-bottom: 13vw;
 }
-.img1 {
+/*.img1 {
   background-image: url(../Code/album/1.png);
-  /*animation: img1 12s infinite;*/
 }
 .img2 {
   background-image: url(../Code/album/2.png);
-  /*animation: img2 12s infinite;*/
 }
 .img3 {
   background-image: url(../Code/album/3.png);
-  /*animation: img3 12s infinite;*/
 }
 .img4 {
   background-image: url(../Code/album/4.png);
-  /*animation: img4 12s infinite;*/
 }
 .img5 {
   background-image: url(../Code/album/5.png);
-  /*animation: img5 12s infinite;*/
 }
 .img6 {
   background-image: url(../Code/album/6.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img7 {
   background-image: url(../Code/album/7.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img8 {
   background-image: url(../Code/album/8.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img9 {
   background-image: url(../Code/album/9.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img10 {
   background-image: url(../Code/album/10.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img11 {
   background-image: url(../Code/album/11.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img12 {
   background-image: url(../Code/album/12.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img13 {
   background-image: url(../Code/album/13.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img14 {
   background-image: url(../Code/album/14.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img15 {
   background-image: url(../Code/album/15.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img16 {
   background-image: url(../Code/album/16.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img17 {
   background-image: url(../Code/album/17.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img18 {
   background-image: url(../Code/album/18.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img19 {
   background-image: url(../Code/album/19.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img20 {
   background-image: url(../Code/album/20.png);
-  /*animation: img6 12s infinite;*/
+  
 }
 .img21 {
   background-image: url(../Code/album/21.png);
-  /*animation: img6 12s infinite;*/
-}
+  
+}*/
 .home-img {
   width: 18%;
   border: 2px solid #4dd5ff;
@@ -333,11 +328,37 @@ a:hover, a:visited, a:link, a:active
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px #e44646, 0 0 3px #dc7239, 0 0 3px #c3c53a, 0 0 3px #9bd143, 0 0 3px #2fdc5a;
+    text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 4px rgb(0, 0, 0), 0 0 4px #e23636, 0 0 4px #da692d, 0 0 4px #c8ca2c, 0 0 4px #90cc30, 0 0 4px #16d145;
   }
   
   to {
-    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px #000000, 0 0 3px #4df9ff, 0 0 3px #4dfff6, 0 0 3px #4d85ff, 0 0 3px #c44dff, 0 0 3px #ff4dcd;
+    text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 4px #000000, 0 0 4px #34eaf0, 0 0 4px #3af0e7, 0 0 4px #3168df, 0 0 4px #b538f3, 0 0 4px #ee39bb;
+  }
+}
+.glow-red {
+  animation: glowred 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowred {
+  from {
+    text-shadow: 0 0 3px rgb(255, 136, 136), 0 0 3px rgb(255, 124, 124), 0 0 3px #ff5353, 0 0 3px #c24242, 0 0 3px #9b2727, 0 0 3px #b52929, 0 0 3px #762525;
+  }
+  
+  to {
+    text-shadow: 0 0 3px #762525, 0 0 3px #b52929, 0 0 3px #9b2727, 0 0 3px #c24242,  0 0 3px #ff5353,  0 0 3px rgb(255, 124, 124),  0 0 3px rgb(255, 136, 136); 
+  }
+}
+.glow-cyan {
+  animation: glowcyan 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowcyan {
+  from {
+    text-shadow: 0 0 3px rgb(155, 244, 247), 0 0 3px rgb(97, 205, 238), 0 0 3px #58a5d8, 0 0 3px #3793c4, 0 0 3px #17648d, 0 0 3px #2470b8, 0 0 3px #144b6a;
+  }
+  
+  to {
+    text-shadow: 0 0 3px #144b6a, 0 0 3px #2470b8, 0 0 3px #17648d, 0 0 3px #3793c4, 0 0 3px #58a5d8, 0 0 3px rgb(97, 205, 238), 0 0 3px rgb(155, 244, 247);
   }
 }
 .data-slide {
@@ -349,6 +370,8 @@ a:hover, a:visited, a:link, a:active
 }
 .mySlides > img {
   width: 20%;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 2px #e44646;
 }
 .cursor {
   cursor: pointer;
@@ -366,21 +389,25 @@ a:hover, a:visited, a:link, a:active
   font-weight: bold;
   font-size: 20px;
   border: solid 2px;
-  border-color: #4d85ff;
+  border-color: #ff4d56;
   border-radius: 10px 10px 10px 10px;
   background-color: #000;
   user-select: none;
   -webkit-user-select: none;
   transition: 0.5s;
 }
-.next {
+.next > i{
+  color: #e44646;
+}
+.next , .prev {
   padding-right: 10px;
   padding-left: 10px;
 }
-.prev {
-  padding-right: 10px;
-  padding-left: 10px;
+.prev > i{
+  color: #e44646;
 }
+.next > i:hover {color: #1a1a1a;}
+.prev > i:hover {color: #1a1a1a;}
 .next-prev {
   margin-right: 35%;
 }
@@ -389,7 +416,7 @@ a:hover, a:visited, a:link, a:active
 }
 .prev:hover,
 .next:hover {
-  background-color: #4d85ff;
+  background-color: #ff4d56;
 }
 .row-slide:after {
   content: "";

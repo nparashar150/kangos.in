@@ -6,7 +6,7 @@
       float: right;
       display: block;
  }
-#section1 , #section3 {
+#section1 , #section3 , #section2 {
         padding-bottom: 0%;
 }
 .bg {
@@ -145,6 +145,8 @@
   }
   .mySlides > img {
       width: 65%;
+      padding-bottom: 0%;
+      margin-bottom: -20%;
   }
   .cursor {
     cursor: pointer;
@@ -199,8 +201,8 @@
     opacity: 1;
   }
   .page-donate {
-    margin-right: 25%;
-    margin-left: 25%;
+    margin-right: 17%;
+    margin-left: 17%;
     text-align: center;
     font-size: 4vw;
   }
@@ -209,14 +211,14 @@
   }
   .donate-now-div {
     margin-top: 125%;
-    margin-bottom: -135%;
+    margin-bottom: -120%;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 20vw;
   }
   .donate-now-button{
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
     background-color: #000;
     border-radius: 10px 10px 10px 10px;
     border-color: #c43f3f;
@@ -230,7 +232,7 @@
     font-family: 'Fjalla One', sans-serif;
   }
   .media-resp {
-    margin-top: 22vw;
+    margin-top: 55vw;
   }
   .donate-now-button:hover {
     background-color: #111;

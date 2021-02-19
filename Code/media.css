@@ -13,6 +13,10 @@
     background-position: 50% 100px;
     background-size: 90% auto;
 }
+.img-home-bottom {
+  color: #1a1a1a;
+  width: 20vw;
+}
 .home-img {
     width: 68%;
     border: 2px solid #4dd5ff;
@@ -193,5 +197,43 @@
   .active,
   .demo:hover {
     opacity: 1;
+  }
+  .page-donate {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 4vw;
+  }
+  .page-donate p {
+    padding: 15px;
+  }
+  .donate-now-div {
+    margin-top: 125%;
+    margin-bottom: -135%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20vw;
+  }
+  .donate-now-button{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: #000;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #c43f3f;
+    padding: 10px;
+    transition: 1s;
+    font-size: 7vw;
+    text-align: center;
+    margin: auto;
+    color: #000000;
+    animation: glowred 2s ease-in-out infinite alternate;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  .media-resp {
+    margin-top: 22vw;
+  }
+  .donate-now-button:hover {
+    background-color: #111;
+    color: #111;
   }
 }

@@ -7,10 +7,10 @@
   background-attachment: scroll;
   background-position: 85% 140px;
   background-size: 40% auto;
-  background-image: url(../Code/banner.png);
-  animation: bgrgb 12s infinite;
+  /*background-image: url(../Code/banner.png);*/
+  /*animation: bgrgb 12s infinite;*/
 }
-@keyframes bgrgb {
+/*@keyframes bgrgb {
   0% { background-image: url(../Code/banner.png);}
   10% { background-image: url(../Code/banner2.png);}
   20% { background-image: url(../Code/banner3.png);}
@@ -22,7 +22,7 @@
   80% { background-image: url(../Code/banner9.png);}
   90% { background-image: url(../Code/banner.png);}
   100% { background-image: url(../Code/banner2.png);}
-}
+}*/
 html , body {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -257,6 +257,12 @@ a:hover, a:visited, a:link, a:active
   background-image: url(../Code/album/21.png);
   
 }*/
+.home-img-bg {
+  width: 50%;
+  margin-top: -50%;
+  margin-left: 45%;
+  height: auto;
+}
 .home-img {
   width: 18%;
   border: 2px solid #4dd5ff;

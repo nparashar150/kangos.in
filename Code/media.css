@@ -2,6 +2,14 @@
 .navbar a:not(:first-child) {
       display: none;
  }
+ .home-img-bg {
+  width: 100%;
+  margin-top: -10%;
+  padding-bottom: 15%;
+  margin-bottom: 2%;
+  margin-left: 0%;
+  height: auto;
+}
 .navbar a.icon {
       float: right;
       display: block;
@@ -54,7 +62,7 @@
 .heading-center {
     line-height: 50px;
     font-size: 25vw;
-    margin-top: 65%;
+    margin-top: 2%;
     margin-right: 5%;
     text-align: center;
 }

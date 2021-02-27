@@ -11,19 +11,43 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="Code/keyframe.css">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             #loader { 
-              border: 12px solid #7bdfdd; 
-              border-radius: 50%; 
-              border-top: 12px solid #0c0c0c; 
-              width: 70px; 
-              height: 70px; 
-              animation: spin 2s linear infinite; 
+              height: 55px;
+              width: 55px;
+              background-color: rgb(243, 55, 55);
+              border-radius: 50%;
+              display: inline-block;
+              animation: load 2s infinite;
+              animation: rgbloader 5s infinite;
               } 
-              @keyframes spin { 
-              100% { 
-                  transform: rotate(360deg); 
+              @keyframes rgbloader {
+                0% { background-color: rgb(243, 55, 55); color;}
+                10% { background-color: rgb(243, 121, 55);}
+                15% { background-color: rgb(243, 168, 55);}
+                20% { background-color: rgb(224, 243, 55);}
+                30% { background-color: rgb(133, 243, 55);}
+                35% { background-color: rgb(77, 243, 55);}
+                40% { background-color: rgb(55, 243, 133);}
+                50% { background-color: rgb(55, 193, 243);}
+                55% { background-color: rgb(55, 99, 243);}
+                60% { background-color: rgb(55, 99, 243);}
+                70% { background-color: rgb(165, 55, 243);}
+                80% { background-color: rgb(243, 55, 243);}
+                90% { background-color: rgb(243, 55, 111);}
+                100% { background-color: rgb(243, 55, 55);}
+              }
+              @keyframes load { 
+              0% { 
+                height: 35px;
+                width: 35px;
+              }
+              100% {
+                height: 55px;
+                width: 55px;
               } 
               } 
             .center { 
@@ -51,7 +75,7 @@
             }
         </style>
     </head>
-    <body class="bg">
+    <body class="bg" data-spy="scroll" data-target=".fixed-top">
         <div id="loader" class="center"></div> 
         <div class="navbar" id="navbarid">
             <a href="#section1">Home</a>
@@ -315,6 +339,8 @@
           } 
           }; 
         </script>
+        <script src="Code/jquery.easing.min.js"></script>
+        <script src="Code/loader.js"></script>
         <script>
           var slideIndex = 1;
           showSlides(slideIndex);
@@ -376,5 +402,8 @@
               }
           }
         </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
     </body>
 </html>

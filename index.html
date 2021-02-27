@@ -63,8 +63,8 @@
         </div>
          <h1 class="heading-center glow">Kang OS<h4 class="heading-center-2 glow">Powered By Android</h4> <h4 class="heading-center-3 glow"><a href="#">Download</a></h4></h1>
          <div>
-          <video id="volume-video" class="home-img-bg" loop="" playsinline="true" muted="" preload="metadata" autoplay="">
-            <source src="Code/Kang_Home.mp4" type="video/mp4">
+          <video id="volume-video" class="home-img-bg" playsinline="true" muted="" preload="metadata" autoplay="">
+
           </video>
       </div>
         <section id="section1">
@@ -350,5 +350,31 @@
         <script>
           AOS.init();
         </script>      
+        <script>
+          let videoSource = new Array();
+          videoSource[0] = 'https://raw.githubusercontent.com/nparashar150/kangos/master/Code/Kang_Home.mp4';
+          videoSource[1] = 'https://raw.githubusercontent.com/nparashar150/kangos/master/Code/banner.mp4';
+          let i = 0; 
+          const videoCount = videoSource.length;
+          const element = document.getElementById("volume-video");
+          function videoPlay(videoNum) {
+              element.setAttribute("src", videoSource[videoNum]);
+              element.autoplay = true;
+              element.load();
+              element.play();
+          }
+          document.getElementById('volume-video').addEventListener('ended', myHandler, false);
+          videoPlay(0);
+          function myHandler() {
+              i++;
+              if (i == videoCount) {
+                  i = 0;
+                  videoPlay(i);
+              } else {
+                  videoPlay(i);
+                  element.loop = true;
+              }
+          }
+        </script>
     </body>
 </html>

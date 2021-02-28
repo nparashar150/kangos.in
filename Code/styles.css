@@ -259,9 +259,13 @@ a:hover, a:visited, a:link, a:active
 }*/
 .home-img-bg {
   width: 50%;
-  margin-top: -50%;
+  margin-top: -60%;
+  margin-bottom: 1%;
   margin-left: 45%;
   height: auto;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
 }
 .home-img {
   width: 18%;
@@ -278,7 +282,7 @@ a:hover, a:visited, a:link, a:active
   background-color: #1a1a1a; 
   padding-bottom: 5vw; 
   padding-top: 5vw; 
-  text-align: right; 
+  text-align: center; 
   font-size: 2vw;
   margin-left: 50%;
   color: #5b5b5b;
@@ -337,42 +341,6 @@ a:hover, a:visited, a:link, a:active
 }
 .glow {
   animation: glow 4s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 4px rgb(0, 0, 0), 0 0 4px #e23636, 0 0 4px #da692d, 0 0 4px #c8ca2c, 0 0 4px #90cc30, 0 0 4px #16d145;
-  }
-  
-  to {
-    text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 4px #000000, 0 0 4px #34eaf0, 0 0 4px #3af0e7, 0 0 4px #3168df, 0 0 4px #b538f3, 0 0 4px #ee39bb;
-  }
-}
-.glow-red {
-  animation: glowred 2s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glowred {
-  from {
-    text-shadow: 0 0 3px rgb(255, 136, 136), 0 0 3px rgb(255, 124, 124), 0 0 3px #ff5353, 0 0 3px #c24242, 0 0 3px #9b2727, 0 0 3px #b52929, 0 0 3px #762525;
-  }
-  
-  to {
-    text-shadow: 0 0 3px #762525, 0 0 3px #b52929, 0 0 3px #9b2727, 0 0 3px #c24242,  0 0 3px #ff5353,  0 0 3px rgb(255, 124, 124),  0 0 3px rgb(255, 136, 136); 
-  }
-}
-.glow-cyan {
-  animation: glowcyan 2s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glowcyan {
-  from {
-    text-shadow: 0 0 3px rgb(155, 244, 247), 0 0 3px rgb(97, 205, 238), 0 0 3px #58a5d8, 0 0 3px #3793c4, 0 0 3px #17648d, 0 0 3px #2470b8, 0 0 3px #144b6a;
-  }
-  
-  to {
-    text-shadow: 0 0 3px #144b6a, 0 0 3px #2470b8, 0 0 3px #17648d, 0 0 3px #3793c4, 0 0 3px #58a5d8, 0 0 3px rgb(97, 205, 238), 0 0 3px rgb(155, 244, 247);
-  }
 }
 .data-slide {
   position: relative;

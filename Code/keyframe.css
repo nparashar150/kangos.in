@@ -169,3 +169,38 @@
     90% { background-color: rgb(70, 19, 34);}
     100% { background-color: rgb(75, 16, 16);}
 }
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 4px rgb(0, 0, 0), 0 0 4px #e72629, 0 0 4px #d5a817, 0 0 4px #ccd016, 0 0 4px #87d012, 0 0 4px #0dd53f;
+    }
+    
+    to {
+      text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 4px #0d5dd5, 0 0 4px #00ebf3, 0 0 4px #19dcd2, 0 0 4px #1a55d5, 0 0 4px #a116e6, 0 0 4px #e138b1;
+    }
+  }
+  .glow-red {
+    animation: glowred 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glowred {
+    from {
+      text-shadow: 0 0 3px rgb(255, 136, 136), 0 0 3px rgb(255, 124, 124), 0 0 3px #ff5353, 0 0 3px #c24242, 0 0 3px #9b2727, 0 0 3px #b52929, 0 0 3px #762525;
+    }
+    
+    to {
+      text-shadow: 0 0 3px #762525, 0 0 3px #b52929, 0 0 3px #9b2727, 0 0 3px #c24242,  0 0 3px #ff5353,  0 0 3px rgb(255, 124, 124),  0 0 3px rgb(255, 136, 136); 
+    }
+  }
+  .glow-cyan {
+    animation: glowcyan 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glowcyan {
+    from {
+      text-shadow: 0 0 3px rgb(155, 244, 247), 0 0 3px rgb(97, 205, 238), 0 0 3px #58a5d8, 0 0 3px #3793c4, 0 0 3px #17648d, 0 0 3px #2470b8, 0 0 3px #144b6a;
+    }
+    
+    to {
+      text-shadow: 0 0 3px #144b6a, 0 0 3px #2470b8, 0 0 3px #17648d, 0 0 3px #3793c4, 0 0 3px #58a5d8, 0 0 3px rgb(97, 205, 238), 0 0 3px rgb(155, 244, 247);
+    }
+  }

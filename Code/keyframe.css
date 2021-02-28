@@ -1,206 +1,513 @@
 @keyframes img6 {
-    0% { background-image: url(../Code/album/6_1.png);}
-    10% { background-image: url(../Code/album/6_2.png);}
-    20% { background-image: url(../Code/album/6_3.png);}
-    30% { background-image: url(../Code/album/6_4.png);}
-    40% { background-image: url(../Code/album/6_5.png);}
-    50% { background-image: url(../Code/album/6_7.png);}
-    60% { background-image: url(../Code/album/6_8.png);}
-    70% { background-image: url(../Code/album/6_9.png);}
-    80% { background-image: url(../Code/album/6_9.png);}
-    90% { background-image: url(../Code/album/6_3.png);}
-    100% { background-image: url(../Code/album/6_1.png);}
+    0% {
+        background-image: url(../Code/album/6_1.png);
+    }
+    10% {
+        background-image: url(../Code/album/6_2.png);
+    }
+    20% {
+        background-image: url(../Code/album/6_3.png);
+    }
+    30% {
+        background-image: url(../Code/album/6_4.png);
+    }
+    40% {
+        background-image: url(../Code/album/6_5.png);
+    }
+    50% {
+        background-image: url(../Code/album/6_7.png);
+    }
+    60% {
+        background-image: url(../Code/album/6_8.png);
+    }
+    70% {
+        background-image: url(../Code/album/6_9.png);
+    }
+    80% {
+        background-image: url(../Code/album/6_9.png);
+    }
+    90% {
+        background-image: url(../Code/album/6_3.png);
+    }
+    100% {
+        background-image: url(../Code/album/6_1.png);
+    }
 }
+
 @keyframes img5 {
-    0% { background-image: url(../Code/album/5_1.png);}
-    10% { background-image: url(../Code/album/5_2.png);}
-    20% { background-image: url(../Code/album/5_3.png);}
-    30% { background-image: url(../Code/album/5_4.png);}
-    40% { background-image: url(../Code/album/5_5.png);}
-    50% { background-image: url(../Code/album/5_7.png);}
-    60% { background-image: url(../Code/album/5_8.png);}
-    70% { background-image: url(../Code/album/5_9.png);}
-    80% { background-image: url(../Code/album/5_9.png);}
-    90% { background-image: url(../Code/album/5_3.png);}
-    100% { background-image: url(../Code/album/5_1.png);}
+    0% {
+        background-image: url(../Code/album/5_1.png);
+    }
+    10% {
+        background-image: url(../Code/album/5_2.png);
+    }
+    20% {
+        background-image: url(../Code/album/5_3.png);
+    }
+    30% {
+        background-image: url(../Code/album/5_4.png);
+    }
+    40% {
+        background-image: url(../Code/album/5_5.png);
+    }
+    50% {
+        background-image: url(../Code/album/5_7.png);
+    }
+    60% {
+        background-image: url(../Code/album/5_8.png);
+    }
+    70% {
+        background-image: url(../Code/album/5_9.png);
+    }
+    80% {
+        background-image: url(../Code/album/5_9.png);
+    }
+    90% {
+        background-image: url(../Code/album/5_3.png);
+    }
+    100% {
+        background-image: url(../Code/album/5_1.png);
+    }
 }
+
 @keyframes img4 {
-    0% { background-image: url(../Code/album/4_1.png);}
-    10% { background-image: url(../Code/album/4_2.png);}
-    20% { background-image: url(../Code/album/4_3.png);}
-    30% { background-image: url(../Code/album/4_4.png);}
-    40% { background-image: url(../Code/album/4_5.png);}
-    50% { background-image: url(../Code/album/4_7.png);}
-    60% { background-image: url(../Code/album/4_8.png);}
-    70% { background-image: url(../Code/album/4_9.png);}
-    80% { background-image: url(../Code/album/4_9.png);}
-    90% { background-image: url(../Code/album/4_3.png);}
-    100% { background-image: url(../Code/album/4_1.png);}
+    0% {
+        background-image: url(../Code/album/4_1.png);
+    }
+    10% {
+        background-image: url(../Code/album/4_2.png);
+    }
+    20% {
+        background-image: url(../Code/album/4_3.png);
+    }
+    30% {
+        background-image: url(../Code/album/4_4.png);
+    }
+    40% {
+        background-image: url(../Code/album/4_5.png);
+    }
+    50% {
+        background-image: url(../Code/album/4_7.png);
+    }
+    60% {
+        background-image: url(../Code/album/4_8.png);
+    }
+    70% {
+        background-image: url(../Code/album/4_9.png);
+    }
+    80% {
+        background-image: url(../Code/album/4_9.png);
+    }
+    90% {
+        background-image: url(../Code/album/4_3.png);
+    }
+    100% {
+        background-image: url(../Code/album/4_1.png);
+    }
 }
+
 @keyframes img3 {
-    0% { background-image: url(../Code/album/3_1.png);}
-    10% { background-image: url(../Code/album/3_2.png);}
-    20% { background-image: url(../Code/album/3_3.png);}
-    30% { background-image: url(../Code/album/3_4.png);}
-    40% { background-image: url(../Code/album/3_5.png);}
-    50% { background-image: url(../Code/album/3_7.png);}
-    60% { background-image: url(../Code/album/3_8.png);}
-    70% { background-image: url(../Code/album/3_9.png);}
-    80% { background-image: url(../Code/album/3_9.png);}
-    90% { background-image: url(../Code/album/3_3.png);}
-    100% { background-image: url(../Code/album/3_1.png);}
+    0% {
+        background-image: url(../Code/album/3_1.png);
+    }
+    10% {
+        background-image: url(../Code/album/3_2.png);
+    }
+    20% {
+        background-image: url(../Code/album/3_3.png);
+    }
+    30% {
+        background-image: url(../Code/album/3_4.png);
+    }
+    40% {
+        background-image: url(../Code/album/3_5.png);
+    }
+    50% {
+        background-image: url(../Code/album/3_7.png);
+    }
+    60% {
+        background-image: url(../Code/album/3_8.png);
+    }
+    70% {
+        background-image: url(../Code/album/3_9.png);
+    }
+    80% {
+        background-image: url(../Code/album/3_9.png);
+    }
+    90% {
+        background-image: url(../Code/album/3_3.png);
+    }
+    100% {
+        background-image: url(../Code/album/3_1.png);
+    }
 }
+
 @keyframes img2 {
-    0% { background-image: url(../Code/album/2_1.png);}
-    10% { background-image: url(../Code/album/2_2.png);}
-    20% { background-image: url(../Code/album/2_3.png);}
-    30% { background-image: url(../Code/album/2_4.png);}
-    40% { background-image: url(../Code/album/2_5.png);}
-    50% { background-image: url(../Code/album/2_7.png);}
-    60% { background-image: url(../Code/album/2_8.png);}
-    70% { background-image: url(../Code/album/2_9.png);}
-    80% { background-image: url(../Code/album/2_9.png);}
-    90% { background-image: url(../Code/album/2_3.png);}
-    100% { background-image: url(../Code/album/2_1.png);}
+    0% {
+        background-image: url(../Code/album/2_1.png);
+    }
+    10% {
+        background-image: url(../Code/album/2_2.png);
+    }
+    20% {
+        background-image: url(../Code/album/2_3.png);
+    }
+    30% {
+        background-image: url(../Code/album/2_4.png);
+    }
+    40% {
+        background-image: url(../Code/album/2_5.png);
+    }
+    50% {
+        background-image: url(../Code/album/2_7.png);
+    }
+    60% {
+        background-image: url(../Code/album/2_8.png);
+    }
+    70% {
+        background-image: url(../Code/album/2_9.png);
+    }
+    80% {
+        background-image: url(../Code/album/2_9.png);
+    }
+    90% {
+        background-image: url(../Code/album/2_3.png);
+    }
+    100% {
+        background-image: url(../Code/album/2_1.png);
+    }
 }
+
 @keyframes img1 {
-    0% { background-image: url(../Code/album/1_1.png);}
-    10% { background-image: url(../Code/album/1_2.png);}
-    20% { background-image: url(../Code/album/1_3.png);}
-    30% { background-image: url(../Code/album/1_4.png);}
-    40% { background-image: url(../Code/album/1_5.png);}
-    50% { background-image: url(../Code/album/1_7.png);}
-    60% { background-image: url(../Code/album/1_8.png);}
-    70% { background-image: url(../Code/album/1_9.png);}
-    80% { background-image: url(../Code/album/1_9.png);}
-    90% { background-image: url(../Code/album/1_3.png);}
-    100% { background-image: url(../Code/album/1_1.png);}
+    0% {
+        background-image: url(../Code/album/1_1.png);
+    }
+    10% {
+        background-image: url(../Code/album/1_2.png);
+    }
+    20% {
+        background-image: url(../Code/album/1_3.png);
+    }
+    30% {
+        background-image: url(../Code/album/1_4.png);
+    }
+    40% {
+        background-image: url(../Code/album/1_5.png);
+    }
+    50% {
+        background-image: url(../Code/album/1_7.png);
+    }
+    60% {
+        background-image: url(../Code/album/1_8.png);
+    }
+    70% {
+        background-image: url(../Code/album/1_9.png);
+    }
+    80% {
+        background-image: url(../Code/album/1_9.png);
+    }
+    90% {
+        background-image: url(../Code/album/1_3.png);
+    }
+    100% {
+        background-image: url(../Code/album/1_1.png);
+    }
 }
+
 @keyframes borderrgb {
-    0% { border: 2px solid rgb(143, 55, 55);}
-    10% { border: 2px solid rgb(143, 121, 55);}
-    15% { border: 2px solid rgb(143, 168, 55);}
-    20% { border: 2px solid rgb(184, 143, 55);}
-    30% { border: 2px solid rgb(73, 143, 55);}
-    35% { border: 2px solid rgb(77, 143, 55);}
-    40% { border: 2px solid rgb(55, 143, 133);}
-    50% { border: 2px solid rgb(55, 153, 143);}
-    55% { border: 2px solid rgb(55, 99, 143);}
-    60% { border: 2px solid rgb(55, 99, 143);}
-    70% { border: 2px solid rgb(165, 55, 143);}
-    80% { border: 2px solid rgb(143, 55, 143);}
-    90% { border: 2px solid rgb(143, 55, 91);}
-    100% { border: 2px solid rgb(143, 55, 55);}
+    0% {
+        border: 2px solid rgb(143, 55, 55);
+    }
+    10% {
+        border: 2px solid rgb(143, 121, 55);
+    }
+    15% {
+        border: 2px solid rgb(143, 168, 55);
+    }
+    20% {
+        border: 2px solid rgb(184, 143, 55);
+    }
+    30% {
+        border: 2px solid rgb(73, 143, 55);
+    }
+    35% {
+        border: 2px solid rgb(77, 143, 55);
+    }
+    40% {
+        border: 2px solid rgb(55, 143, 133);
+    }
+    50% {
+        border: 2px solid rgb(55, 153, 143);
+    }
+    55% {
+        border: 2px solid rgb(55, 99, 143);
+    }
+    60% {
+        border: 2px solid rgb(55, 99, 143);
+    }
+    70% {
+        border: 2px solid rgb(165, 55, 143);
+    }
+    80% {
+        border: 2px solid rgb(143, 55, 143);
+    }
+    90% {
+        border: 2px solid rgb(143, 55, 91);
+    }
+    100% {
+        border: 2px solid rgb(143, 55, 55);
+    }
 }
+
 @keyframes textrgb {
-    0% { color: rgb(143, 55, 55);}
-    10% { color: rgb(143, 121, 55);}
-    15% { color: rgb(143, 168, 55);}
-    20% { color: rgb(184, 143, 55);}
-    30% { color: rgb(73, 143, 55);}
-    35% { color: rgb(77, 143, 55);}
-    40% { color: rgb(55, 143, 133);}
-    50% { color: rgb(55, 153, 143);}
-    55% { color: rgb(55, 99, 143);}
-    60% { color: rgb(55, 99, 143);}
-    70% { color: rgb(165, 55, 143);}
-    80% { color: rgb(143, 55, 143);}
-    90% { color: rgb(143, 55, 91);}
-    100% { color: rgb(143, 55, 55);}
+    0% {
+        color: rgb(143, 55, 55);
+    }
+    10% {
+        color: rgb(143, 121, 55);
+    }
+    15% {
+        color: rgb(143, 168, 55);
+    }
+    20% {
+        color: rgb(184, 143, 55);
+    }
+    30% {
+        color: rgb(73, 143, 55);
+    }
+    35% {
+        color: rgb(77, 143, 55);
+    }
+    40% {
+        color: rgb(55, 143, 133);
+    }
+    50% {
+        color: rgb(55, 153, 143);
+    }
+    55% {
+        color: rgb(55, 99, 143);
+    }
+    60% {
+        color: rgb(55, 99, 143);
+    }
+    70% {
+        color: rgb(165, 55, 143);
+    }
+    80% {
+        color: rgb(143, 55, 143);
+    }
+    90% {
+        color: rgb(143, 55, 91);
+    }
+    100% {
+        color: rgb(143, 55, 55);
+    }
 }
+
 @keyframes rgbbg {
-    0% { background: rgb(243, 55, 55); color: white;}
-    10% { background: rgb(243, 121, 55);}
-    15% { background: rgb(243, 168, 55);}
-    20% { background: rgb(224, 243, 55);}
-    30% { background: rgb(133, 243, 55);}
-    35% { background: rgb(77, 243, 55);}
-    40% { background: rgb(55, 243, 133);}
-    50% { background: rgb(55, 193, 243); color: black;}
-    55% { background: rgb(55, 99, 243);}
-    60% { background: rgb(55, 99, 243);}
-    70% { background: rgb(165, 55, 243);}
-    80% { background: rgb(243, 55, 243);}
-    90% { background: rgb(243, 55, 111);}
-    100% { background: rgb(243, 55, 55);}
+    0% {
+        background: rgb(243, 55, 55);
+        color: white;
+    }
+    10% {
+        background: rgb(243, 121, 55);
+    }
+    15% {
+        background: rgb(243, 168, 55);
+    }
+    20% {
+        background: rgb(224, 243, 55);
+    }
+    30% {
+        background: rgb(133, 243, 55);
+    }
+    35% {
+        background: rgb(77, 243, 55);
+    }
+    40% {
+        background: rgb(55, 243, 133);
+    }
+    50% {
+        background: rgb(55, 193, 243);
+        color: black;
+    }
+    55% {
+        background: rgb(55, 99, 243);
+    }
+    60% {
+        background: rgb(55, 99, 243);
+    }
+    70% {
+        background: rgb(165, 55, 243);
+    }
+    80% {
+        background: rgb(243, 55, 243);
+    }
+    90% {
+        background: rgb(243, 55, 111);
+    }
+    100% {
+        background: rgb(243, 55, 55);
+    }
 }
+
 @keyframes rgb {
-    0% { color: rgb(243, 55, 55);}
-    10% { color: rgb(243, 121, 55);}
-    15% { color: rgb(243, 168, 55);}
-    20% { color: rgb(224, 243, 55);}
-    30% { color: rgb(133, 243, 55);}
-    35% { color: rgb(77, 243, 55);}
-    40% { color: rgb(55, 243, 133);}
-    50% { color: rgb(55, 193, 243);}
-    55% { color: rgb(55, 99, 243);}
-    60% { color: rgb(55, 99, 243);}
-    70% { color: rgb(165, 55, 243);}
-    80% { color: rgb(243, 55, 243);}
-    90% { color: rgb(243, 55, 111);}
-    100% { color: rgb(243, 55, 55);}
+    0% {
+        color: rgb(243, 55, 55);
+    }
+    10% {
+        color: rgb(243, 121, 55);
+    }
+    15% {
+        color: rgb(243, 168, 55);
+    }
+    20% {
+        color: rgb(224, 243, 55);
+    }
+    30% {
+        color: rgb(133, 243, 55);
+    }
+    35% {
+        color: rgb(77, 243, 55);
+    }
+    40% {
+        color: rgb(55, 243, 133);
+    }
+    50% {
+        color: rgb(55, 193, 243);
+    }
+    55% {
+        color: rgb(55, 99, 243);
+    }
+    60% {
+        color: rgb(55, 99, 243);
+    }
+    70% {
+        color: rgb(165, 55, 243);
+    }
+    80% {
+        color: rgb(243, 55, 243);
+    }
+    90% {
+        color: rgb(243, 55, 111);
+    }
+    100% {
+        color: rgb(243, 55, 55);
+    }
 }
+
 @keyframes bgrgb {
-    0% { background-image: url(../Code/banner.png);}
-    10% { background-image: url(../Code/banner2.png);}
-    20% { background-image: url(../Code/banner3.png);}
-    30% { background-image: url(../Code/banner4.png);}
-    40% { background-image: url(../Code/banner5.png);}
-    50% { background-image: url(../Code/banner6.png);}
-    60% { background-image: url(../Code/banner7.png);}
-    70% { background-image: url(../Code/banner8.png);}
-    80% { background-image: url(../Code/banner9.png);}
-    90% { background-image: url(../Code/banner.png);}
-    100% { background-image: url(../Code/banner2.png);}
+    0% {
+        background-image: url(../Code/banner.png);
+    }
+    10% {
+        background-image: url(../Code/banner2.png);
+    }
+    20% {
+        background-image: url(../Code/banner3.png);
+    }
+    30% {
+        background-image: url(../Code/banner4.png);
+    }
+    40% {
+        background-image: url(../Code/banner5.png);
+    }
+    50% {
+        background-image: url(../Code/banner6.png);
+    }
+    60% {
+        background-image: url(../Code/banner7.png);
+    }
+    70% {
+        background-image: url(../Code/banner8.png);
+    }
+    80% {
+        background-image: url(../Code/banner9.png);
+    }
+    90% {
+        background-image: url(../Code/banner.png);
+    }
+    100% {
+        background-image: url(../Code/banner2.png);
+    }
 }
+
 @keyframes rgbg {
-    0% { background-color: rgb(85, 19, 19);}
-    10% { background-color: rgb(78, 36, 13);}
-    15% { background-color: rgb(92, 61, 16);}
-    20% { background-color: rgb(74, 80, 17);}
-    30% { background-color: rgb(41, 75, 18);}
-    35% { background-color: rgb(25, 83, 17);}
-    40% { background-color: rgb(16, 90, 47);}
-    50% { background-color: rgb(14, 61, 78);}
-    55% { background-color: rgb(13, 28, 80);}
-    60% { background-color: rgb(16, 28, 70);}
-    70% { background-color: rgb(49, 14, 73);}
-    80% { background-color: rgb(63, 15, 63);}
-    90% { background-color: rgb(70, 19, 34);}
-    100% { background-color: rgb(75, 16, 16);}
+    0% {
+        background-color: rgb(85, 19, 19);
+    }
+    10% {
+        background-color: rgb(78, 36, 13);
+    }
+    15% {
+        background-color: rgb(92, 61, 16);
+    }
+    20% {
+        background-color: rgb(74, 80, 17);
+    }
+    30% {
+        background-color: rgb(41, 75, 18);
+    }
+    35% {
+        background-color: rgb(25, 83, 17);
+    }
+    40% {
+        background-color: rgb(16, 90, 47);
+    }
+    50% {
+        background-color: rgb(14, 61, 78);
+    }
+    55% {
+        background-color: rgb(13, 28, 80);
+    }
+    60% {
+        background-color: rgb(16, 28, 70);
+    }
+    70% {
+        background-color: rgb(49, 14, 73);
+    }
+    80% {
+        background-color: rgb(63, 15, 63);
+    }
+    90% {
+        background-color: rgb(70, 19, 34);
+    }
+    100% {
+        background-color: rgb(75, 16, 16);
+    }
 }
+
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px #e72629, 0 0 3px #d5a817, 0 0 3px #ccd016, 0 0 3px #87d012, 0 0 3px #0dd53f;
+        text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px #e72629, 0 0 3px #d5a817, 0 0 3px #ccd016, 0 0 3px #87d012, 0 0 3px #0dd53f;
     }
-    
     to {
-      text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px #0d5dd5, 0 0 3px #00ebf3, 0 0 3px #19dcd2, 0 0 3px #1a55d5, 0 0 3px #a116e6, 0 0 3px #e138b1;
+        text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px #0d5dd5, 0 0 3px #00ebf3, 0 0 3px #19dcd2, 0 0 3px #1a55d5, 0 0 3px #a116e6, 0 0 3px #e138b1;
     }
-  }
-  .glow-red {
+}
+
+.glow-red {
     animation: glowred 2s ease-in-out infinite alternate;
-  }
-  
-  @-webkit-keyframes glowred {
+}
+
+@-webkit-keyframes glowred {
     from {
-      text-shadow: 0 0 3px rgb(255, 136, 136), 0 0 3px rgb(255, 124, 124), 0 0 3px #ff5353, 0 0 3px #c24242, 0 0 3px #9b2727, 0 0 3px #b52929, 0 0 3px #762525;
+        text-shadow: 0 0 3px rgb(255, 136, 136), 0 0 3px rgb(255, 124, 124), 0 0 3px #ff5353, 0 0 3px #c24242, 0 0 3px #9b2727, 0 0 3px #b52929, 0 0 3px #762525;
     }
-    
     to {
-      text-shadow: 0 0 3px #762525, 0 0 3px #b52929, 0 0 3px #9b2727, 0 0 3px #c24242,  0 0 3px #ff5353,  0 0 3px rgb(255, 124, 124),  0 0 3px rgb(255, 136, 136); 
+        text-shadow: 0 0 3px #762525, 0 0 3px #b52929, 0 0 3px #9b2727, 0 0 3px #c24242, 0 0 3px #ff5353, 0 0 3px rgb(255, 124, 124), 0 0 3px rgb(255, 136, 136);
     }
-  }
-  .glow-cyan {
+}
+
+.glow-cyan {
     animation: glowcyan 2s ease-in-out infinite alternate;
-  }
-  
-  @-webkit-keyframes glowcyan {
+}
+
+@-webkit-keyframes glowcyan {
     from {
-      text-shadow: 0 0 3px rgb(155, 244, 247), 0 0 3px rgb(97, 205, 238), 0 0 3px #58a5d8, 0 0 3px #3793c4, 0 0 3px #17648d, 0 0 3px #2470b8, 0 0 3px #144b6a;
+        text-shadow: 0 0 3px rgb(155, 244, 247), 0 0 3px rgb(97, 205, 238), 0 0 3px #58a5d8, 0 0 3px #3793c4, 0 0 3px #17648d, 0 0 3px #2470b8, 0 0 3px #144b6a;
     }
-    
     to {
-      text-shadow: 0 0 3px #144b6a, 0 0 3px #2470b8, 0 0 3px #17648d, 0 0 3px #3793c4, 0 0 3px #58a5d8, 0 0 3px rgb(97, 205, 238), 0 0 3px rgb(155, 244, 247);
+        text-shadow: 0 0 3px #144b6a, 0 0 3px #2470b8, 0 0 3px #17648d, 0 0 3px #3793c4, 0 0 3px #58a5d8, 0 0 3px rgb(97, 205, 238), 0 0 3px rgb(155, 244, 247);
     }
-  }
+}

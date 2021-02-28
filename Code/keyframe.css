@@ -171,11 +171,11 @@
 }
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 4px rgb(0, 0, 0), 0 0 4px #e72629, 0 0 4px #d5a817, 0 0 4px #ccd016, 0 0 4px #87d012, 0 0 4px #0dd53f;
+      text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px #e72629, 0 0 3px #d5a817, 0 0 3px #ccd016, 0 0 3px #87d012, 0 0 3px #0dd53f;
     }
     
     to {
-      text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 4px #0d5dd5, 0 0 4px #00ebf3, 0 0 4px #19dcd2, 0 0 4px #1a55d5, 0 0 4px #a116e6, 0 0 4px #e138b1;
+      text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px #0d5dd5, 0 0 3px #00ebf3, 0 0 3px #19dcd2, 0 0 3px #1a55d5, 0 0 3px #a116e6, 0 0 3px #e138b1;
     }
   }
   .glow-red {

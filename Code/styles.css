@@ -465,3 +465,15 @@ a:hover, a:visited, a:link, a:active
   background-color: #111;
   color: #111;
 }
+.footer-para {
+  color: #00bf80;
+  font-size: 1.5vw;
+}
+.footer-main{
+  padding-top: 5%;
+  margin-left: -6%;
+}
+.footer-tittle {
+  color: #00bf80;
+  margin-top: 10%;
+}

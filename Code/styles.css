@@ -541,17 +541,41 @@ a:active {
     color: #111;
 }
 
-.footer-para {
-    color: #00bf80;
+.footer h4 {
+    color: #4dd5ff;
+    font-size: 2vw;
+    margin-left: 12vw;
+}
+
+.footer-2 h4 {
+    color: #4dd5ff;
+    font-size: 2vw;
+    margin-left: 17vw;
+}
+
+.ul-footer {
+    color: #4dd5ff;
     font-size: 1.5vw;
+    list-style-type: none;
+    margin-left: 5vw;
 }
 
-.footer-main {
-    padding-top: 5%;
-    margin-left: -6%;
+.ul-footer li {
+    text-align: center;
 }
 
-.footer-tittle {
-    color: #00bf80;
-    margin-top: 10%;
+footer h1 {
+    padding-top: 5vw;
+    padding-bottom: 4vw;
+}
+
+.footer-2 {
+    margin-left: 65vw;
+    margin-top: -17.3vw;
+    padding-bottom: 5vw;
+}
+
+.footer {
+    margin-right: 75vw;
+    padding-bottom: 2vw;
 }

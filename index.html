@@ -2,425 +2,378 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Kang OS | ROM</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Code/styles.css">
-  <link rel="stylesheet" href="Code/media.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="Code/keyframe.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    #loader {
-      height: 55px;
-      width: 55px;
-      background-color: rgb(243, 55, 55);
-      border-radius: 50%;
-      display: inline-block;
-      animation: load 2s infinite;
-      animation: rgbloader 5s infinite;
-    }
-
-    @keyframes rgbloader {
-      0% {
-        background-color: rgb(243, 55, 55);
-      }
-
-      10% {
-        background-color: rgb(243, 121, 55);
-      }
-
-      15% {
-        background-color: rgb(243, 168, 55);
-      }
-
-      20% {
-        background-color: rgb(224, 243, 55);
-      }
-
-      30% {
-        background-color: rgb(133, 243, 55);
-      }
-
-      35% {
-        background-color: rgb(77, 243, 55);
-      }
-
-      40% {
-        background-color: rgb(55, 243, 133);
-      }
-
-      50% {
-        background-color: rgb(55, 193, 243);
-      }
-
-      55% {
-        background-color: rgb(55, 99, 243);
-      }
-
-      60% {
-        background-color: rgb(55, 99, 243);
-      }
-
-      70% {
-        background-color: rgb(165, 55, 243);
-      }
-
-      80% {
-        background-color: rgb(243, 55, 243);
-      }
-
-      90% {
-        background-color: rgb(243, 55, 111);
-      }
-
-      100% {
-        background-color: rgb(243, 55, 55);
-      }
-    }
-
-    @keyframes load {
-      0% {
-        height: 35px;
-        width: 35px;
-      }
-
-      100% {
-        height: 55px;
-        width: 55px;
-      }
-    }
-
-    svg {
-      display: inline-block;
-    }
-
-    .center {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-    }
-
-    ::-webkit-scrollbar {
-      width: 7px;
-      height: 7px;
-    }
-
-    ::-webkit-scrollbar-track {
-      box-shadow: inset 0 0 2px grey;
-      border-radius: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-      background: #c94c4c;
-      border-radius: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-      background: #3d84c6;
-    }
-  </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kang OS | ROM</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Code/styles.css">
+    <link rel="stylesheet" href="Code/media.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="Code/keyframe.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #loader {
+            height: 55px;
+            width: 55px;
+            background-color: rgb(243, 55, 55);
+            border-radius: 50%;
+            display: inline-block;
+            animation: load 2s infinite;
+            animation: rgbloader 5s infinite;
+        }
+        
+        @keyframes rgbloader {
+            0% {
+                background-color: rgb(243, 55, 55);
+            }
+            10% {
+                background-color: rgb(243, 121, 55);
+            }
+            15% {
+                background-color: rgb(243, 168, 55);
+            }
+            20% {
+                background-color: rgb(224, 243, 55);
+            }
+            30% {
+                background-color: rgb(133, 243, 55);
+            }
+            35% {
+                background-color: rgb(77, 243, 55);
+            }
+            40% {
+                background-color: rgb(55, 243, 133);
+            }
+            50% {
+                background-color: rgb(55, 193, 243);
+            }
+            55% {
+                background-color: rgb(55, 99, 243);
+            }
+            60% {
+                background-color: rgb(55, 99, 243);
+            }
+            70% {
+                background-color: rgb(165, 55, 243);
+            }
+            80% {
+                background-color: rgb(243, 55, 243);
+            }
+            90% {
+                background-color: rgb(243, 55, 111);
+            }
+            100% {
+                background-color: rgb(243, 55, 55);
+            }
+        }
+        
+        @keyframes load {
+            0% {
+                height: 35px;
+                width: 35px;
+            }
+            100% {
+                height: 55px;
+                width: 55px;
+            }
+        }
+        
+        svg {
+            display: inline-block;
+        }
+        
+        .center {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        
+         ::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+        }
+        
+         ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 2px grey;
+            border-radius: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: #c94c4c;
+            border-radius: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #3d84c6;
+        }
+    </style>
 </head>
 
 <body class="bg" data-spy="scroll" data-target=".fixed-top">
-  <div id="loader" class="center">
-    <svg version="1.1" id="L3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-      y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+    <div id="loader" class="center">
+        <svg version="1.1" id="L3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
       <circle fill="none" stroke="#fff" stroke-width="4" cx="50" cy="50" r="44" style="opacity:0.5;" />
       <circle fill="#fff" stroke="#e74c3c" stroke-width="3" cx="8" cy="54" r="6">
         <animateTransform attributeName="transform" dur="2s" type="rotate" from="0 50 48" to="360 50 52"
           repeatCount="indefinite" />
       </circle>
     </svg>
-  </div>
-  <div class="navbar" id="navbarid">
-    <a href="#section1">Home</a>
-    <a href="#section2">Features</a>
-    <a href="#section3">Donate US</a>
-    <a href="#section4">Team</a>
-    <a href="#section5">Follow US</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navit()">&#9776;</a>
-  </div>
-  <h1 class="heading-center glow">Kang OS<h4 class="heading-center-2 glow">Powered By Android</h4>
-    <h4 class="heading-center-3 glow"><a href="#">Download</a></h4>
-  </h1>
-  <div>
-    <video id="volume-video" class="home-img-bg" playsinline="true" muted="" preload="metadata" autoplay="">
+    </div>
+    <div class="navbar" id="navbarid">
+        <a href="#section1">Home</a>
+        <a href="#section2">Features</a>
+        <a href="#section3">Donate US</a>
+        <a href="#section4">Team</a>
+        <a href="#section5">Follow US</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navit()">&#9776;</a>
+    </div>
+    <h1 class="heading-center glow">Kang OS
+        <h4 class="heading-center-2 glow">Powered By Android</h4>
+        <h4 class="heading-center-3 glow"><a href="#">Download</a></h4>
+    </h1>
+    <div>
+        <video id="volume-video" class="home-img-bg" playsinline="true" muted="" preload="metadata" autoplay="">
 
     </video>
-  </div>
-  <section id="section1">
-    <h1 class="heading" style="margin-top: 9%;"></h1>
-    <div
-      style="background-color: #1a1a1a; padding-top: 5vw; padding-bottom: 5vw; border-radius: 10px; box-shadow: 0 0 20px #186e88; z-index: 1; position: relative;">
-      <div>
-        <video class="home-img" loop="" playsinline="true" muted="" preload="metadata" autoplay="">
+    </div>
+    <section id="section1">
+        <h1 class="heading" style="margin-top: 9%;"></h1>
+        <div style="background-color: #1a1a1a; padding-top: 5vw; padding-bottom: 5vw; border-radius: 10px; box-shadow: 0 0 20px #186e88; z-index: 1; position: relative;">
+            <div>
+                <video class="home-img" loop="" playsinline="true" muted="" preload="metadata" autoplay="">
           <source src="https://raw.githubusercontent.com/nparashar150/kangos/master/Code/album/home.mp4"
             type="video/mp4">
         </video>
-      </div>
-      <div class="home-text">
-        <p>Kang OS is a buttery smooth aftermarket Android™ firmware.
-          Combining newest security patches, original features and wide device support, Kang OS is a product created to
-          make your life easier and breathe some fresh air into the custom ROM scene.</p>
-      </div>
-    </div>
-    <img src="Code/triangel.png" class="img-home-bottom" alt="">
-    <!--<div class="home-end"><br><br></div>
+            </div>
+            <div class="home-text">
+                <p>Kang OS is a buttery smooth aftermarket Android™ firmware. Combining newest security patches, original features and wide device support, Kang OS is a product created to make your life easier and breathe some fresh air into the custom ROM
+                    scene.
+                </p>
+            </div>
+        </div>
+        <img src="Code/triangel.png" class="img-home-bottom" alt="">
+        <!--<div class="home-end"><br><br></div>
             </div>-->
-  </section>
-  <section id="section2">
-    <div>
-      <h1 class="heading glow-red">ScreenShots</h1>
-    </div>
-    <div class="data-slide">
-      <div class="mySlides">
-        <img src="Code/album/ss/38.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/37.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/36.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/35.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/34.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/33.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/32.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/31.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/30.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/29.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/28.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/27.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/26.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/25.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/24.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/23.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/22.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/21.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/20.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/19.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/18.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/17.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/16.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/15.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/14.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/13.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/12.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/11.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/10.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/9.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/8.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/7.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/6.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/5.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/4.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/3.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/2.jpg">
-      </div>
-      <div class="mySlides">
-        <img src="Code/album/ss/1.jpg">
-      </div>
-      <div class="next-prev">
-        <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-backward"></i></a>
-        <a class="next" onclick="plusSlides(1)"><i class="fas fa-forward" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </section>
-  <section id="section3">
-    <div class="donate-now-div">
-      <a href="https://www.paypal.me/moditji" target="_blank" style="color: #0c0c0c;"><button class="donate-now-button">
+    </section>
+    <section id="section2">
+        <div>
+            <h1 class="heading glow-red">ScreenShots</h1>
+        </div>
+        <div class="data-slide">
+            <div class="mySlides">
+                <img src="Code/album/ss/38.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/37.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/36.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/35.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/34.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/33.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/32.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/31.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/30.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/29.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/28.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/27.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/26.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/25.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/24.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/23.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/22.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/21.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/20.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/19.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/18.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/17.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/16.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/15.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/14.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/13.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/12.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/11.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/10.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/9.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/8.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/7.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/6.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/5.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/4.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/3.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/2.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="Code/album/ss/1.jpg">
+            </div>
+            <div class="next-prev">
+                <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-backward"></i></a>
+                <a class="next" onclick="plusSlides(1)"><i class="fas fa-forward" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="donate-now-div">
+            <a href="https://www.paypal.me/moditji" target="_blank" style="color: #0c0c0c;"><button class="donate-now-button">
           Donate Now
         </button></a>
-    </div>
-    <div style="color: #5b5b5b;">
-      <h1 class="heading glow-red" style="padding-top: 5vw">Donate Us</h1>
-      <div class="page-donate">
-        <p>The team behind <b>Kang OS</b> has put our valuable time and energy to bring you a OS with performance and
-          battery life. Not only this we always try our best to push latest update to maximum devices possible.Please
-          share some love and support to the Team by making a contribution.</p>
-      </div>
-    </div>
-  </section>
-  <section id="section4">
-    <div>
-      <h1 class="heading glow-cyan media-resp">Team Members</h1>
-      <div class="row">
-        <div class="column">
-          <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev"
-              alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Founder</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Jay</a></p>
         </div>
-        <div class="column">
-          <a href="https://github.com/moditjain9777" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300"
-              src="Code/user/moditjain.png" class="user-dev" alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/moditjain9777"
-              target="_blank">Lead Developer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
-              href="https://github.com/moditjain9777" target="_blank">Modit Jain</a></p>
+        <div style="color: #5b5b5b;">
+            <h1 class="heading glow-red" style="padding-top: 5vw">Donate Us</h1>
+            <div class="page-donate">
+                <p>The team behind <b>Kang OS</b> has put our valuable time and energy to bring you a OS with performance and battery life. Not only this we always try our best to push latest update to maximum devices possible.Please share some love and
+                    support to the Team by making a contribution.</p>
+            </div>
         </div>
-        <div class="column">
-          <a href="https://github.com/ziasam" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300"
-              src="Code/user/zaisam.jpeg " class="user-dev" alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/ziasam" target="_blank">Lead
+    </section>
+    <section id="section4">
+        <div>
+            <h1 class="heading glow-cyan media-resp">Team Members</h1>
+            <div class="row">
+                <div class="column">
+                    <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Founder</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Jay</a></p>
+                </div>
+                <div class="column">
+                    <a href="https://github.com/moditjain9777" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/moditjain.png" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/moditjain9777" target="_blank">Lead Developer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/moditjain9777" target="_blank">Modit Jain</a></p>
+                </div>
+                <div class="column">
+                    <a href="https://github.com/ziasam" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/zaisam.jpeg " class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/ziasam" target="_blank">Lead
               Developer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
-              href="https://github.com/ziasam" target="_blank">Ziauddin Sameer</a></p>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/ziasam" target="_blank">Ziauddin Sameer</a></p>
+                </div>
+                <div class="column">
+                    <a href="https://github.com/nparashar150" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/namanparashar.jpeg" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/nparashar150" target="_blank">Core Developer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/nparashar150" target="_blank">Naman Parashar</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a href="https://github.com/sherifrahim" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/sherifrahim.jpeg" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/sherifrahim" target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/sherifrahim" target="_blank">Sherif Rahim</a></p>
+                </div>
+                <div class="column">
+                    <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Jay Persiho</a></p>
+                </div>
+                <div class="column">
+                    <a href="https://github.com/mavji7" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/vishwasmehta.jpeg" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/mavji7" target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/mavji7" target="_blank">Vishwas Mehta</a></p>
+                </div>
+                <div class="column">
+                    <a href="https://github.com/Spookcity" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/rickm.png" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Spookcity" target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/Spookcity" target="_blank">Rick M</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a href="https://github.com/mevadadarshan19" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/darshan.jpeg" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/mevadadarshan19" target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/mevadadarshan19" target="_blank">Darshan Mevada</a></p>
+                </div>
+                <div class="column">
+                    <a href="https://github.com/chandu078" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/chandu.jpeg" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chandu078" target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chandu078" target="_blank">Chandu</a></p>
+                </div>
+                <div class="column">
+                    <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Christian Cruz</a>
+                    </p>
+                </div>
+                <div class="column">
+                    <a href="https://github.com/MIUI56" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/ayush.png" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/MIUI56" target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/MIUI56" target="_blank">Ayush</a></p>
+                </div>
+            </div>
         </div>
-        <div class="column">
-          <a href="https://github.com/nparashar150" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300"
-              src="Code/user/namanparashar.jpeg" class="user-dev" alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/nparashar150"
-              target="_blank">Core Developer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
-              href="https://github.com/nparashar150" target="_blank">Naman Parashar</a></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <a href="https://github.com/sherifrahim" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300"
-              src="Code/user/sherifrahim.jpeg" class="user-dev" alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/sherifrahim"
-              target="_blank">Maintainer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
-              href="https://github.com/sherifrahim" target="_blank">Sherif Rahim</a></p>
-        </div>
-        <div class="column">
-          <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev"
-              alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Maintainer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Jay Persiho</a></p>
-        </div>
-        <div class="column">
-          <a href="https://github.com/mavji7" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300"
-              src="Code/user/vishwasmehta.jpeg" class="user-dev" alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/mavji7"
-              target="_blank">Maintainer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
-              href="https://github.com/mavji7" target="_blank">Vishwas Mehta</a></p>
-        </div>
-        <div class="column">
-          <a href="https://github.com/Spookcity" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300"
-              src="Code/user/rickm.png" class="user-dev" alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Spookcity"
-              target="_blank">Maintainer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
-              href="https://github.com/Spookcity" target="_blank">Rick M</a></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <a href="https://github.com/mevadadarshan19" target="_blank"><img data-aos="zoom-in-up"
-              data-aos-duration="1300" src="Code/user/darshan.jpeg" class="user-dev" alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/mevadadarshan19"
-              target="_blank">Maintainer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
-              href="https://github.com/mevadadarshan19" target="_blank">Darshan Mevada</a></p>
-        </div>
-        <div class="column">
-          <a href="https://github.com/chandu078" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300"
-              src="Code/user/chandu.jpeg" class="user-dev" alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chandu078"
-              target="_blank">Maintainer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
-              href="https://github.com/chandu078" target="_blank">Chandu</a></p>
-        </div>
-        <div class="column">
-          <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev"
-              alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Maintainer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Christian Cruz</a>
-          </p>
-        </div>
-        <div class="column">
-          <a href="https://github.com/MIUI56" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300"
-              src="Code/user/ayush.png" class="user-dev" alt=""></a>
-          <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/MIUI56"
-              target="_blank">Maintainer</a></h2>
-          <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
-              href="https://github.com/MIUI56" target="_blank">Ayush</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--<section id="section5">
+    </section>
+    <!--<section id="section5">
             <div>
                 <h1 class="heading glow" style="margin-top: 9%;" >Follow Us</h1>
                 <div class="padding"></div>
@@ -431,140 +384,127 @@
                 <p style="font-size: 20px; color: rgb(180, 180, 180);">Designed by Naman Parashar</p>
             </div>
         </section>-->
-  <footer>
-    <div class="footer-main">
-      <div class="footer-area footer-padding">
-        <div class="container">
-          <div class="row  justify-content-between">
-            <div class="col-lg-4 col-md-4 col-sm-8">
-              <div class="single-footer-caption mb-30">
-                <div class="footer-pera">
-                  <p class="footer-para">Kang OS is focused on android custom rom, custom
-                    kernel
-                    and app development. We are TeamKang.</p>
-                  <br>
-                  <p class="footer-para">Website Designed by : <br> <b><a href="https://github.com/nparashar150"
-                        target="_blank" style="color: #00e498;">Naman Parashar</b></a>.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-5">
-              <div class="single-footer-caption mb-50">
-                <div class="footer-tittle">
-                  <h4>Quick Links</h4>
-                  <ul>
-                    <li><a style="color: #00bf80;" href="#id_contact">Home</a></li>
-                    <li><a style="color: #00bf80;" href="#id_screenshot">KangOS</a></li>
-                    <li><a style="color: #00bf80;" href="#">Download</a></li>
-                    <li><a style="color: #00bf80;" href="#">Screenshots</a></li>
-                    <li><a style="color: #00bf80;" href="#">Team Members</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-7">
-              <div class="single-footer-caption mb-50">
-                <div class="footer-tittle">
-                  <h4>Support</h4>
-                  <ul>
-                    <li><a style="color: #00bf80;" href="https://github.com/Kang-OS-R" target="_blank">Github</a></li>
-                    <li><a style="color: #00bf80;" href="https://t.me/kangos" target="_blank">Telegram</a></li>
-                    <li><a style="color: #00bf80;" href="https://t.me/kangos" target="_blank">Report a bug</a></li>
-                    <li><a style="color: #00bf80;" href="https://t.me/kangos" target="_blank">FAQs</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+    <footer>
+        <h1 class="heading glow-cyan media-resp">Follow US</h1>
+        <div class="footer">
+            <h4>Quick Links</h4>
+            <ul class="ul-footer">
+                <li><a style="color: #00bf80;" href="#">Home</a></li>
+                <li><a style="color: #00bf80;" href="#section1">KangOS</a></li>
+                <li><a style="color: #00bf80;" href="https://sourceforge.net/projects/kangos/files/" target="_blank">Download</a></li>
+                <li><a style="color: #00bf80;" href="#section2">Screenshots</a></li>
+                <li><a style="color: #00bf80;" href="#section3">Team Members</a></li>
+            </ul>
         </div>
-      </div>
-    </div>
-  </footer>
-  <script>
-    document.onreadystatechange = function () {
-      if (document.readyState !== "complete") {
-        document.querySelector("body").style.visibility = "hidden";
-        document.querySelector("#loader").style.visibility = "visible";
-      } else {
-        document.querySelector("#loader").style.display = "none";
-        document.querySelector("body").style.visibility = "visible";
-      }
-    }; 
-  </script>
-  <script src="Code/jquery.easing.min.js"></script>
-  <script src="Code/loader.js"></script>
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
+        </div>
+        </div>
+        <div class="footer-2">
+            <h4>Support</h4>
+            <ul class="ul-footer">
+                <li><a style="color: #00bf80;" href="https://t.me/kangos" target="_blank">FAQs</a></li>
+                <li><a style="color: #00bf80;" href="https://github.com/Kang-OS-R" target="_blank">Github</a></li>
+                <li><a style="color: #00bf80;" href="https://t.me/kangos" target="_blank">Telegram</a></li>
+                <li><a style="color: #00bf80;" href="https://t.me/kangos" target="_blank">Report a bug</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector("body").style.visibility = "hidden";
+                document.querySelector("#loader").style.visibility = "visible";
+            } else {
+                document.querySelector("#loader").style.display = "none";
+                document.querySelector("body").style.visibility = "visible";
+            }
+        };
+    </script>
+    <script src="Code/jquery.easing.min.js"></script>
+    <script src="Code/loader.js"></script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
 
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
 
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
 
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = slides.length }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-      captionText.innerHTML = dots[slideIndex - 1].alt;
-    }
-  </script>
-  <script src="Code/Js.js" async defer></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script>
-    var _img = document.getElementById('volume-video');
-    var newImg = new Image;
-    newImg.onload = function () {
-      _img.src = this.src;
-    }
-    newImg.src = 'https://raw.githubusercontent.com/nparashar150/kangos/master/Code/banner_2.mp4';
-  </script>
-  <script>
-    let videoSource = new Array();
-    videoSource[0] = 'https://raw.githubusercontent.com/nparashar150/kangos/master/Code/Kang_Home.mp4';
-    videoSource[1] = 'https://raw.githubusercontent.com/nparashar150/kangos/master/Code/banner_2.mp4';
-    let i = 0;
-    const videoCount = videoSource.length;
-    const element = document.getElementById("volume-video");
-    function videoPlay(videoNum) {
-      element.setAttribute("src", videoSource[videoNum]);
-      element.autoplay = true;
-      element.load();
-      element.play();
-    }
-    document.getElementById('volume-video').addEventListener('ended', myHandler, false);
-    videoPlay(0);
-    function myHandler() {
-      i++;
-      if (i == videoCount) {
-        i = 0;
-        videoPlay(i);
-      } else {
-        videoPlay(i);
-        element.loop = true;
-      }
-    }
-  </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+    <script src="Code/Js.js" async defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var _img = document.getElementById('volume-video');
+        var newImg = new Image;
+        newImg.onload = function() {
+            _img.src = this.src;
+        }
+        newImg.src = 'https://raw.githubusercontent.com/nparashar150/kangos/master/Code/banner_2.mp4';
+    </script>
+    <script>
+        let videoSource = new Array();
+        videoSource[0] = 'https://raw.githubusercontent.com/nparashar150/kangos/master/Code/Kang_Home.mp4';
+        videoSource[1] = 'https://raw.githubusercontent.com/nparashar150/kangos/master/Code/banner_2.mp4';
+        let i = 0;
+        const videoCount = videoSource.length;
+        const element = document.getElementById("volume-video");
+
+        function videoPlay(videoNum) {
+            element.setAttribute("src", videoSource[videoNum]);
+            element.autoplay = true;
+            element.load();
+            element.play();
+        }
+        document.getElementById('volume-video').addEventListener('ended', myHandler, false);
+        videoPlay(0);
+
+        function myHandler() {
+            i++;
+            if (i == videoCount) {
+                i = 0;
+                videoPlay(i);
+            } else {
+                videoPlay(i);
+                element.loop = true;
+            }
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

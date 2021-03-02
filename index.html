@@ -485,6 +485,7 @@
         function videoPlay(videoNum) {
             element.setAttribute("src", videoSource[videoNum]);
             element.autoplay = true;
+            element.preload = true;
             element.load();
             element.play();
         }

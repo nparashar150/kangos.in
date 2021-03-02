@@ -599,3 +599,10 @@ a:active {
     margin-right: 75vw;
     padding-bottom: 2vw;
 }
+
+.design {
+    color: #6ba6dd;
+    font-size: 1.2vw;
+    justify-content: center;
+    text-align: center;
+}

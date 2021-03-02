@@ -68,6 +68,7 @@ body {
     /*animation: rgb 7s infinite;*/
     font-family: 'Bebas Neue', cursive;
     margin-left: 9%;
+    padding-top: 1vw;
     color: #000000;
     line-height: 70px;
 }
@@ -88,6 +89,10 @@ body {
     /*animation: rgb 7s infinite;*/
     font-family: 'Bebas Neue', cursive;
     text-decoration: none;
+}
+
+.heading-center-3 a:hover {
+    color: #000;
 }
 
 .heading {
@@ -542,15 +547,19 @@ a:active {
 }
 
 .footer h4 {
-    color: #4dd5ff;
-    font-size: 2vw;
-    margin-left: 12vw;
+    color: #000000;
+    text-shadow: 0 0 3px #4dd5ff;
+    font-size: 2.5vw;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 9vw;
 }
 
 .footer-2 h4 {
-    color: #4dd5ff;
-    font-size: 2vw;
-    margin-left: 17vw;
+    color: #000000;
+    text-shadow: 0 0 3px #4dd5ff;
+    font-size: 2.5vw;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 18vw;
 }
 
 .ul-footer {
@@ -562,9 +571,20 @@ a:active {
 
 .ul-footer li {
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
 }
 
-footer h1 {
+.ul-footer li a {
+    font-family: 'Bebas Neue', cursive;
+    color: #3793c4;
+}
+
+.ul-footer li a:hover {
+    font-family: 'Bebas Neue', cursive;
+    color: #4dd5ff;
+}
+
+#section5 h1 {
     padding-top: 5vw;
     padding-bottom: 4vw;
 }

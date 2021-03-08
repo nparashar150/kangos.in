@@ -144,7 +144,7 @@ body {
 .column>h2>a {
     font-size: 1vw;
     padding-top: 20%;
-    color: #98ded9;
+    color: #3793c4;
     /*animation: textrgb 10s infinite;*/
     font-family: 'Bebas Neue', cursive;
 }
@@ -158,7 +158,7 @@ a:active {
 
 .column>p>a {
     font-size: 2vw;
-    color: #75cfb8;
+    color: #3793c4;
     /*animation: textrgb 10s infinite;*/
     font-family: 'Bebas Neue', cursive;
 }

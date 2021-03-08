@@ -137,37 +137,37 @@
 
 @keyframes bgrgb {
     0% {
-        background-image: url(../Code/banner.png);
+        background-image: url(../Code/banner/banner.png);
     }
     10% {
-        background-image: url(../Code/banner2.png);
+        background-image: url(../Code/banner/banner2.png);
     }
     20% {
-        background-image: url(../Code/banner3.png);
+        background-image: url(../Code/banner/banner3.png);
     }
     30% {
-        background-image: url(../Code/banner4.png);
+        background-image: url(../Code/banner/banner4.png);
     }
     40% {
-        background-image: url(../Code/banner5.png);
+        background-image: url(../Code/banner/banner5.png);
     }
     50% {
-        background-image: url(../Code/banner6.png);
+        background-image: url(../Code/banner/banner6.png);
     }
     60% {
-        background-image: url(../Code/banner7.png);
+        background-image: url(../Code/banner/banner7.png);
     }
     70% {
-        background-image: url(../Code/banner8.png);
+        background-image: url(../Code/banner/banner8.png);
     }
     80% {
-        background-image: url(../Code/banner9.png);
+        background-image: url(../Code/banner/banner9.png);
     }
     90% {
-        background-image: url(../Code/banner.png);
+        background-image: url(../Code/banner/banner.png);
     }
     100% {
-        background-image: url(../Code/banner2.png);
+        background-image: url(../Code/banner/banner2.png);
     }
 }
 

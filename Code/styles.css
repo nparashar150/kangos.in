@@ -129,6 +129,9 @@ body {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     padding: 14px 16px;
+    box-shadow: 0 0 10px #343434;
+    animation: infinite 7s boxshadow;
+    border-radius: 10px 10px 10px 10px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -138,6 +141,7 @@ body {
     color: black;
     text-decoration: none;
     transition: 2s;
+    border-radius: 10px 10px 10px 10px;
     animation: rgbbg 10s infinite;
 }
 

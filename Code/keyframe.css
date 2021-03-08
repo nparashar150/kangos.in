@@ -511,3 +511,39 @@
         text-shadow: 0 0 3px #144b6a, 0 0 3px #2470b8, 0 0 3px #17648d, 0 0 3px #3793c4, 0 0 3px #58a5d8, 0 0 3px rgb(97, 205, 238), 0 0 3px rgb(155, 244, 247);
     }
 }
+
+@keyframes boxshadow {
+    0% {
+        box-shadow: 0 0 7px #843434;
+    }
+    10% {
+        box-shadow: 0 0 7px #845934;
+    }
+    20% {
+        box-shadow: 0 0 7px #847f34;
+    }
+    30% {
+        box-shadow: 0 0 7px #698434;
+    }
+    40% {
+        box-shadow: 0 0 7px #478434;
+    }
+    50% {
+        box-shadow: 0 0 7px #348454;
+    }
+    60% {
+        box-shadow: 0 0 7px #348468;
+    }
+    70% {
+        box-shadow: 0 0 7px #346f84;
+    }
+    80% {
+        box-shadow: 0 0 7px #344d84;
+    }
+    90% {
+        box-shadow: 0 0 7px #633484;
+    }
+    100% {
+        box-shadow: 0 0 7px #84345b;
+    }
+}

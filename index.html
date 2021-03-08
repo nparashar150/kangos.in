@@ -31,53 +31,58 @@
         #loader {
             height: 55px;
             width: 55px;
-            background-color: rgb(243, 55, 55);
             border-radius: 50%;
             animation: rgbloader 5s infinite;
         }
         
+        .loader-img {
+            width: 55px;
+            height: 55px;
+            justify-content: center;
+        }
+        
         @keyframes rgbloader {
             0% {
-                background-color: rgb(243, 55, 55);
+                background-color: rgb(237, 92, 92);
             }
             10% {
-                background-color: rgb(243, 121, 55);
+                background-color: rgb(230, 136, 85);
             }
             15% {
-                background-color: rgb(243, 168, 55);
+                background-color: rgb(240, 179, 89);
             }
             20% {
-                background-color: rgb(224, 243, 55);
+                background-color: rgb(225, 240, 89);
             }
             30% {
-                background-color: rgb(133, 243, 55);
+                background-color: rgb(147, 231, 87);
             }
             35% {
-                background-color: rgb(77, 243, 55);
+                background-color: rgb(104, 233, 87);
             }
             40% {
-                background-color: rgb(55, 243, 133);
+                background-color: rgb(82, 210, 135);
             }
             50% {
-                background-color: rgb(55, 193, 243);
+                background-color: rgb(88, 192, 230);
             }
             55% {
-                background-color: rgb(55, 99, 243);
+                background-color: rgb(94, 125, 226);
             }
             60% {
-                background-color: rgb(55, 99, 243);
+                background-color: rgb(96, 129, 236);
             }
             70% {
-                background-color: rgb(165, 55, 243);
+                background-color: rgb(179, 131, 213);
             }
             80% {
-                background-color: rgb(243, 55, 243);
+                background-color: rgb(223, 138, 223);
             }
             90% {
-                background-color: rgb(243, 55, 111);
+                background-color: rgb(230, 116, 150);
             }
             100% {
-                background-color: rgb(243, 55, 55);
+                background-color: rgb(221, 99, 99);
             }
         }
         
@@ -113,7 +118,7 @@
 
 <body class="bg" data-spy="scroll" data-target=".fixed-top">
     <div id="loader" class="center">
-
+        <img class="loader-img" src="Code/kang-laoder.png" alt="">
     </div>
     <div class="navbar" id="navbarid">
         <a href="#section1">Home</a>

@@ -73,6 +73,8 @@
         .heading-center-2 {
             line-height: 50px;
             font-size: 8vw;
+            padding-top: 3vw;
+            padding-bottom: 1vw;
             margin-right: 5%;
             text-align: center;
         }
@@ -307,6 +309,27 @@
             background-color: #111;
             color: #111;
         }
+        .changelog-now-button {
+            background-color: #000;
+            border-radius: 12px 12px 12px 12px;
+            border-color: #3793c4;
+            padding-right: 5vw;
+            padding-left: 5vw;
+            margin-left: -5%;
+            transition: 1s;
+            font-size: 7vw;
+        }
+        .download-now-button {
+            background-color: #000;
+            border-radius: 12px 12px 12px 12px;
+            border-color: #3793c4;
+            padding-top: 5.5vw;
+            padding-bottom: 4.5vw;
+            padding-right: 5vw;
+            padding-left: 5vw;
+            transition: 1s;
+            font-size: 7vw;
+        }
     }
     
     @media screen and (min-width: 1600px) {
@@ -340,5 +363,20 @@
             font-family: 'Bebas Neue', cursive;
             padding: 1vw 1vw;
             font-size: 1vw;
+        }
+        .margin {
+            margin-top: -4%;
+        }
+        .changelog-now-button {
+            padding: 0.7vw;
+            padding-right: 1.4vw;
+            padding-left: 2vw;
+            font-size: 3vw;
+        }
+        .download-now-button {
+            padding: 2vw;
+            padding-top: 2.4vw;
+            padding-bottom: 2.4vw;
+            font-size: 3vw;
         }
     }

@@ -63,36 +63,52 @@ body {
     line-height: 70px;
 }
 
-.heading-center-2 {
-    text-align: left;
-    /*animation: rgb 7s infinite;*/
-    font-family: 'Bebas Neue', cursive;
-    margin-left: 9%;
-    padding-top: 1vw;
-    color: #000000;
-    line-height: 70px;
+.box-shadow {
+    margin-top: 2vw;
+    margin-left: -9.5vw;
+}
+
+.box-shadow-2 {
+    margin-top: 2vw;
+    margin-bottom: 7vw;
+    margin-left: -9.5vw;
 }
 
 .heading-center-3 {
-    text-align: left;
-    /*animation: rgb 7s infinite;*/
-    font-family: 'Bebas Neue', cursive;
-    margin-left: 9%;
-    color: #222222;
-    padding-bottom: 100px;
-    line-height: 0px;
+    margin-left: 25vw;
+    margin-top: -11vw;
 }
 
-.heading-center-3>a {
-    text-align: left;
+.heading-center-redo-2 {
+    text-align: center;
+    /*animation: rgb 7s infinite;*/
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 10%;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+    margin-right: 74.5%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: #3793c4 0 0 10px;
     color: #000000;
-    /*animation: rgb 7s infinite;*/
-    font-family: 'Bebas Neue', cursive;
-    text-decoration: none;
 }
 
-.heading-center-3 a:hover {
-    color: #000;
+.heading-center-redo {
+    text-align: center;
+    /*animation: rgb 7s infinite;*/
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 10%;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+    margin-right: 76.5%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: #3793c4 0 0 10px;
+    color: #000000;
 }
 
 .heading {
@@ -609,4 +625,8 @@ a:active {
     font-size: 1.2vw;
     justify-content: center;
     text-align: center;
+}
+
+.margin {
+    margin-top: -3vw;
 }

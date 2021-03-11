@@ -151,6 +151,38 @@
         }
     }
     
+    @media screen and (min-width: 600px) {
+        .box-shadow {
+            margin-top: 3vw;
+            margin-left: -9.5vw;
+        }
+        .box-shadow-2 {
+            margin-top: 2vw;
+            margin-bottom: 10vw;
+            margin-left: -9.5vw;
+        }
+        .heading-center-3 {
+            margin-left: 25vw;
+            margin-top: -7.5vw;
+        }
+    }
+    
+    @media screen and (min-width: 900px) {
+        .box-shadow {
+            margin-top: 3vw;
+            margin-left: -9.5vw;
+        }
+        .box-shadow-2 {
+            margin-top: 5vw;
+            margin-bottom: 7vw;
+            margin-left: -9.5vw;
+        }
+        .heading-center-3 {
+            margin-left: 25vw;
+            margin-top: -13.9vw;
+        }
+    }
+    
     @media screen and (max-width: 600px) {
         .navbar.responsive {
             position: relative;
@@ -306,6 +338,37 @@
         .donate-now-button:hover {
             background-color: #111;
             color: #111;
+        }
+        .box-shadow {
+            margin-top: 7vw;
+            margin-left: -9.5vw;
+        }
+        .box-shadow-2 {
+            margin-top: 3.9vw;
+            margin-bottom: 7vw;
+            margin-left: -9.5vw;
+        }
+        .heading-center-3 {
+            margin-left: 25vw;
+            margin-top: -15vw;
+        }
+        .heading-center-redo-2 {
+            margin-left: 49%;
+            padding-top: 2vw;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            padding-bottom: 1vw;
+            font-size: 7vw;
+            margin-right: 9%;
+        }
+        .heading-center-redo {
+            margin-left: 18%;
+            padding-top: 2vw;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            padding-bottom: 1vw;
+            font-size: 7vw;
+            margin-right: 48%;
         }
     }
     

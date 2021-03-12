@@ -341,12 +341,12 @@
         }
         .box-shadow {
             margin-top: 7vw;
-            margin-left: -9.5vw;
+            margin-left: -7.5vw;
         }
         .box-shadow-2 {
             margin-top: 3.9vw;
             margin-bottom: 7vw;
-            margin-left: -9.5vw;
+            margin-left: -7.5vw;
         }
         .heading-center-3 {
             margin-left: 25vw;
@@ -355,8 +355,8 @@
         .heading-center-redo-2 {
             margin-left: 49%;
             padding-top: 2vw;
-            padding-left: 1vw;
-            padding-right: 1vw;
+            padding-left: 0.7vw;
+            padding-right: 0.7vw;
             padding-bottom: 1vw;
             font-size: 7vw;
             margin-right: 9%;
@@ -364,8 +364,8 @@
         .heading-center-redo {
             margin-left: 20%;
             padding-top: 2vw;
-            padding-left: 1vw;
-            padding-right: 1vw;
+            padding-left: 0.7vw;
+            padding-right: 0.7vw;
             padding-bottom: 1vw;
             font-size: 7vw;
             margin-right: 46%;

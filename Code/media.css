@@ -173,8 +173,8 @@
             margin-left: -9.5vw;
         }
         .box-shadow-2 {
-            margin-top: 5vw;
-            margin-bottom: 7vw;
+            margin-top: 8.7vw;
+            margin-bottom: 7.5vw;
             margin-left: -9.5vw;
         }
         .heading-center-3 {
@@ -391,8 +391,7 @@
         #section1,
         #section2,
         #section3,
-        #section4,
-        {
+        #section4 {
             padding-bottom: 5vw;
         }
         .navbar a {
@@ -403,5 +402,18 @@
             font-family: 'Bebas Neue', cursive;
             padding: 1vw 1vw;
             font-size: 1vw;
+        }
+        .box-shadow {
+            margin-top: 3vw;
+            margin-left: -9.5vw;
+        }
+        .box-shadow-2 {
+            margin-top: 5vw;
+            margin-bottom: 7.5vw;
+            margin-left: -9.5vw;
+        }
+        .heading-center-3 {
+            margin-left: 25vw;
+            margin-top: -13.9vw;
         }
     }

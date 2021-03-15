@@ -149,6 +149,9 @@
         .design {
             font-size: 4vw;
         }
+        .blank_dev {
+            display: none;
+        }
     }
     
     @media screen and (min-width: 600px) {

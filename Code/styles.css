@@ -371,11 +371,8 @@ a:active {
     margin-left: 40%;
 }
 
-.img-home-bottom {
-    color: #1a1a1a;
-    width: 12vw;
-    -webkit-filter: drop-shadow(0px 0px 10px #186e88);
-    filter: drop-shadow(0px 0px 10px #186e88);
+.padding {
+    padding-bottom: 2vw;
 }
 
 .parag {

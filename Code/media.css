@@ -25,9 +25,8 @@
             background-position: 50% 100px;
             background-size: 90% auto;
         }
-        .img-home-bottom {
-            color: #1a1a1a;
-            width: 20vw;
+        .padding {
+            padding-bottom: 10vw;
         }
         .home-img {
             width: 68%;
@@ -186,6 +185,9 @@
         }
         .margin {
             margin-top: -2vw;
+        }
+        .padding {
+            padding-bottom: 7vw;
         }
     }
     
@@ -421,5 +423,8 @@
         .heading-center-3 {
             margin-left: 25vw;
             margin-top: -13.9vw;
+        }
+        .padding {
+            padding-bottom: 2vw;
         }
     }

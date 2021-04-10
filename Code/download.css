@@ -198,4 +198,13 @@ input[type="button"] {
         padding-top: 5vw;
         margin-left: -5vw;
     }
+    .collapsible {
+        color: #98ddca;
+    }
+    .collapsible-2 {
+        color: #ffd3b4;
+    }
+    .content div {
+        color: #caf7e3;
+    }
 }

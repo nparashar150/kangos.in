@@ -4,8 +4,8 @@ body {
 
 .nav-download {
     color: #fff;
-    justify-content: right;
-    text-align: right;
+    justify-content: left;
+    text-align: left;
     overflow: hidden;
     background-color: #000000;
     padding-right: 1vw;
@@ -16,7 +16,7 @@ body {
 }
 
 .nav-download ul a {
-    float: right;
+    float: left;
     display: block;
     color: #bfbfbf;
     text-align: center;
@@ -55,7 +55,7 @@ body {
     padding: 0 18px;
     max-height: 0;
     opacity: 1;
-    transition: 1s;
+    transition: 0.7s;
     overflow: hidden;
     background-color: #000000;
 }
@@ -130,6 +130,7 @@ body {
     margin-top: 0.5vw;
     font-size: 1.5vw;
     text-align: center;
+    outline: none;
 }
 
 .collapsible-2:hover {
@@ -138,4 +139,45 @@ body {
 
 main {
     padding: 2vw;
+}
+
+input[type="button"] {
+    border: none !important;
+    outline: none !important;
+}
+
+@media screen and (max-width: 600px) {
+    .collapsible-2 {
+        margin-right: 6%;
+        margin-left: 6%;
+        width: 88%;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        font-size: 5.5vw;
+        padding: 2vw;
+    }
+    .collapsible {
+        margin-right: 9%;
+        margin-left: 9%;
+        width: 82%;
+        margin-bottom: 1.7vw;
+        margin-top: 1.7vw;
+        font-size: 5vw;
+        padding: 2vw;
+    }
+    .col1,
+    .col2,
+    .col3,
+    .col4 {
+        margin-left: 12%;
+        margin-right: 12%;
+        padding: 2vw;
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
+        font-size: 4.5vw;
+    }
+    .nav-download {
+        padding-top: 5vw;
+        margin-left: -5vw;
+    }
 }

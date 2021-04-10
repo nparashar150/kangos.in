@@ -133,6 +133,18 @@ body {
     outline: none;
 }
 
+.collapsible:nth-of-type(n) {
+    color: #98ddca;
+}
+
+.collapsible-2:nth-of-type(2n+1) {
+    color: #ffd3b4;
+}
+
+.content div:nth-of-type(n) {
+    color: #caf7e3;
+}
+
 .collapsible-2:hover {
     animation: infinite 7s boxshadow;
 }

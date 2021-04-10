@@ -110,6 +110,32 @@ body {
     animation: infinite 7s boxshadow;
 }
 
+.collapsible-2 {
+    background-color: #1a1a1a;
+    color: #bfbfbf;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    cursor: pointer;
+    animation: none;
+    font-family: 'Bebas Neue', cursive;
+    padding: 1vw;
+    margin-right: 28%;
+    margin-left: 28%;
+    width: 44%;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-bottom: 0.5vw;
+    margin-top: 0.5vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.collapsible-2:hover {
+    animation: infinite 7s boxshadow;
+}
+
 main {
     padding: 2vw;
 }

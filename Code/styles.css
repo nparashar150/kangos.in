@@ -564,16 +564,14 @@ a:active {
 }
 
 .footer h4 {
-    color: #000000;
-    text-shadow: 0 0 3px #4dd5ff;
+    color: #4dd5ff;
     font-size: 2.5vw;
     font-family: 'Bebas Neue', cursive;
     margin-left: 9vw;
 }
 
 .footer-2 h4 {
-    color: #000000;
-    text-shadow: 0 0 3px #4dd5ff;
+    color: #4dd5ff;
     font-size: 2.5vw;
     font-family: 'Bebas Neue', cursive;
     margin-left: 18vw;

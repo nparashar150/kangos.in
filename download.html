@@ -244,17 +244,24 @@
             <a href="index.html">Back</a>
         </ul>
     </nav>
+    <!--<form autocomplete="off" action="download.html">
+        <div class="autocomplete">
+            <input id="myInput" type="text" name="myCountry" placeholder="Search Device">
+        </div>
+        <input type="submit">
+        </button>
+    </form>-->
     <main>
-        <div class="container-bg">
+        <div id="topmain" class="container-bg">
             <div>
                 <button type="button" class="collapsible-2" data-toggle="collapse" data-target="#asus">
                     <i class="far fa-folder-open"></i>&nbsp;&nbsp;Asus
                 </button>
                 <div id="asus" class="collapse">
-                    <button type="button" class="collapsible">
+                    <button type="button" id="maxprom2" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Asus Max Pro M2
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangos_x01bd">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -273,7 +280,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Asus Zenfone Max Pro M1
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangosX00td">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -299,7 +306,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Lenovo Z5s
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangos_jd2019">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -318,7 +325,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Lenovo Z6 Pro
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="#">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -344,7 +351,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Oneplus 7 Pro
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangosop7p">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -363,7 +370,7 @@
                     <button id="button" type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;OnePlus 7
                     </button>
-                    <div class="content" id="wrapper">
+                    <div class="content" id="filtersearch" id="wrapper">
                         <a href="https://t.me/kangosop7">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -382,7 +389,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;OnePlus 6T
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangosop6t">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -401,7 +408,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;OnePlus 6
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangosop6t">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -420,7 +427,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;OnePlus 5T
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/TheKangFactory">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -446,7 +453,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Realme X
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangos_RMX1901">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -465,7 +472,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Realme X2
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangrealmex2">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -484,7 +491,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Realme 3 Pro
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/KangosRMX1851">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -502,7 +509,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div id="searchit">
                 <button type="button" class="collapsible-2" data-toggle="collapse" data-target="#ximi">
                     <i class="far fa-folder-open"></i>&nbsp;&nbsp;Xiaomi
                 </button>
@@ -510,7 +517,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Mi A2
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangosmia">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -529,7 +536,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Mi 6X
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="#">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -548,7 +555,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Mi 8
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangosdipper">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -567,7 +574,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Poco X3(NFC)
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangossurya">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -586,7 +593,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Poco F1
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangosberyllium">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -605,7 +612,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi K20 Pro/Mi 9T Pro
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/area51k20p">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -624,7 +631,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi Note 9
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="#">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -643,7 +650,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi Note 8/8T
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangosginkgo">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -662,7 +669,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi Note 7 Pro
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/kangosviolet">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -681,7 +688,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi Note 7
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/Kangoslavender">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -700,7 +707,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi Note 7s
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="https://t.me/Kangoslavender">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -719,7 +726,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi 7
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="#">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -738,7 +745,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi 6 Pro
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="#">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -757,7 +764,7 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi S2/Y2
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="#">
                             <div class="col1">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
@@ -776,10 +783,10 @@
                     <button type="button" class="collapsible">
                         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Redmi 3s/3x
                     </button>
-                    <div class="content">
+                    <div class="content" id="filtersearch">
                         <a href="#">
                             <div class="col1">
-                                <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Telegram
+                                Telegram
                             </div>
                         </a>
                         <a href="#">

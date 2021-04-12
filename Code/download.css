@@ -236,3 +236,72 @@ input[type="button"] {
         height: 90%;
     }
 }
+
+
+/*.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+input {
+    border: 1px solid transparent;
+    background-color: #1a1a1a;
+    padding: 10px;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffd3b4;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    background-color: #1a1a1a;
+    width: 100%;
+    color: #ffd3b4;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3vw;
+    margin-left: 2.2vw;
+    border: none !important;
+    outline: none !important;
+}
+
+input[type=submit] {
+    background-color: #ffd3b4;
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3vw;
+    margin-left: 2.2vw;
+    cursor: pointer;
+    border: none !important;
+    outline: none !important;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.1vw;
+    margin-left: 2.2vw;
+    border-radius: 10px;
+    top: 100%;
+    color: #ffd3b4;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #343434;
+}
+
+.autocomplete-items div:hover {
+    background-color: #343434;
+}
+
+.autocomplete-active {
+    background-color: #343434 !important;
+    color: #ffd3b4;
+}*/

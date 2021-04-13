@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #09161d;
+    min-height: 200vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    padding: 40px 100px;
+    z-index: 100000;
+    background-image: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0));
+}
+
+header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    font-size: 1.3vw;
+    transition: 0.5s;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-color: #09161d;
+    overflow-x: hidden;
+    animation: huerotate 6s infinite;
+}
+
+.kangosbold {
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8vw;
+    padding-top: 3vw;
+    color: #fff;
+}
+
+.kangosboldarrow {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8vw;
+    padding-top: 3vw;
+    color: #fff;
+}
+
+.kangosboldarrow:nth-child(1) {
+    top: 50%;
+}
+
+.kangosboldarrow:nth-child(2) {
+    top: 56%;
+    font-size: 9vw;
+}
+
+.kangosboldarrow:nth-child(3) {
+    top: 63%;
+    font-size: 10vw;
+}
+
+.kangosboldarrow:nth-child(4) {
+    top: 70%;
+    font-size: 11vw;
+}
+
+.banner img {
+    min-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+@keyframes huerotate {
+    0% {
+        filter: opacity(0.5) hue-rotate(0deg);
+    }
+    50% {
+        filter: opacity(0.5) hue-rotate(360deg);
+    }
+    100% {
+        filter: opacity(0.5) hue-rotate(0deg);
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: #09161d;
+}
+
+.flex {
+    padding: 5vw;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: flex;
+}
+
+.card {
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background-color: #122936;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: #ff8747;
+    transform: skewY(345deg);
+}
+
+.card:hover::before {
+    top: -70%;
+    transform: skewY(390deg);
+    transition: 0.5s ease-in-out;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 7em;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.flex:nth-child(1) .card::after {
+    content: 'Asus';
+}
+
+.flex:nth-child(2) .card::after {
+    content: 'Lenovo';
+}
+
+.flex:nth-child(3) .card::after {
+    content: 'OnePlus';
+}
+
+.flex:nth-child(4) .card::after {
+    content: 'Realme';
+}
+
+.flex:nth-child(5) .card::after {
+    content: 'Xiaomi';
+}
+
+.flex:nth-child(6) .card::after {
+    content: 'Poco';
+}
+
+.flex-asus .card::after {
+    content: 'Asus' !important;
+}
+
+.flex-lenovo .card::after {
+    content: 'Lenovo' !important;
+}
+
+.flex-oneplus .card::after {
+    content: 'OnePlus' !important;
+}
+
+.flex-realme .card::after {
+    content: 'Realme' !important;
+}
+
+.flex-xiaomi .card::after {
+    content: 'Xiaomi' !important;
+}
+
+.flex-poco .card::after {
+    content: 'Poco' !important;
+}
+
+.card .imgBx {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.card .imgBx img {
+    max-width: 200px;
+    max-height: 200px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #1a1a1a;
+    border-radius: 20px;
+}
+
+.card:hover .imgBx img {
+    max-width: 50%;
+}
+
+.card .contentBx {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.card .contentBx h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card .contentBx .brand {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.card .contentBx .find {
+    position: relative;
+    padding: 10px 30px;
+    margin-top: 15px;
+    top: 200px;
+    opacity: 0;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 10px #1a1a1a;
+    background-color: #ff8747;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.flex:nth-child(1) .card .contentBx .find {
+    background-color: #dfdfdf;
+    color: #000;
+}
+
+.flex:nth-child(1) .card::before {
+    background-color: #dfdfdf;
+}
+
+.flex:nth-child(2) .card .contentBx .find {
+    background-color: #105ba2;
+}
+
+.flex:nth-child(2) .card::before {
+    background-color: #105ba2;
+}
+
+.flex:nth-child(3) .card .contentBx .find {
+    background-color: #d81939;
+}
+
+.flex:nth-child(3) .card::before {
+    background-color: #d81939;
+}
+
+.flex:nth-child(4) .card .contentBx .find {
+    background-color: #e6be3c;
+}
+
+.flex:nth-child(4) .card::before {
+    background-color: #e6be3c;
+}
+
+.flex:nth-child(6) .card .contentBx .find {
+    background-color: #e6be3c;
+    color: #000;
+}
+
+.flex:nth-child(6) .card::before {
+    background-color: #e6be3c;
+}
+
+.card:hover .contentBx .find {
+    top: 0;
+    opacity: 1;
+}
+
+.telegram {
+    color: #fff;
+}
+
+@media screen and (max-width: 670px) {
+    header ul li a {
+        display: none;
+    }
+    header .logo {
+        font-size: 10vw;
+        margin-left: 6%;
+    }
+    section .kangosbold {
+        top: 72%;
+        font-size: 13.5vw;
+    }
+    .kangosboldarrow {
+        top: 80%;
+        font-size: 9vw;
+    }
+    .kangosboldarrow:nth-child(2) {
+        top: 81%;
+        font-size: 12vw;
+    }
+    .kangosboldarrow:nth-child(3) {
+        top: 83%;
+        font-size: 14vw;
+    }
+    .kangosboldarrow:nth-child(4) {
+        top: 85%;
+        font-size: 16vw;
+    }
+}

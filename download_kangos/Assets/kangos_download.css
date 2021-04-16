@@ -285,6 +285,7 @@ main {
 
 .card .contentBx .brand {
     font-size: 24px;
+    text-align: center;
     color: #fff;
     font-weight: 500;
     letter-spacing: 1px;
@@ -357,32 +358,35 @@ main {
     color: #fff;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 800px) {
+    .logo {
+        margin-top: 1vw;
+    }
     header ul li a {
         display: none;
     }
     header .logo {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, 10%);
         font-size: 10vw;
-        margin-left: 6%;
     }
-    section .kangosbold {
-        top: 72%;
-        font-size: 13.5vw;
+    .flex:nth-child(1) {
+        padding-top: 25vw;
     }
-    .kangosboldarrow {
-        top: 80%;
-        font-size: 9vw;
+    .flex {
+        padding-bottom: 5vw;
     }
-    .kangosboldarrow:nth-child(2) {
-        top: 81%;
-        font-size: 12vw;
+    .card {
+        width: 80vw;
+        height: 100vw;
     }
-    .kangosboldarrow:nth-child(3) {
-        top: 83%;
-        font-size: 14vw;
+    .card .imgBx img {
+        max-width: 50vw;
+        max-height: 50vw;
     }
-    .kangosboldarrow:nth-child(4) {
-        top: 85%;
-        font-size: 16vw;
+    .flex:nth-child(n) .card::after {
+        font-size: 7em;
     }
 }

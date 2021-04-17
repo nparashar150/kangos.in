@@ -32,11 +32,6 @@
 </head>
 
 <body>
-    <div class="loader">
-        <div class="loading-netflix" data-text="Netflix">
-            <img src="Assets/kangos_loader.png" class="logo-top" alt="">
-        </div>
-    </div>
     <header>
         <a href="https://kangos.in/" target="_blank" class="logo">KangOS</a>
         <ul>
@@ -49,14 +44,23 @@
         </ul>
     </header>
     <section style="overflow: hidden;" class="banner">
+        <img src="Assets/kangos-home.png" class="mobile-logo" alt="">
+        <div class="content-home">
+            <h1>Download Page</h1>
+            <p>Welcome to the Downloads page of KangOS. <br> Follow us and Support us for faster and better updates.
+            </p>
+            <div>
+                <button class="home-btn" type="button"> <span></span>
+                    <a href="https://t.me/kangos"
+                        style="text-decoration: none; color: #fff; font-size: 15px;">Telegram</a>
+                </button>
+                <button class="home-btn" type="button"> <span></span>
+                    <a href="https://github.com/Kang-OS-R"
+                        style="text-decoration: none; color: #fff; font-size: 15px;">Github</a>
+                </button>
+            </div>
+        </div>
         <img src="Assets/Sprinkle.png" alt="pattern">
-    </section>
-    <section>
-        <h1 class="kangosbold">Download</h1>
-        <i class="fa fa-angle-down kangosboldarrow"></i>
-        <i class="fa fa-angle-down kangosboldarrow"></i>
-        <i class="fa fa-angle-down kangosboldarrow"></i>
-        <i class="fa fa-angle-down kangosboldarrow"></i>
     </section>
     <main id="down">
         <div class="flex">
@@ -161,11 +165,6 @@
                 Copyright &copy; | KangOS | Website made by <a href="https://github.com/nparashar150">Naman Parashar</a>
             </h3>
     </footer>
-    <script>
-        setTimeout(function() {
-            $('.loader').fadeToggle();
-        }, 100);
-    </script>
 </body>
 
 </html>

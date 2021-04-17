@@ -279,54 +279,6 @@ main {
     color: rgba(0, 0, 0, 0.1);
 }
 
-.flex:nth-child(1) .card::after {
-    content: 'Asus';
-}
-
-.flex:nth-child(2) .card::after {
-    content: 'Lenovo';
-}
-
-.flex:nth-child(3) .card::after {
-    content: 'OnePlus';
-}
-
-.flex:nth-child(4) .card::after {
-    content: 'Realme';
-}
-
-.flex:nth-child(5) .card::after {
-    content: 'Xiaomi';
-}
-
-.flex:nth-child(6) .card::after {
-    content: 'Poco';
-}
-
-.flex-asus .card::after {
-    content: 'Asus' !important;
-}
-
-.flex-lenovo .card::after {
-    content: 'Lenovo' !important;
-}
-
-.flex-oneplus .card::after {
-    content: 'OnePlus' !important;
-}
-
-.flex-realme .card::after {
-    content: 'Realme' !important;
-}
-
-.flex-xiaomi .card::after {
-    content: 'Xiaomi' !important;
-}
-
-.flex-poco .card::after {
-    content: 'Poco' !important;
-}
-
 .card .imgBx {
     position: relative;
     width: 100%;
@@ -588,11 +540,13 @@ footer .content a:hover {
     }
     .section-footer:nth-of-type(1) {
         margin-left: -1vw;
+        display: none;
         padding-top: 5vw;
     }
     .section-footer:nth-of-type(3) {
         margin-right: -1vw;
         padding-bottom: 5vw;
+        display: none;
     }
     footer .content a {
         padding-block: 12px;

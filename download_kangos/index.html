@@ -32,6 +32,11 @@
 </head>
 
 <body>
+    <div class="loader">
+        <div class="loading-netflix" data-text="Netflix">
+            <img src="Assets/kangos_loader.png" class="logo-top" alt="">
+        </div>
+    </div>
     <header>
         <a href="https://kangos.in/" target="_blank" class="logo">KangOS</a>
         <ul>
@@ -127,6 +132,11 @@
             </div>
         </div>
     </main>
+    <script>
+        setTimeout(function() {
+            $('.loader').fadeToggle();
+        }, 10000);
+    </script>
 </body>
 
 </html>

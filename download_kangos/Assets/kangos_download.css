@@ -517,9 +517,10 @@ footer .content a:hover {
         margin-top: 55vw;
     }
     .content-home p {
-        margin-top: -5vw;
-        font-size: 6vw;
-        padding: 5vw;
+        margin-top: 1vw;
+        font-size: 5vw;
+        padding-left: 12vw;
+        padding-right: 12vw;
         padding-bottom: 3vw;
     }
     .home-btn {

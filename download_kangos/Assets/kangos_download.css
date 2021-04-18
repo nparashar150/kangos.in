@@ -492,6 +492,9 @@ footer .content a:hover {
         text-decoration: none;
         font-weight: 600;
     }
+    footer .content a:hover {
+        font-size: 5.5vw;
+    }
     .copyright {
         font-size: 5vw;
         color: #dfdfdf;

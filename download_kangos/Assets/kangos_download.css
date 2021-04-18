@@ -394,6 +394,13 @@ footer .content a:hover {
     color: #69fff7;
 }
 
+.below-arrow {
+    font-size: 7vw;
+    background: -webkit-linear-gradient(#122936, #105ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media screen and (max-width: 800px) {
     .logo {
         margin-top: 1vw;
@@ -500,7 +507,7 @@ footer .content a:hover {
     .content-home {
         width: 100%;
         position: absolute;
-        top: 55%;
+        top: 66%;
         transform: translateY(-50%);
         text-align: center;
         color: #fff;
@@ -512,13 +519,14 @@ footer .content a:hover {
     .content-home p {
         margin-top: -5vw;
         font-size: 6vw;
-        padding: 10vw;
+        padding: 5vw;
+        padding-bottom: 3vw;
     }
     .home-btn {
         width: 200px;
         padding: 3vw 0;
         text-align: center;
-        margin: 3vw 8vw;
+        margin: 2vw 8vw;
     }
     .mobile-logo {
         display: block;
@@ -527,5 +535,10 @@ footer .content a:hover {
         left: -1%;
         width: 100vw;
         height: auto;
+    }
+    .below-arrow {
+        font-size: 20vw;
+        margin-top: -5vw;
+        padding-bottom: 100px;
     }
 }

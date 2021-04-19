@@ -557,3 +557,31 @@ footer .content a:hover {
         display: block;
     }
 }
+
+@media screen and (min-width: 490px) and (max-width: 520px) {
+    .content-home h1 {
+        font-size: 10vw;
+        padding-bottom: 10vw;
+        margin-top: 30vw;
+    }
+    .home-btn {
+        width: 200px;
+        padding: 3vw 0;
+        text-align: center;
+        margin: 2vw 8vw;
+    }
+    .mobile-logo {
+        display: block;
+        position: absolute;
+        top: 1%;
+        left: -1%;
+        width: 100vw;
+        height: auto;
+    }
+    .below-arrow {
+        padding-top: 5vw;
+        font-size: 20vw;
+        margin-top: -5vw;
+        padding-bottom: 100px;
+    }
+}

@@ -563,6 +563,8 @@ footer .content a:hover {
         font-size: 10vw;
         padding-bottom: 10vw;
         margin-top: 30vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
     }
     .home-btn {
         width: 200px;
@@ -591,6 +593,8 @@ footer .content a:hover {
         font-size: 10vw;
         padding-bottom: 10vw;
         margin-top: 55vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
     }
     .home-btn {
         width: 200px;

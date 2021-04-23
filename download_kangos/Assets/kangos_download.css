@@ -792,12 +792,15 @@ footer .content a:hover {
         padding-bottom: 5vw;
     }
     .card {
-        width: 80vw;
-        height: 105vw;
+        width: 60vw;
+        height: 80vw;
+    }
+    .card .imgBx {
+        padding-top: 5vw;
     }
     .card .imgBx img {
-        max-width: 60vw;
-        max-height: 60vw;
+        max-width: 35vw;
+        max-height: 35vw;
     }
     .flex:nth-child(n) .card::after {
         font-size: 7em;
@@ -810,7 +813,7 @@ footer .content a:hover {
     }
     .card .contentBx .find {
         position: relative;
-        padding: 10px 30px;
+        padding: 20px 45px;
         margin-top: 50px;
         top: 190px;
         opacity: 0;
@@ -819,7 +822,7 @@ footer .content a:hover {
         text-decoration: none;
         box-shadow: 0 0 10px #1a1a1a;
         background-color: #ff8747;
-        border-radius: 30px;
+        border-radius: 45px;
         text-transform: uppercase;
         letter-spacing: 1px;
         transition: 0.5s;
@@ -831,8 +834,8 @@ footer .content a:hover {
     }
     footer .foot {
         background-color: #122936;
-        padding: 16px;
-        padding-top: 48px;
+        padding: 5vw;
+        padding-top: 10vw;
         clip-path: polygon(0% 5%, 15% 0%, 100% 10%, 100% 100%, 0% 100%);
     }
     footer .content {
@@ -843,11 +846,8 @@ footer .content a:hover {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 16px;
     }
-    .footer-heading {
-        font-size: 30px;
-    }
     .section-footer {
-        padding: 2vw;
+        padding: 5vw;
     }
     .sprinkle {
         width: auto;
@@ -872,11 +872,14 @@ footer .content a:hover {
         display: block;
         text-decoration: none;
         font-weight: 600;
+        padding: 3.5vw;
     }
     footer .content a:hover {
         font-size: 5.5vw;
     }
     .copyright {
+        line-height: 1.3;
+        padding-bottom: 1.5vw;
         font-size: 5vw;
         color: #dfdfdf;
         text-align: center;
@@ -912,6 +915,7 @@ footer .content a:hover {
     .home-btn {
         width: 200px;
         padding: 3vw 0;
+        font-size: 2.2vw;
         text-align: center;
         margin: 2vw 20vw;
     }
@@ -924,7 +928,8 @@ footer .content a:hover {
         height: auto;
     }
     .below-arrow {
-        font-size: 20vw;
+        padding-top: 4vw;
+        font-size: 15vw;
         margin-top: -5vw;
         padding-bottom: 100px;
     }

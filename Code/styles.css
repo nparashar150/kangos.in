@@ -79,6 +79,11 @@ body {
     margin-top: -11vw;
 }
 
+.heading-center-3 a:hover,
+.heading-center-3 a h4:hover {
+    cursor: pointer;
+}
+
 .heading-center-redo-2 {
     text-align: center;
     /*animation: rgb 7s infinite;*/

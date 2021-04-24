@@ -920,10 +920,12 @@ footer .content a:hover {
         margin: 2vw 20vw;
     }
     .mobile-logo {
-        display: block;
+        display: flex;
         position: absolute;
-        top: -4%;
-        left: -2%;
+        margin-top: 10vw;
+        justify-content: center;
+        align-items: center;
+        top: -3%;
         width: 90vw;
         height: auto;
     }
@@ -939,5 +941,6 @@ footer .content a:hover {
     }
     .content-home h1:nth-of-type(2) {
         display: block;
+        padding-top: 25vw;
     }
 }

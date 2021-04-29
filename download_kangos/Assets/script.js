@@ -1,6 +1,6 @@
 function asusDeviceList() {
     var xhReq = new XMLHttpRequest();
-    xhReq.open("GET", 'Assets/device.json', false);
+    xhReq.open("GET", 'https://raw.githubusercontent.com/nparashar150/kangos.in/Dynamic-Download/download_kangos/Assets/script.js', false);
     xhReq.send(null);
     var jsonObject = JSON.parse(xhReq.responseText);
     var main = document.getElementById('down');
@@ -26,7 +26,7 @@ function asusDeviceList() {
 
 function lenovoDeviceList() {
     var xhReq = new XMLHttpRequest();
-    xhReq.open("GET", 'Assets/device.json', false);
+    xhReq.open("GET", 'https://raw.githubusercontent.com/nparashar150/kangos.in/Dynamic-Download/download_kangos/Assets/script.js', false);
     xhReq.send(null);
     var jsonObject = JSON.parse(xhReq.responseText);
     var main = document.getElementById('down');
@@ -52,7 +52,7 @@ function lenovoDeviceList() {
 
 function oneplusDeviceList() {
     var xhReq = new XMLHttpRequest();
-    xhReq.open("GET", 'Assets/device.json', false);
+    xhReq.open("GET", 'https://raw.githubusercontent.com/nparashar150/kangos.in/Dynamic-Download/download_kangos/Assets/script.js', false);
     xhReq.send(null);
     var jsonObject = JSON.parse(xhReq.responseText);
     var main = document.getElementById('down');
@@ -78,7 +78,7 @@ function oneplusDeviceList() {
 
 function pocoDeviceList() {
     var xhReq = new XMLHttpRequest();
-    xhReq.open("GET", 'Assets/device.json', false);
+    xhReq.open("GET", 'https://raw.githubusercontent.com/nparashar150/kangos.in/Dynamic-Download/download_kangos/Assets/script.js', false);
     xhReq.send(null);
     var jsonObject = JSON.parse(xhReq.responseText);
     var main = document.getElementById('down');
@@ -104,7 +104,7 @@ function pocoDeviceList() {
 
 function realmeDeviceList() {
     var xhReq = new XMLHttpRequest();
-    xhReq.open("GET", 'Assets/device.json', false);
+    xhReq.open("GET", 'https://raw.githubusercontent.com/nparashar150/kangos.in/Dynamic-Download/download_kangos/Assets/script.js', false);
     xhReq.send(null);
     var jsonObject = JSON.parse(xhReq.responseText);
     var main = document.getElementById('down');

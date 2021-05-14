@@ -1,0 +1,199 @@
+{
+    "device_list": [{
+        "asus": [{
+                "Device": "Asus Zenfone Max Pro M1",
+                "Developer": "Rajat Kashyap",
+                "Download": "https://www.pling.com/p/1459750/",
+                "DeviceGroup": "https://t.me/kangosX00td",
+                "Image": "Assets/devs/asusmaxprom1.png"
+            },
+            {
+                "Device": "Asus Max Pro M2",
+                "Developer": "Darshan Mevada",
+                "Download": "https://www.pling.com/p/1462246/",
+                "DeviceGroup": "https://t.me/kangos_x01bd",
+                "Image": "Assets/devs/redmi6pro.png"
+            }
+        ],
+        "lenovo": [{
+                "Device": "Lenovo Z5s",
+                "Developer": "Hsy Husker",
+                "Download": "https://www.pling.com/p/1492795/",
+                "DeviceGroup": "https://t.me/kangos_jd2019",
+                "Image": "Assets/devs/redminote8.png"
+            },
+            {
+                "Device": "Lenovo Z6 Pro",
+                "Developer": "Chema",
+                "Download": "https://www.pling.com/p/1504523/",
+                "DeviceGroup": "#",
+                "Image": "Assets/devs/redminote7pro.png"
+            }
+        ],
+        "oneplus": [{
+                "Device": "OnePlus 7 Pro",
+                "Developer": "Modit Jain",
+                "Download": "https://www.pling.com/p/1458433/",
+                "DeviceGroup": "https://t.me/kangosop7p",
+                "Image": "Assets/devs/popup_cam-01.png"
+            },
+            {
+                "Device": "OnePlus 7",
+                "Developer": "SpookCity",
+                "Download": "https://www.pling.com/p/1460002/",
+                "DeviceGroup": "https://t.me/kangosop7",
+                "Image": "Assets/devs/oneplus7.png"
+            },
+            {
+                "Device": "OnePlus 6T",
+                "Developer": "Chandu",
+                "Download": "https://www.pling.com/p/1458570/",
+                "DeviceGroup": "https://t.me/kangosop6t",
+                "Image": "Assets/devs/oneplus7.png"
+            },
+            {
+                "Device": "OnePlus 6",
+                "Developer": "Chandu",
+                "Download": "https://www.pling.com/p/1470303/",
+                "DeviceGroup": "https://t.me/kangosop6t",
+                "Image": "Assets/devs/redmi6pro.png"
+            },
+            {
+                "Device": "OnePlus 5T",
+                "Developer": "Rajat Kashyap",
+                "Download": "https://www.pling.com/p/1491825/",
+                "DeviceGroup": "https://t.me/TheKangFactory",
+                "Image": "Assets/devs/redmi6pro.png"
+            }
+        ],
+        "poco": [{
+                "Device": "Poco X3 (NFC)",
+                "Developer": "NickvBokhorst",
+                "Download": "https://www.pling.com/p/1490585/",
+                "DeviceGroup": "https://t.me/kangossurya",
+                "Image": "Assets/devs/pocox3.png"
+            },
+            {
+                "Device": "Poco M2",
+                "Developer": "Box Boi",
+                "Download": "https://www.pling.com/p/1490585/",
+                "DeviceGroup": "#",
+                "Image": "Assets/devs/pocox3.png"
+            },
+            {
+                "Device": "Poco F1",
+                "Developer": "NickvBokhorst",
+                "Download": "https://www.pling.com/p/1491827/",
+                "DeviceGroup": "https://t.me/kangosberyllium",
+                "Image": "Assets/devs/pocof1.png"
+            }
+        ],
+        "realme": [{
+                "Device": "Realme X2",
+                "Developer": "Harsh",
+                "Download": "https://www.pling.com/p/1492842/",
+                "DeviceGroup": "https://t.me/kangrealmex2",
+                "Image": "Assets/devs/oneplus7.png"
+            },
+            {
+                "Device": "Realme 3 Pro",
+                "Developer": "Rishi",
+                "Download": "https://www.pling.com/p/1504190/",
+                "DeviceGroup": "https://t.me/KangosRMX1851",
+                "Image": "Assets/devs/oneplus7.png"
+            },
+            {
+                "Device": "Realme 5 Pro",
+                "Developer": "Narasimha Yl",
+                "Download": "https://www.pling.com/p/1508010/",
+                "DeviceGroup": "https://t.me/kangosRMX1971",
+                "Image": "Assets/devs/oneplus7.png"
+            }
+        ],
+        "xiaomi": [{
+                "Device": "Mi A2",
+                "Developer": "Naman Parashar",
+                "Download": "https://www.pling.com/p/1463063/",
+                "DeviceGroup": "https://t.me/kangosmia",
+                "Image": "Assets/devs/mia2.png"
+            },
+            {
+                "Device": "Mi 6x",
+                "Developer": "Christian De La Cruz",
+                "Download": "https://www.pling.com/p/1491818/",
+                "DeviceGroup": "https://t.me/kangosmia",
+                "Image": "Assets/devs/mia2.png"
+            },
+            {
+                "Device": "Mi 9",
+                "Developer": "Freesoul",
+                "Download": "https://www.pling.com/p/1508806/",
+                "DeviceGroup": "#",
+                "Image": "Assets/devs/popup_cam-01.png"
+            },
+            {
+                "Device": "Mi 8",
+                "Developer": "Jullian",
+                "Download": "https://www.pling.com/p/1494896/",
+                "DeviceGroup": "https://t.me/kangosdipper",
+                "Image": "Assets/devs/mi8.png"
+            },
+            {
+            	"Device": "Mi MIX 3",
+                "Developer": "MickenKng",
+                "Download": "https://www.pling.com/p/1515497/",
+                "DeviceGroup": "https://t.me/kangosperseus",
+                "Image": "Assets/devs/mia2.png"
+            },
+            {
+                "Device": "Redmi K20/9T Pro",
+                "Developer": "Sherif Rahim",
+                "Download": "https://www.pling.com/p/1469953/",
+                "DeviceGroup": "https://t.me/area51k20p",
+                "Image": "Assets/devs/popup_cam-01.png"
+            },
+            {
+                "Device": "Redmi Note 9 Series",
+                "Developer": "Bezke",
+                "Download": "https://www.pling.com/p/1491393/",
+                "DeviceGroup": "https://t.me/kangos_miatoll",
+                "Image": "Assets/devs/redminote8.png"
+            },
+            {
+                "Device": "Redmi Note 9 (Merlin)",
+                "Developer": "Box Boi",
+                "Download": "https://www.pling.com/p/1509272/",
+                "DeviceGroup": "#",
+                "Image": "Assets/devs/redminote8.png"
+            },
+            {
+                "Device": "Redmi Note 7 Pro",
+                "Developer": "Kqixs",
+                "Download": "https://www.pling.com/p/1460387/",
+                "DeviceGroup": "https://t.me/kangosviolet",
+                "Image": "Assets/devs/redminote7pro.png"
+            },
+            {
+                "Device": "Redmi Note 7/7s",
+                "Developer": "Zaid Khan &amp; Hazma",
+                "Download": "https://www.pling.com/p/1491822/",
+                "DeviceGroup": "https://t.me/Kangoslavender",
+                "Image": "Assets/devs/redminote7pro.png"
+            },
+            {
+                "Device": "Redmi 6 Pro",
+                "Developer": "Soumyajit Paul",
+                "Download": "https://www.pling.com/p/1491819/",
+                "DeviceGroup": "#",
+                "Image": "Assets/devs/redmi6pro.png"
+            },
+            {
+                "Device": "Redmi S2/Y2",
+                "Developer": "Ayush",
+                "Download": "https://www.pling.com/p/1491817/",
+                "DeviceGroup": "#",
+                "Image": "Assets/devs/mia2.png"
+            }
+        ]
+    }]
+}

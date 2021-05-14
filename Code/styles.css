@@ -126,6 +126,13 @@ body {
 }
 
 .navbar {
+    background-color: #000;
+    font-size: 1.5vw;
+}
+
+
+/* 
+.navbar {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     position: fixed;
@@ -164,7 +171,7 @@ body {
     transition: 2s;
     border-radius: 10px 10px 10px 10px;
     animation: rgbbg 10s infinite;
-}
+} */
 
 .column>h2>a {
     font-size: 1vw;

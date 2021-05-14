@@ -139,6 +139,13 @@
                 "Image": "Assets/devs/mi8.png"
             },
             {
+            	"Device": "Mi MIX 3",
+                "Developer": "MickenKng",
+                "Download": "https://www.pling.com/p/1515497/",
+                "DeviceGroup": "https://t.me/kangosperseus",
+                "Image": "Assets/devs/mia2.png"
+            },
+            {
                 "Device": "Redmi K20/9T Pro",
                 "Developer": "Sherif Rahim",
                 "Download": "https://www.pling.com/p/1469953/",

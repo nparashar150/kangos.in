@@ -281,9 +281,10 @@ body {
 .navbar {
     overflow: hidden;
     background-color: #000000;
-    margin-left: 50%;
+    margin-left: 55%;
+    padding: 1vw 1vw;
     top: 0.5%;
-    width: 50%;
+    width: 40%;
 }
 
 .active {

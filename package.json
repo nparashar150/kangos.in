@@ -19,6 +19,7 @@
   "dependencies": {
     "bootstrap": "^5.0.1",
     "fontawesome": "^5.6.3",
+    "hover.css": "^2.3.2",
     "jquery": "^3.6.0"
   }
 }

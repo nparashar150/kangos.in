@@ -1,0 +1,52 @@
+body,
+html {
+  background: #000;
+}
+
+
+ ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #3d96c6;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #3d84c6;
+}
+
+#changelogModal,
+#featuresModal,
+#themingModal {
+    margin-top: 15vh;
+}
+
+.modal-content,
+.modal-title,
+.modal-body {
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    background: #100c08;
+}
+
+#btn-modal-close {
+    border-radius: 15px;
+}
+
+#changelogBody,
+#featuresBody,
+#themingBody {
+    overflow: scroll;
+    min-height: 50vh;
+    max-height: 60vh;
+    overflow-x: hidden;
+}

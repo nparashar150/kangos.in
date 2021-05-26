@@ -1,0 +1,21 @@
+{
+    "1": "A completely new implementation of Android S inspired QS is done.",
+    "2": "Switches and SeekBars are present to control the opacity of QS stuffs.",
+    "3": "Settings HomePage is Completely Redesigned, thanks to Team Spice OS for the initial implementation.",
+    "4": "Octavi Clock, Alt Clock and Java IDE Clock is introduced.",
+    "5": "Storage, Dark Mode and Battery Meter Settings is completely redesigned, thanks to team ShapeShift OS.",
+    "6": "Updated settings homepage cardview and some lottie animations.",
+    "7": "BouncyScroll is also implemented, thanks to team ShapeShift again.",
+    "8": "15 seconds App Lock is fixed now.",
+    "9": "LawnChair Launcher is available as an option of default launcher.",
+    "10": "Switched to a New And Updated Gapps Package.",
+    "11": "Rebased Sepolicy and Telephony Repos over LineageOS and merged latest CAF tags into them.",
+    "12": "User-Enforcing Builds will be shipped to most of the devices.",
+    "13": "New wallpapers and bootanimation is introduced thanks to @DarshanMevada and @kqixs.",
+    "14": "Introduced toggles for coloured notification app icons.",
+    "15": "Added option to manage screenshot quality.",
+    "16": "Fixed a bug with three finger screenshot where page scrolled instead of taking capturing screenshot of the page.",
+    "17": "Some more under the hood changes and optimisation.",
+    "18": "Added support for Over The Air (OTA) Updates.",
+    "19": "Some glitches might be there in our new UI, so please bear it as its an initial implementation. We will fix them by next update."
+}

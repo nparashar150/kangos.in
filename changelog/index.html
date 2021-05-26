@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/hover.css/css/hover.css">
+    <link rel="stylesheet" href="/download_kangos/Assets/kangos_download.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Kang OS | Changelog</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://kangos.in/" target="_blank" class="logo">KangOS</a>
+        <ul>
+            <li>
+                <a href="https://kangos.in/" target="_blank">Home</a>
+                <a href="https://kangos.in/#section3" target="_blank">Donate</a>
+                <a href="https://kangos.in/#section4" target="_blank">Team</a>
+                <a href="https://t.me/kangos" target="_blank">Telegram</a>
+            </li>
+        </ul>
+    </header>
+    <section style="overflow: hidden;" class="banner">
+        <div class="content-home">
+            <h1>Changelog Page</h1>
+            <div>
+                <button data-toggle="modal" data-target="#changelogModal" class="home-btn " type="button">
+                    <span></span>
+                    <a>Changelog</a>
+                </button>
+                <button data-toggle="modal" data-target="#featuresModal" class="home-btn " type="button">
+                    <span></span>
+                    <a>Features</a>
+                </button>
+                <button data-toggle="modal" data-target="#themingModal" class="home-btn " type="button"> <span></span>
+                    <a>Theming</a>
+                </button>
+            </div>
+            <i class="fal below-arrow fa-angle-double-down"></i>
+        </div>
+        <!-- ChangeLog Btn Modal -->
+        <div class="modal fade" id="changelogModal" tabindex="-1" role="dialog" aria-labelledby="changelogModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="changelogModalLabel">Kang OS v2.1 Elixir</h5>
+                    </div>
+                    <div id="changelogBody" class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="btn-modal-close" class="btn btn-outline-primary"
+                            data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Changelog btn modal end  -->
+        <!-- Feature Btn Modal -->
+        <div class="modal fade" id="featuresModal" tabindex="-1" role="dialog" aria-labelledby="featuresModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="featuresModalLabel">Kang OS Features</h5>
+                    </div>
+                    <div id="featuresBody" class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="btn-modal-close" class="btn btn-outline-primary"
+                            data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature btn modal end  -->
+        <!-- Theming Btn Modal -->
+        <div class="modal fade" id="themingModal" tabindex="-1" role="dialog" aria-labelledby="themingModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="themingModalLabel">Kang OS Theming</h5>
+                    </div>
+                    <div id="themingBody" class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="btn-modal-close" class="btn btn-outline-primary"
+                            data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Theming btn modal end  -->
+        <div class="sprinkle-div">
+            <img class="sprinkle" src="/download_kangos/Assets/Sprinkle.png" alt="pattern">
+        </div>
+    </section>
+
+    <!-- scripts -->
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- scripts end -->
+</body>
+
+</html>

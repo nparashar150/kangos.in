@@ -644,6 +644,18 @@ a:active {
     color: #111;
 }
 
+.design {
+    color: #6ba6dd;
+    font-size: 1.2vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.margin {
+    margin-top: -3vw;
+}
+
+
 .footer h4 {
     color: #4dd5ff;
     font-size: 2.5vw;
@@ -694,15 +706,4 @@ a:active {
 .footer {
     margin-right: 75vw;
     padding-bottom: 2vw;
-}
-
-.design {
-    color: #6ba6dd;
-    font-size: 1.2vw;
-    justify-content: center;
-    text-align: center;
-}
-
-.margin {
-    margin-top: -3vw;
 }

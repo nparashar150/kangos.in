@@ -1,5 +1,177 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.loader {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+    margin: 0 auto;
+}
+
+.loader .loader-circle {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    border-top-color: #2e96f1;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    z-index: 10;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+    box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+    background-color: #000;
+    -webkit-animation: zoom 2000ms infinite ease;
+    animation: zoom 2000ms infinite ease;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+}
+
+.loader .loader-circle2 {
+    border-top-color: #0078ff;
+}
+
+.loader .loader-img {
+    position: absolute;
+    top: 50%;
+    z-index: 200;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-top: 6px;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+}
+
+.loader .loader-img img {
+    max-width: 55px;
+}
+
+@-webkit-keyframes zoom {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .6s;
+        -o-transition: .6s;
+        transition: .6s;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: .6s;
+        -o-transition: .6s;
+        transition: .6s;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .6s;
+        -o-transition: .6s;
+        transition: .6s;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: .6s;
+        -o-transition: .6s;
+        transition: .6s;
+    }
+}
+
+@keyframes rgbloader {
+    0% {
+        background-color: rgb(237, 92, 92);
+    }
+    10% {
+        background-color: rgb(230, 136, 85);
+    }
+    15% {
+        background-color: rgb(240, 179, 89);
+    }
+    20% {
+        background-color: rgb(225, 240, 89);
+    }
+    30% {
+        background-color: rgb(147, 231, 87);
+    }
+    35% {
+        background-color: rgb(104, 233, 87);
+    }
+    40% {
+        background-color: rgb(82, 210, 135);
+    }
+    50% {
+        background-color: rgb(88, 192, 230);
+    }
+    55% {
+        background-color: rgb(94, 125, 226);
+    }
+    60% {
+        background-color: rgb(96, 129, 236);
+    }
+    70% {
+        background-color: rgb(179, 131, 213);
+    }
+    80% {
+        background-color: rgb(223, 138, 223);
+    }
+    90% {
+        background-color: rgb(230, 116, 150);
+    }
+    100% {
+        background-color: rgb(221, 99, 99);
+    }
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+ ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #c94c4c;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #3d84c6;
+}
+
 .bg {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,24 +179,7 @@
     background-attachment: scroll;
     background-position: 85% 140px;
     background-size: 40% auto;
-    /*background-image: url(../Code/banner.png);*/
-    /*animation: bgrgb 12s infinite;*/
 }
-
-
-/*@keyframes bgrgb {
-  0% { background-image: url(../Code/banner.png);}
-  10% { background-image: url(../Code/banner2.png);}
-  20% { background-image: url(../Code/banner3.png);}
-  30% { background-image: url(../Code/banner4.png);}
-  40% { background-image: url(../Code/banner5.png);}
-  50% { background-image: url(../Code/banner6.png);}
-  60% { background-image: url(../Code/banner7.png);}
-  70% { background-image: url(../Code/banner8.png);}
-  80% { background-image: url(../Code/banner9.png);}
-  90% { background-image: url(../Code/banner.png);}
-  100% { background-image: url(../Code/banner2.png);}
-}*/
 
 html,
 body {
@@ -56,7 +211,6 @@ body {
     text-align: left;
     color: #000000;
     margin-top: 10%;
-    /*animation: rgb 7s infinite;*/
     font-family: 'Bebas Neue', cursive;
     font-size: 13vw;
     margin-left: 8%;
@@ -86,7 +240,6 @@ body {
 
 .heading-center-redo-2 {
     text-align: center;
-    /*animation: rgb 7s infinite;*/
     font-family: 'Bebas Neue', cursive;
     margin-left: 10%;
     padding-top: 1vw;
@@ -102,7 +255,6 @@ body {
 
 .heading-center-redo {
     text-align: center;
-    /*animation: rgb 7s infinite;*/
     font-family: 'Bebas Neue', cursive;
     margin-left: 10%;
     padding-top: 1vw;
@@ -131,7 +283,7 @@ body {
 }
 
 
-/* 
+
 .navbar {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
@@ -171,13 +323,12 @@ body {
     transition: 2s;
     border-radius: 10px 10px 10px 10px;
     animation: rgbbg 10s infinite;
-} */
+}
 
 .column>h2>a {
     font-size: 1vw;
     padding-top: 20%;
     color: #3793c4;
-    /*animation: textrgb 10s infinite;*/
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -191,7 +342,6 @@ a:active {
 .column>p>a {
     font-size: 2vw;
     color: #3793c4;
-    /*animation: textrgb 10s infinite;*/
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -246,87 +396,6 @@ a:active {
     background-size: 30% auto;
     padding-bottom: 13vw;
 }
-
-
-/*.img1 {
-  background-image: url(../Code/album/1.png);
-}
-.img2 {
-  background-image: url(../Code/album/2.png);
-}
-.img3 {
-  background-image: url(../Code/album/3.png);
-}
-.img4 {
-  background-image: url(../Code/album/4.png);
-}
-.img5 {
-  background-image: url(../Code/album/5.png);
-}
-.img6 {
-  background-image: url(../Code/album/6.png);
-  
-}
-.img7 {
-  background-image: url(../Code/album/7.png);
-  
-}
-.img8 {
-  background-image: url(../Code/album/8.png);
-  
-}
-.img9 {
-  background-image: url(../Code/album/9.png);
-  
-}
-.img10 {
-  background-image: url(../Code/album/10.png);
-  
-}
-.img11 {
-  background-image: url(../Code/album/11.png);
-  
-}
-.img12 {
-  background-image: url(../Code/album/12.png);
-  
-}
-.img13 {
-  background-image: url(../Code/album/13.png);
-  
-}
-.img14 {
-  background-image: url(../Code/album/14.png);
-  
-}
-.img15 {
-  background-image: url(../Code/album/15.png);
-  
-}
-.img16 {
-  background-image: url(../Code/album/16.png);
-  
-}
-.img17 {
-  background-image: url(../Code/album/17.png);
-  
-}
-.img18 {
-  background-image: url(../Code/album/18.png);
-  
-}
-.img19 {
-  background-image: url(../Code/album/19.png);
-  
-}
-.img20 {
-  background-image: url(../Code/album/20.png);
-  
-}
-.img21 {
-  background-image: url(../Code/album/21.png);
-  
-}*/
 
 .home-img-bg {
     width: 50%;

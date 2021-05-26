@@ -9,219 +9,35 @@
     <meta property="og:site_name" content="KangOS" />
     <meta property="og:site" content="https://kangos.in" />
     <meta property="og:title" content="KangOS" />
-    <meta property="og:description" content="KangOS is a sophisticated AOSP - based AOKP - inspired project, that focuses on redefining the stock Android interpretation and provide a more tinted and elegant user experience. KangOS focuses on DJ mix mash up of UI instead of boring stock visuals along with maximum stability and bug-less user experience." />
+    <meta property="og:description"
+        content="KangOS is a sophisticated AOSP - based AOKP - inspired project, that focuses on redefining the stock Android interpretation and provide a more tinted and elegant user experience. KangOS focuses on DJ mix mash up of UI instead of boring stock visuals along with maximum stability and bug-less user experience." />
     <meta property="og:image" content="" />
     <meta property="og:url" content="https://kangos.in" />
     <meta property="og:type" content="article" />
-    <title>Kang OS | ROM</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Code/styles.css">
-    <link rel="stylesheet" href="download_kangos/Assets/kangos_download.css">
-    <link rel="stylesheet" href="Code/media.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="Code/keyframe.css">
-    <link rel="icon" href="Code/title_image.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Code/title_image.png" type="image/x-icon">
+    <link rel="stylesheet" href="Code/Css/styles.css">
+    <link rel="stylesheet" href="Code/Css/keyframe.css">
+    <link rel="stylesheet" href="Code/Css/media.css">
+    <title>Kang OS | ROM</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        document.onreadystatechange = function() {
+        document.onreadystatechange = function () {
             if (document.readyState !== "complete") {
                 document.querySelector("body").style.visibility = "hidden";
                 document.querySelector("#loader").style.visibility = "visible";
-                /*document.querySelector("#loader").style.transition = "all 2s";*/
             } else {
                 document.querySelector("#loader").style.display = "none";
                 document.querySelector("body").style.visibility = "visible";
             }
         };
     </script>
-    <style>
-        /*#loader {
-            height: 55px;
-            width: 55px;
-            border-radius: 50%;
-            animation: rgbloader 5s infinite;
-        }*/
-        /*.loader-img {
-            width: 55px;
-            height: 55px;
-            justify-content: center;
-        }*/
-        
-        .loader {
-            background-color: #000;
-            width: 100%;
-            height: 100%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 999999;
-            -webkit-transition: .6s;
-            -o-transition: .6s;
-            transition: .6s;
-            margin: 0 auto;
-        }
-        
-        .loader .loader-circle {
-            width: 100px;
-            height: 100px;
-            position: relative;
-            border-style: solid;
-            border-width: 3px;
-            border-top-color: #2e96f1;
-            border-bottom-color: transparent;
-            border-left-color: transparent;
-            border-right-color: transparent;
-            z-index: 10;
-            border-radius: 50%;
-            -webkit-box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
-            box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
-            background-color: #000;
-            -webkit-animation: zoom 2000ms infinite ease;
-            animation: zoom 2000ms infinite ease;
-            -webkit-transition: .6s;
-            -o-transition: .6s;
-            transition: .6s;
-        }
-        
-        .loader .loader-circle2 {
-            border-top-color: #0078ff;
-        }
-        
-        .loader .loader-img {
-            position: absolute;
-            top: 50%;
-            z-index: 200;
-            left: 0;
-            right: 0;
-            margin: 0 auto;
-            text-align: center;
-            display: inline-block;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            padding-top: 6px;
-            -webkit-transition: .6s;
-            -o-transition: .6s;
-            transition: .6s;
-        }
-        
-        .loader .loader-img img {
-            max-width: 55px;
-        }
-        
-        @-webkit-keyframes zoom {
-            0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-                -webkit-transition: .6s;
-                -o-transition: .6s;
-                transition: .6s;
-            }
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-                -webkit-transition: .6s;
-                -o-transition: .6s;
-                transition: .6s;
-            }
-        }
-        
-        @keyframes zoom {
-            0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-                -webkit-transition: .6s;
-                -o-transition: .6s;
-                transition: .6s;
-            }
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-                -webkit-transition: .6s;
-                -o-transition: .6s;
-                transition: .6s;
-            }
-        }
-        
-        @keyframes rgbloader {
-            0% {
-                background-color: rgb(237, 92, 92);
-            }
-            10% {
-                background-color: rgb(230, 136, 85);
-            }
-            15% {
-                background-color: rgb(240, 179, 89);
-            }
-            20% {
-                background-color: rgb(225, 240, 89);
-            }
-            30% {
-                background-color: rgb(147, 231, 87);
-            }
-            35% {
-                background-color: rgb(104, 233, 87);
-            }
-            40% {
-                background-color: rgb(82, 210, 135);
-            }
-            50% {
-                background-color: rgb(88, 192, 230);
-            }
-            55% {
-                background-color: rgb(94, 125, 226);
-            }
-            60% {
-                background-color: rgb(96, 129, 236);
-            }
-            70% {
-                background-color: rgb(179, 131, 213);
-            }
-            80% {
-                background-color: rgb(223, 138, 223);
-            }
-            90% {
-                background-color: rgb(230, 116, 150);
-            }
-            100% {
-                background-color: rgb(221, 99, 99);
-            }
-        }
-        
-        .center {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
-        
-         ::-webkit-scrollbar {
-            width: 7px;
-            height: 7px;
-        }
-        
-         ::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 2px grey;
-            border-radius: 10px;
-        }
-        
-         ::-webkit-scrollbar-thumb {
-            background: #c94c4c;
-            border-radius: 10px;
-        }
-        
-         ::-webkit-scrollbar-thumb:hover {
-            background: #3d84c6;
-        }
-    </style>
 </head>
 
 <body class="bg" data-spy="scroll" data-target=".fixed-top">
@@ -235,21 +51,11 @@
             </div>
         </div>
     </div>
-    <header>
-        <a href="https://kangos.in/" target="_blank" class="logo">KangOS</a>
-        <ul>
-            <li>
-                <a href="https://kangos.in/" target="_blank">Home</a>
-                <a href="https://kangos.in/#section3" target="_blank">Donate</a>
-                <a href="https://kangos.in/#section4" target="_blank">Team</a>
-                <a href="https://t.me/kangos" target="_blank">Telegram</a>
-            </li>
-        </ul>
-    </header>
     <h1 class="heading-center glow-cyan">Kang OS
         <div class="box-shadow">
             <h4 class="heading-center-2">
-                <h4 class="heading-center-redo glow-cyan"><a href="https://t.me/kangosu/198" style="text-decoration: none; color: #000;" target="_blank">Changelog</a></h4>
+                <h4 class="heading-center-redo glow-cyan"><a href="https://t.me/kangosu/198"
+                        style="text-decoration: none; color: #000;" target="_blank">Changelog</a></h4>
             </h4>
         </div>
         <div class="box-shadow-2">
@@ -267,7 +73,8 @@
     </div>
     <section id="section1">
         <h1 class="heading" style="margin-top: 9%;"></h1>
-        <div style="background-color: #1a1a1a; padding-top: 5vw; padding-bottom: 5vw; border-radius: 10px; box-shadow: 0 0 20px #186e88; z-index: 1; position: relative;">
+        <div
+            style="background-color: #1a1a1a; padding-top: 5vw; padding-bottom: 5vw; border-radius: 10px; box-shadow: 0 0 20px #186e88; z-index: 1; position: relative;">
             <div>
                 <video class="home-img" loop="" playsinline="true" muted="" preload="metadata" autoplay="">
                     <source src="https://raw.githubusercontent.com/nparashar150/kangos/master/Code/kangos-home.mp4"
@@ -275,7 +82,9 @@
                 </video>
             </div>
             <div class="home-text">
-                <p>KangOS is a sophisticated AOSP - based AOKP - inspired project, that focuses on redefining the stock Android interpretation and provide a more tinted and elegant user experience. KangOS focuses on DJ mix mash up of UI instead of boring
+                <p>KangOS is a sophisticated AOSP - based AOKP - inspired project, that focuses on redefining the stock
+                    Android interpretation and provide a more tinted and elegant user experience. KangOS focuses on DJ
+                    mix mash up of UI instead of boring
                     stock visuals along with maximum stability and bug-less user experience.
                 </p>
             </div>
@@ -289,20 +98,11 @@
             <h1 class="heading glow-red">ScreenShots</h1>
         </div>
         <div class="data-slide" data-aos="fade-up" data-aos-duration="1300">
-            <div class="mySlides">
-                <img src="Code/album/1.jpg">
-            </div>
-            <div class="mySlides">
-                <img src="Code/album/2.jpg">
-            </div>
-            <div class="mySlides">
-                <img src="Code/album/3.jpg">
-            </div>
-            <div class="mySlides">
-                <img src="Code/album/4.jpg">
-            </div>
-            <div class="mySlides">
-                <img src="Code/album/5.jpg">
+            <div id="screenshots-holder">
+                <!-- ScreenShots Here -->
+                <div class="mySlides">
+                    <img src="Code/ScreenShots/1.png">
+                </div>
             </div>
             <div class="next-prev">
                 <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-backward"></i></a>
@@ -320,7 +120,9 @@
         <div style="color: #5b5b5b;">
             <h1 class="heading glow-red" style="padding-top: 5vw">Donate Us</h1>
             <div class="page-donate">
-                <p>The team behind <b>Kang OS</b> has put our valuable time and energy to bring you a OS with performance and battery life. Not only this we always try our best to push latest update to maximum devices possible.Please share some love and
+                <p>The team behind <b>Kang OS</b> has put our valuable time and energy to bring you a OS with
+                    performance and battery life. Not only this we always try our best to push latest update to maximum
+                    devices possible.Please share some love and
                     support to the Team by making a contribution.</p>
             </div>
         </div>
@@ -330,67 +132,105 @@
             <h1 class="heading glow-cyan media-resp">Team Members</h1>
             <div class="row">
                 <div class="column">
-                    <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev" alt="Jay-Founder"></a>
+                    <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/User/user.jpg"
+                            class="user-dev" alt="Jay-Founder"></a>
                     <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Founder</a></h2>
                     <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="">Jay</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/moditjain9777" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/moditjain.jpg" class="user-dev" alt="Modit-Jain-Lead-Developer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/moditjain9777" target="_blank">Lead Developer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/moditjain9777" target="_blank">Modit Jain</a></p>
+                    <a href="https://github.com/moditjain9777" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/moditjain.jpg" class="user-dev"
+                            alt="Modit-Jain-Lead-Developer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/moditjain9777"
+                            target="_blank">Lead Developer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/moditjain9777" target="_blank">Modit Jain</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/ziasam" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/zaisam.jpeg " class="user-dev" alt="Ziauddin-Sameer-Lead-Developer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/ziasam" target="_blank">Lead Developer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/ziasam" target="_blank">Ziauddin Sameer</a></p>
+                    <a href="https://github.com/ziasam" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/zaisam.jpeg " class="user-dev"
+                            alt="Ziauddin-Sameer-Lead-Developer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/ziasam"
+                            target="_blank">Lead Developer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/ziasam" target="_blank">Ziauddin Sameer</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/nparashar150" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/nparashar150-dark.jpeg" class="user-dev" alt="Naman-Parashar-Core-Developer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/nparashar150" target="_blank">Core Developer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/nparashar150" target="_blank">Naman Parashar</a></p>
+                    <a href="https://github.com/nparashar150" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/nparashar150-dark.jpeg" class="user-dev"
+                            alt="Naman-Parashar-Core-Developer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/nparashar150"
+                            target="_blank">Core Developer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/nparashar150" target="_blank">Naman Parashar</a></p>
                 </div>
             </div>
             <div class="row">
                 <div class="column">
-                    <a href="https://github.com/SukeeratSG/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/Sukeerat_Goindi.png" class="user-dev" alt="Sukeerat-Goindi-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/SukeeratSG/" target="_blank">Server Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/SukeeratSG/" target="_blank">Sukeerat Goindi</a></p>
+                    <a href="https://github.com/SukeeratSG/" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/Sukeerat_Goindi.png" class="user-dev"
+                            alt="Sukeerat-Goindi-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/SukeeratSG/"
+                            target="_blank">Server Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/SukeeratSG/" target="_blank">Sukeerat Goindi</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/sherifrahim" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/sherifrahim.jpeg" class="user-dev" alt="Sherif-Rahim-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/sherifrahim" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/sherifrahim" target="_blank">Sherif Rahim</a></p>
+                    <a href="https://github.com/sherifrahim" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/sherifrahim.jpeg" class="user-dev"
+                            alt="Sherif-Rahim-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/sherifrahim"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/sherifrahim" target="_blank">Sherif Rahim</a></p>
                 </div>
                 <div class="column">
-                    <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev" alt=""></a>
+                    <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/User/user.jpg"
+                            class="user-dev" alt=""></a>
                     <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Maintainer</a></h2>
                     <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="">Jay
                             Persiho</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/ElectroPerf"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/kunum.jpg" class="user-dev" alt=""></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/ElectroPerf" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/ElectroPerf" target="_blank">Kunmun</a></p>
+                    <a href="https://github.com/ElectroPerf"><img data-aos="zoom-in-up" data-aos-duration="1300"
+                            src="Code/User/kunum.jpg" class="user-dev" alt=""></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/ElectroPerf"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/ElectroPerf" target="_blank">Kunmun</a></p>
                 </div>
             </div>
             <div class="row">
                 <div class="column">
-                    <a href="https://github.com/Spookcity" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/rickm.png" class="user-dev" alt="Rick-M-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Spookcity" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/Spookcity" target="_blank">Rick M</a></p>
+                    <a href="https://github.com/Spookcity" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/rickm.png" class="user-dev"
+                            alt="Rick-M-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Spookcity"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/Spookcity" target="_blank">Rick M</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/mevadadarshan19" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/darshan.jpeg" class="user-dev" alt="Darshan-Mevada-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/mevadadarshan19" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/mevadadarshan19" target="_blank">Darshan Mevada</a></p>
+                    <a href="https://github.com/mevadadarshan19" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/darshan.jpeg" class="user-dev"
+                            alt="Darshan-Mevada-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/mevadadarshan19"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/mevadadarshan19" target="_blank">Darshan Mevada</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/chandu078" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/chandu.jpeg" class="user-dev" alt="Chandu-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chandu078" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chandu078" target="_blank">Chandu</a></p>
+                    <a href="https://github.com/chandu078" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/chandu.jpeg" class="user-dev"
+                            alt="Chandu-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chandu078"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                            href="https://github.com/chandu078" target="_blank">Chandu</a></p>
                 </div>
                 <div class="column">
-                    <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev" alt="Christian-Cruz-Maintainer"></a>
+                    <a href="#"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/User/user.jpg"
+                            class="user-dev" alt="Christian-Cruz-Maintainer"></a>
                     <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="#">Maintainer</a></h2>
                     <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="">Christian
                             Cruz</a>
@@ -399,123 +239,188 @@
             </div>
             <div class="row">
                 <div class="column">
-                    <a href="https://github.com/MIUI56" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/ayush.png" class="user-dev" alt="Ayush-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/MIUI56" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/MIUI56" target="_blank">Ayush</a></p>
+                    <a href="https://github.com/MIUI56" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/ayush.png" class="user-dev"
+                            alt="Ayush-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/MIUI56"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/MIUI56" target="_blank">Ayush</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/soumyajit007-creator" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/soumyajit007.jpg" class="user-dev" alt="Zaid Khan-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/soumyajit007-creator" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/soumyajit007-creator" target="_blank">ᖫP͢͢ɇŇetɍȺtøRᖭ</a></p>
+                    <a href="https://github.com/soumyajit007-creator" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/soumyajit007.jpg" class="user-dev"
+                            alt="Zaid Khan-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/soumyajit007-creator"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/soumyajit007-creator" target="_blank">ᖫP͢͢ɇŇetɍȺtøRᖭ</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/zaidkhan0997" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/zaid_khan.jpg" class="user-dev" alt="Zaid Khan-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/zaidkhan0997" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/zaidkhan0997" target="_blank">Zaid Khan</a></p>
+                    <a href="https://github.com/zaidkhan0997" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/zaid_khan.jpg" class="user-dev"
+                            alt="Zaid Khan-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/zaidkhan0997"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/zaidkhan0997" target="_blank">Zaid Khan</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/HarshAnand-799/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/user.jpg" class="user-dev" alt="Harsh-Anand-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/HarshAnand-799/" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/HarshAnand-799/" target="_blank">Harsh Anand</a></p>
+                    <a href="https://github.com/HarshAnand-799/" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/user.jpg" class="user-dev"
+                            alt="Harsh-Anand-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/HarshAnand-799/"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                            href="https://github.com/HarshAnand-799/" target="_blank">Harsh Anand</a></p>
                 </div>
             </div>
             <div class="row">
                 <div class="column">
-                    <a href="https://github.com/mavji7" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/vishwasmehta.jpeg" class="user-dev" alt="Vishwas-Mehta-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/mavji7" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a href="https://github.com/mavji7" target="_blank">Vishwas Mehta</a></p>
+                    <a href="https://github.com/mavji7" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/vishwasmehta.jpeg" class="user-dev"
+                            alt="Vishwas-Mehta-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/mavji7"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"> <a
+                            href="https://github.com/mavji7" target="_blank">Vishwas Mehta</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/STRK-ND/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/rajat_kashyap.jpg" class="user-dev" alt="Rajat-Kashyap-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/STRK-ND/" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/STRK-ND/" target="_blank">Rajat Kashyap</a></p>
+                    <a href="https://github.com/STRK-ND/" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/rajat_kashyap.jpg" class="user-dev"
+                            alt="Rajat-Kashyap-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/STRK-ND/"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                            href="https://github.com/STRK-ND/" target="_blank">Rajat Kashyap</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/bezke" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/bezeke.jpg" class="user-dev" alt="Bezke-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/bezke/" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/bezke" target="_blank">Bezke</a></p>
+                    <a href="https://github.com/bezke" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/bezeke.jpg" class="user-dev"
+                            alt="Bezke-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/bezke/"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                            href="https://github.com/bezke" target="_blank">Bezke</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/chdelacr/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/chdelacr.jpeg" class="user-dev" alt="Christian-Cruz-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chdelacr/" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chdelacr" target="_blank">Christian Cruz</a></p>
+                    <a href="https://github.com/chdelacr/" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/chdelacr.jpeg" class="user-dev"
+                            alt="Christian-Cruz-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chdelacr/"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                            href="https://github.com/chdelacr" target="_blank">Christian Cruz</a></p>
                 </div>
             </div>
             <div class="row">
                 <div class="column">
-                    <a href="https://github.com/Freesoul00/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/freesoul.jpg" class="user-dev" alt="Freesoul-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Freesoul00/" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Freesoul00/" target="_blank">Freesoul</a></p>
+                    <a href="https://github.com/Freesoul00/" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/freesoul.jpg" class="user-dev"
+                            alt="Freesoul-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Freesoul00/"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                            href="https://github.com/Freesoul00/" target="_blank">Freesoul</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/R15H1/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/RISHI_rOY.jpg" class="user-dev" alt="Rish-Roy-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/R15H1/" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/R15H1" target="_blank">Rishi Roy</a></p>
+                    <a href="https://github.com/R15H1/" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/RISHI_rOY.jpg" class="user-dev"
+                            alt="Rish-Roy-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/R15H1/"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                            href="https://github.com/R15H1" target="_blank">Rishi Roy</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/Narasimha-YL" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/Narasimha.jpg" class="user-dev" alt="Narasimha-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Narasimha-YL" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Narasimha-YL" target="_blank">Narasimha</a></p>
+                    <a href="https://github.com/Narasimha-YL" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/Narasimha.jpg" class="user-dev"
+                            alt="Narasimha-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Narasimha-YL"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                            href="https://github.com/Narasimha-YL" target="_blank">Narasimha</a></p>
                 </div>
                 <div class="column">
-                    <a href="https://github.com/MarvelMathesh/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/MarvelMathesh.jpg" class="user-dev" alt="Marvel-Mathesh-Maintainer"></a>
-                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/MarvelMathesh/" target="_blank">Maintainer</a></h2>
-                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/MarvelMathesh" target="_blank">Marvel Mathesh</a></p>
+                    <a href="https://github.com/MarvelMathesh/" target="_blank"><img data-aos="zoom-in-up"
+                            data-aos-duration="1300" src="Code/User/MarvelMathesh.jpg" class="user-dev"
+                            alt="Marvel-Mathesh-Maintainer"></a>
+                    <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/MarvelMathesh/"
+                            target="_blank">Maintainer</a></h2>
+                    <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                            href="https://github.com/MarvelMathesh" target="_blank">Marvel Mathesh</a></p>
                 </div>
                 <div class="row">
                     <div class="column">
-                        <a href="https://github.com/kqixs/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/kqixs-lofui.jpg" class="user-dev" alt="kqixs-lofui-Maintainer"></a>
-                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/kqixs/" target="_blank">Maintainer</a></h2>
-                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/kqixs/" target="_blank">kqixs lofui</a></p>
+                        <a href="https://github.com/kqixs/" target="_blank"><img data-aos="zoom-in-up"
+                                data-aos-duration="1300" src="Code/User/kqixs-lofui.jpg" class="user-dev"
+                                alt="kqixs-lofui-Maintainer"></a>
+                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/kqixs/"
+                                target="_blank">Maintainer</a></h2>
+                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                                href="https://github.com/kqixs/" target="_blank">kqixs lofui</a></p>
                     </div>
                     <div class="column">
-                        <a href="https://github.com/Hazama25/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/Hazma25.jpg" class="user-dev" alt="Box-Boi-Maintainer"></a>
-                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Hazama25/" target="_blank">Maintainer</a></h2>
-                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Hazama25" target="_blank">Hazama</a></p>
+                        <a href="https://github.com/Hazama25/" target="_blank"><img data-aos="zoom-in-up"
+                                data-aos-duration="1300" src="Code/User/Hazma25.jpg" class="user-dev"
+                                alt="Box-Boi-Maintainer"></a>
+                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Hazama25/"
+                                target="_blank">Maintainer</a></h2>
+                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                                href="https://github.com/Hazama25" target="_blank">Hazama</a></p>
                     </div>
                     <div class="column">
-                        <a href="https://github.com/Box-Boi" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/box_boi.jpg" class="user-dev" alt="Box-Boi-Maintainer"></a>
-                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Box-Boi" target="_blank">Maintainer</a>
+                        <a href="https://github.com/Box-Boi" target="_blank"><img data-aos="zoom-in-up"
+                                data-aos-duration="1300" src="Code/User/box_boi.jpg" class="user-dev"
+                                alt="Box-Boi-Maintainer"></a>
+                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Box-Boi"
+                                target="_blank">Maintainer</a>
                         </h2>
-                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/Box-Boi" target="_blank">Box Boi</a></p>
+                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                                href="https://github.com/Box-Boi" target="_blank">Box Boi</a></p>
                     </div>
                     <div class="column">
-                        <a href="https://github.com/GtrCraft/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/Nick_van_Bokhorst.jpg" class="user-dev" alt="Nick-van-Bokhorst-Maintainer"></a>
-                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/GtrCraft/" target="_blank">Maintainer</a>
+                        <a href="https://github.com/GtrCraft/" target="_blank"><img data-aos="zoom-in-up"
+                                data-aos-duration="1300" src="Code/User/Nick_van_Bokhorst.jpg" class="user-dev"
+                                alt="Nick-van-Bokhorst-Maintainer"></a>
+                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/GtrCraft/"
+                                target="_blank">Maintainer</a>
                         </h2>
-                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/GtrCraft" target="_blank">Nick Bokhorst</a></p>
+                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                                href="https://github.com/GtrCraft" target="_blank">Nick Bokhorst</a></p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="column">
-                        <a href="https://github.com/HsyHusker/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/hisker.jpg" class="user-dev" alt="Husker-Maintainer"></a>
-                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/HsyHusker/" target="_blank">Maintainer</a></h2>
-                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/HsyHusker/" target="_blank">Husker</a></p>
+                        <a href="https://github.com/HsyHusker/" target="_blank"><img data-aos="zoom-in-up"
+                                data-aos-duration="1300" src="Code/User/hisker.jpg" class="user-dev"
+                                alt="Husker-Maintainer"></a>
+                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/HsyHusker/"
+                                target="_blank">Maintainer</a></h2>
+                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                                href="https://github.com/HsyHusker/" target="_blank">Husker</a></p>
                     </div>
                     <div class="column">
-                        <a href="https://github.com/chematelegram/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/chematelegram.jpg" class="user-dev" alt="Chema-Maintainer"></a>
-                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chematelegram/" target="_blank">Maintainer</a></h2>
-                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chematelegram" target="_blank">Chema</a></p>
+                        <a href="https://github.com/chematelegram/" target="_blank"><img data-aos="zoom-in-up"
+                                data-aos-duration="1300" src="Code/User/chematelegram.jpg" class="user-dev"
+                                alt="Chema-Maintainer"></a>
+                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/chematelegram/"
+                                target="_blank">Maintainer</a></h2>
+                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                                href="https://github.com/chematelegram" target="_blank">Chema</a></p>
                     </div>
                     <div class="column">
-                        <a href="https://github.com/jullian14/" target="_blank"><img data-aos="zoom-in-up" data-aos-duration="1300" src="Code/user/Jullian_MS.jpg" class="user-dev" alt="Jullian-MS-Maintainer"></a>
-                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/jullian14/" target="_blank">Maintainer</a></h2>
-                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/jullian14" target="_blank">Jullian MS</a></p>
+                        <a href="https://github.com/jullian14/" target="_blank"><img data-aos="zoom-in-up"
+                                data-aos-duration="1300" src="Code/User/Jullian_MS.jpg" class="user-dev"
+                                alt="Jullian-MS-Maintainer"></a>
+                        <h2 data-aos="zoom-in-up" data-aos-duration="1300"><a href="https://github.com/jullian14/"
+                                target="_blank">Maintainer</a></h2>
+                        <p style="margin-top: -2vw;" data-aos="zoom-in-up" data-aos-duration="1300"><a
+                                href="https://github.com/jullian14" target="_blank">Jullian MS</a></p>
                     </div>
                 </div>
             </div>
     </section>
-    <!--<section id="section5">
-            <div>
-                <h1 class="heading glow" style="margin-top: 9%;" >Follow Us</h1>
-                <div class="padding"></div>
-                <div class="boxx">
-                <i class="icon fab fa-github">hub </i> <i class="icon fab fa-telegram-plane">gram </i> <i class="icon fab fa-instagram">gram </i>  <i class="icon fab fa-twitter">tter </i>
-                </div>
-                <div class="padding"></div>
-                <p style="font-size: 20px; color: rgb(180, 180, 180);">Designed by Naman Parashar</p>
-            </div>
-        </section>-->
     <div id="section5">
         <h1 class="heading glow-cyan media-resp">Follow US</h1>
         <div class="footer">
@@ -550,6 +455,7 @@
     </div>
     </div>
     </div>
+    <script src="Code/ScreenShots/screenshots.js"></script>
     <script>
         var slideIndex = 1;
         showSlides(slideIndex);
@@ -580,8 +486,8 @@
                 dots[i].className = dots[i].className.replace(" active", "");
             }
             slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            captionText.innerHTML = dots[slideIndex - 1].alt;
+            // dots[slideIndex - 1].className += " active";
+            // captionText.innerHTML = dots[slideIndex - 1].alt;
         }
     </script>
     <script src="Code/Js.js" async defer></script>
@@ -595,7 +501,7 @@
     <script>
         var _img = document.getElementById('volume-video');
         var newImg = new Image;
-        newImg.onload = function() {
+        newImg.onload = function () {
             _img.src = this.src;
         }
         newImg.src = 'https://raw.githubusercontent.com/nparashar150/kangos/master/Code/kang.mp4';

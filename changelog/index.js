@@ -3,7 +3,7 @@ const features = document.getElementById('featuresBody');
 const theming = document.getElementById('themingBody');
 
 function changelogFunc() {
-    fetch('data/change.json')
+    fetch('https://raw.githubusercontent.com/nparashar150/kangos.in/reMake/changelog/data/change.json')
         .then(function(response) {
             return response.json();
         }).then (function (object) {
@@ -17,7 +17,7 @@ function changelogFunc() {
 };
 
 function featureFunc() {
-    fetch('data/features.json')
+    fetch('https://raw.githubusercontent.com/nparashar150/kangos.in/reMake/changelog/data/features.json')
         .then(function(response) {
             return response.json();
         }).then (function (object) {
@@ -31,7 +31,7 @@ function featureFunc() {
 };
 
 function themingFunc() {
-    fetch('data/theming.json')
+    fetch('https://raw.githubusercontent.com/nparashar150/kangos.in/reMake/changelog/data/theming.json')
         .then(function(response) {
             return response.json();
         }).then (function (object) {

@@ -51,7 +51,7 @@ function asusDeviceList() {
             main.innerHTML += joinAsk;
         }
     };
-    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/json_data/master/Assets/device.json", true);
+    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/kangos.in/reMake/download_kangos/Assets/device.json", true);
     xhttp.send();
 }
 
@@ -108,7 +108,7 @@ function lenovoDeviceList() {
             main.innerHTML += joinAsk;
         }
     };
-    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/json_data/master/Assets/device.json", true);
+    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/kangos.in/reMake/download_kangos/Assets/device.json", true);
     xhttp.send();
 }
 
@@ -165,7 +165,7 @@ function oneplusDeviceList() {
             main.innerHTML += joinAsk;
         }
     };
-    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/json_data/master/Assets/device.json", true);
+    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/kangos.in/reMake/download_kangos/Assets/device.json", true);
     xhttp.send();
 }
 
@@ -222,7 +222,7 @@ function pocoDeviceList() {
             main.innerHTML += joinAsk;
         }
     };
-    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/json_data/master/Assets/device.json", true);
+    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/kangos.in/reMake/download_kangos/Assets/device.json", true);
     xhttp.send();
 }
 
@@ -279,7 +279,7 @@ function realmeDeviceList() {
             main.innerHTML += joinAsk;
         }
     };
-    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/json_data/master/Assets/device.json", true);
+    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/kangos.in/reMake/download_kangos/Assets/device.json", true);
     xhttp.send();
 }
 
@@ -336,6 +336,6 @@ function xiaomiDeviceList() {
             main.innerHTML += joinAsk;
         }
     };
-    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/json_data/master/Assets/device.json", true);
+    xhttp.open("GET", "https://raw.githubusercontent.com/nparashar150/kangos.in/reMake/download_kangos/Assets/device.json", true);
     xhttp.send();
 }

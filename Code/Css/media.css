@@ -431,6 +431,8 @@
 
 @media only screen and (max-width: 600px) {
     #navbarid {
-        display: none;
+        margin-left: 10vw;
+        width: 80vw;
+        padding: 1vw 3vw;
     }
 }

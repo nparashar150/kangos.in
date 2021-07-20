@@ -1,3 +1,7 @@
 ## KANG OS Website Project can be found here.
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0d24cad1f62d492ba327e20d9a113d77)](https://app.codacy.com/gh/nparashar150/kangos?utm_source=github.com&utm_medium=referral&utm_content=nparashar150/kangos&utm_campaign=Badge_Grade_Settings)
+### Steps to get the website working locally :- <br> 
+&nbsp; &nbsp; 1) Clone the Repository. <br>
+&nbsp; &nbsp; 2) Download and Install `VS Code` it will be easy to serve that way. <br>
+&nbsp; &nbsp; 3) Install `Live Server` extension in VS Code. <br>
+&nbsp; &nbsp; 4) Live Serve the Project. <br><br>
+&nbsp; &nbsp; Note. You can serve website via `XAMPP` or `NGINX` also but easiest way is this.
